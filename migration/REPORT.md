@@ -12,13 +12,13 @@ Pixel-diff threshold 0.2 (anti-aliasing tolerant).
 
 | Capture | 375 | 768 | 1280 | 1920 | Height match |
 |---|---|---|---|---|---|
-| Home | 0.87% | 0.41% | 0.14% | 0.09% | exact at all widths |
-| Issues | 0.47% | 0.05% | 0.02% | 0.02% | exact |
-| Privacy Policy | 0.29% | 0.62% | 0.62% | 0.41% | exact |
-| About popup (viewport) | 0.33% | 0.16% | 0.10% | 0.06% | exact |
-| Page-load donate popup | 0.85% | 3.33%* | 1.89%* | 1.26%* | exact |
-| Scroll donate popup | 1.48% | 0.21% | 0.11% | 0.07% | exact |
-| About popup (full content) | 1.17% | 0.07% | 0.00% | 0.00% | −20/−40px trailing whitespace inside scroll area |
+| Home | 0.71% | 0.32% | 0.09% | 0.06% | exact at all widths |
+| Issues | 0.42% | 0.02% | 0.01% | 0.01% | exact |
+| Privacy Policy | 0.23% | 0.59% | 0.60% | 0.40% | exact |
+| About popup (viewport) | 0.00% | 0.00% | 0.00% | 0.00% | exact |
+| Page-load donate popup | 0.13% | 3.17%* | 1.79%* | 1.20%* | exact |
+| Scroll donate popup | 1.15% | 0.05% | 0.01% | 0.01% | exact |
+| About popup (full content) | 1.08% | 0.07% | 0.00% | 0.00% | −20/−40px trailing whitespace inside scroll area |
 
 \* Page-load popup diffs are dominated by the embedded YouTube iframe
 (thumbnail/UI render variance) and the UserWay widget icon — third-party
@@ -138,6 +138,17 @@ threads.com/@romeroforcolorado, tiktok @romeroforcolorado), plus
 `/signup` and `/volunteer` → their Numero signup pages. **Note:** live uses
 301s for all of these; 302 chosen per spec (social) and to stay reversible
 during preview (signup/volunteer). Flip to 301 after approval if desired.
+
+## Client QA round (2026-08-16)
+
+Fixed after client review of the preview: arrow icons on Read More / Issues /
+Volunteer buttons now sit directly after the label (jet-button centers the
+pair), social-icon hover is a gold circle with shrink animation
+(elementor-shape-circle), the UserWay widget renders gold on the preview
+domain (`data-color` — the account's own styling is domain-keyed and applies
+automatically once served from romeroforcolorado.com), and the scroll donate
+popup also fires when a page loads already ≥80% scrolled (restored scroll
+positions emit no scroll event).
 
 ## Known micro-deviations (flagged)
 
