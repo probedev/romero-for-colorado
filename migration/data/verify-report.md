@@ -1,13 +1,4 @@
 ## 1. Link check (rebuilt site)
-- /: /facebook → handled by vercel.json redirect (404 on bare static server, OK)
-- /: /twitter → handled by vercel.json redirect (404 on bare static server, OK)
-- /: /instagram → handled by vercel.json redirect (404 on bare static server, OK)
-- /: /youtube → handled by vercel.json redirect (404 on bare static server, OK)
-- /: /bluesky → handled by vercel.json redirect (404 on bare static server, OK)
-- /: /threads → handled by vercel.json redirect (404 on bare static server, OK)
-- /: /tiktok → handled by vercel.json redirect (404 on bare static server, OK)
-- /: /volunteer → handled by vercel.json redirect (404 on bare static server, OK)
-- /: /signup → handled by vercel.json redirect (404 on bare static server, OK)
 Result: PASS — no broken links, no old-origin/wp-content references
 
 Head references to romeroforcolorado.com (expected — canonical domain):
@@ -92,9 +83,11 @@ Head references to romeroforcolorado.com (expected — canonical domain):
 
 ## 4. Form payload parity (submissions blocked, never sent)
 live:
+  GET https://secure.numero.ai/signup/Sign-Up-227ef8ab-ce0e-4354-b510-b62d3cb58a71?type=SignupForm&email=migration-test%40example.com&zip=80001&phone=3035550100&YesSignMeUpForUpdatesForBinder=true
   (form 1 hidden at this viewport — skipped)
+  GET https://secure.numero.ai/signup/Sign-Up-227ef8ab-ce0e-4354-b510-b62d3cb58a71?type=SignupForm&email=migration-test%40example.com&zip=80001&phone=3035550100&YesSignMeUpForUpdatesForBinder=true
 rebuilt:
   GET https://secure.numero.ai/signup/Sign-Up-227ef8ab-ce0e-4354-b510-b62d3cb58a71?type=SignupForm&email=migration-test%40example.com&zip=80001&phone=3035550100&YesSignMeUpForUpdatesForBinder=true
   (form 1 hidden at this viewport — skipped)
   GET https://secure.numero.ai/signup/Sign-Up-227ef8ab-ce0e-4354-b510-b62d3cb58a71?type=SignupForm&email=migration-test%40example.com&zip=80001&phone=3035550100&YesSignMeUpForUpdatesForBinder=true
-Result: CHECK ABOVE
+Result: PASS — identical payload on every visible instance

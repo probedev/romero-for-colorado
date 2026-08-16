@@ -38,6 +38,8 @@ export default function RootLayout({
       <head>
         {/* Adobe Fonts kit (brothers / stratos) — same third-party kit the
             live site loads; these fonts cannot be self-hosted per license. */}
+        <link rel="preconnect" href="https://use.typekit.net" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://p.typekit.net" crossOrigin="anonymous" />
         <link rel="stylesheet" type="text/css" href="https://use.typekit.net/ncg8rno.css" />
       </head>
       <body>

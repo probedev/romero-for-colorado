@@ -7,7 +7,7 @@ const { PNG } = require('pngjs');
 const pixelmatch = require('pixelmatch').default || require('pixelmatch');
 
 const BASE = path.join(__dirname, '..', 'baseline');
-const REBUILT = path.join(__dirname, '..', 'rebuilt');
+const REBUILT = path.join(__dirname, '..', process.env.REBUILT_DIR || 'rebuilt');
 const DIFF = path.join(__dirname, '..', 'diff');
 const filter = process.argv[2] || '';
 

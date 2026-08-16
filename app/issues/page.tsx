@@ -198,6 +198,8 @@ const ISSUES: { title: string; body: React.ReactNode }[] = [
 export default function Issues() {
   return (
     <>
+      {/* LCP: photo hero background */}
+      <link rel="preload" as="image" href="/images/phrr.jpg" />
       <main id="content" className="site-main">
         <TopBanner headingId="top-donate-issues" />
 

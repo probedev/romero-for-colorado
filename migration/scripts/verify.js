@@ -4,7 +4,7 @@ const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
 
-const LOCAL = 'http://localhost:8347';
+const LOCAL = process.argv[2] || 'http://localhost:8347';
 const LIVE = 'https://romeroforcolorado.com';
 const PAGES = ['/', '/issues/', '/privacy-policy/'];
 const out = [];
@@ -180,8 +180,10 @@ const log = (s) => {
       await form.locator('input[type="email"]').fill('migration-test@example.com');
       await form.locator('input[name="zip"]').fill('80001');
       await form.locator('input[name="phone"]').fill('3035550100');
-      await form.locator('input[type="submit"]').click({ force: true }).catch(() => {});
-      await page.waitForTimeout(800);
+      // Enter-submit: same GET serialization (submit button has name=""),
+      // immune to overlay/animation click interception
+      await form.locator('input[name="phone"]').press('Enter').catch(() => {});
+      await page.waitForTimeout(1200);
     }
     await c.close();
     return urls;
@@ -191,12 +193,13 @@ const log = (s) => {
   liveForms.forEach((u) => log(`  ${u}`));
   log('rebuilt:');
   localForms.forEach((u) => log(`  ${u}`));
+  const real = (a) => a.filter((u) => u.startsWith('GET') || u.startsWith('POST'));
+  const [lr, rr] = [real(liveForms), real(localForms)];
   const match =
-    liveForms.length &&
-    localForms.length &&
-    new Set(liveForms).size === 1 &&
-    liveForms[0] === localForms[0];
-  log(`Result: ${match && liveForms.length === localForms.length ? 'PASS — identical payload shape on every instance' : 'CHECK ABOVE'}`);
+    lr.length > 0 &&
+    lr.length === rr.length &&
+    lr.every((u, i) => u === rr[i]);
+  log(`Result: ${match ? 'PASS — identical payload on every visible instance' : 'CHECK ABOVE'}`);
 
   await browser.close();
   fs.writeFileSync(path.join(__dirname, '..', 'data', 'verify-report.md'), out.join('\n'));
