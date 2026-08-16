@@ -11,9 +11,10 @@ export const metadata: Metadata = {
     type: "article",
     title: "Privacy Policy - Romero for Colorado",
     description:
-      "Privacy Policy INFORMATION THAT IS GATHERED FROM VISITORS In common with other websites, log files are stored on the web server saving details such as the visitor’s IP address, browser type, referring page and time of visit. Cookies may be used to remember visitor preferences when interacting with the website. Where registration is required, the [&hellip;]",
+      "Privacy Policy INFORMATION THAT IS GATHERED FROM VISITORS In common with other websites, log files are stored on the web server saving details such as the visitor’s IP address, browser type, referring page and time of visit. Cookies may be used to remember visitor preferences when interacting with the website. Where registration is required, the […]",
     url: "https://romeroforcolorado.com/privacy-policy/",
     siteName: "Romero for Colorado",
+    modifiedTime: "2026-03-10T18:21:49+00:00",
     images: [
       {
         url: "https://romeroforcolorado.com/images/drshare.png",
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
       },
     ],
   },
-  twitter: { card: "summary_large_image" },
+  twitter: { card: "summary_large_image", images: [] },
 };
 
 // The Privacy Policy + Accessibility copy below is legally required content,
@@ -35,7 +36,7 @@ export default function PrivacyPolicy() {
         <div className="priv">
           <div className="priv-logo">
             <a href="/">
-              <img src="/images/logorr.svg" alt="Romero for Colorado" width={374} height={192} />
+              <img src="/images/logorr.svg" alt="Romero for Colorado" width={1324} height={592} />
             </a>
           </div>
           <div className="priv-inner">

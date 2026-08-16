@@ -53,6 +53,22 @@ function SmsConsent({ className }: { className?: string }) {
 export default function Home() {
   return (
     <>
+      {/* WP emits article:modified_time even with og:type website; Next's
+          typed metadata can't — hoisted by React into <head>. */}
+      <meta property="article:modified_time" content="2026-04-30T16:34:37+00:00" />
+      {/* LCP: hero background images */}
+      <link
+        rel="preload"
+        as="image"
+        href="/images/bgbb2-scaled.jpg"
+        media="(min-width: 768px)"
+      />
+      <link
+        rel="preload"
+        as="image"
+        href="/images/mohd.png"
+        media="(max-width: 767px)"
+      />
       <main id="content" className="site-main">
         <TopBanner headingId="top-donate-home" />
 
@@ -61,7 +77,7 @@ export default function Home() {
           <div className="hh-mobile-logo">
             <div className="hh-mobile-logo-img">
               <a href="/">
-                <img src="/images/logorr.svg" alt="Romero for Colorado" width={374} height={192} />
+                <img src="/images/logorr.svg" alt="Romero for Colorado" width={1324} height={592} />
               </a>
             </div>
           </div>
@@ -80,7 +96,7 @@ export default function Home() {
           <div className="hh-logo">
             <div className="hh-logo-img">
               <a href="/">
-                <img src="/images/logorr.svg" alt="Romero for Colorado" width={374} height={192} />
+                <img src="/images/logorr.svg" alt="Romero for Colorado" width={1324} height={592} />
               </a>
             </div>
           </div>
@@ -158,7 +174,7 @@ export default function Home() {
           <div className="meet-card">
             <div className="meet-inner">
               <div className="meet-star">
-                <img src="/images/sst.svg" alt="" width={51} height={51} />
+                <img src="/images/sst.svg" alt="" width={269} height={257} />
               </div>
               <h2 className="meet-kicker">MEET DWAYNE ROMERO</h2>
               <h2 className="meet-title">Forged in Service</h2>

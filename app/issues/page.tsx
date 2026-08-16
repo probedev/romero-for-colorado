@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: "article",
     title: "Issues - Romero for Colorado",
     description:
-      "Donate to Support Dwayne Romero for Colorado FIGHT FOR CO-03 Donate to Support Romero for Colorado If you’ve saved your information with ActBlue Express, your donation will go through immediately. FIGHT FOR CO-03 Donate to Support Romero for Colorado If you’ve saved your information with ActBlue Express, your donation will go through immediately. Home TOGETHER [&hellip;]",
+      "Donate to Support Dwayne Romero for Colorado FIGHT FOR CO-03 Donate to Support Romero for Colorado If you’ve saved your information with ActBlue Express, your donation will go through immediately. FIGHT FOR CO-03 Donate to Support Romero for Colorado If you’ve saved your information with ActBlue Express, your donation will go through immediately. Home TOGETHER […]",
     url: "https://romeroforcolorado.com/issues/",
     siteName: "Romero for Colorado",
     modifiedTime: "2026-05-01T18:45:52+00:00",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
       },
     ],
   },
-  twitter: { card: "summary_large_image" },
+  twitter: { card: "summary_large_image", images: [] },
 };
 
 const ISSUES: { title: string; body: React.ReactNode }[] = [

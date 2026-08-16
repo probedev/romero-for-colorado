@@ -49,7 +49,7 @@ export default function RootLayout({
         <Script
           src="https://cdn.userway.org/widget.js"
           data-account="I1rdyyTswi"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
         {/* Meta pixel (same ID as live site) */}
         <Script id="fb-pixel" strategy="afterInteractive">
