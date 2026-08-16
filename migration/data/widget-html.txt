@@ -1,0 +1,199 @@
+
+########## home ##########
+--- 89367da (heading) classes:biohder elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">FIGHT FOR CO-03</h2>
+--- 277eb21 (heading) classes:elementor-widget elementor-widget-heading
+<h1 class="elementor-heading-title elementor-size-default">Donate to Support Romero for Colorado</h1>
+--- 88c612a (text-editor) classes:elementor-widget elementor-widget-text-editor
+<p>If you&#8217;ve saved your information with ActBlue Express, your donation will go through immediately.</p>
+--- 91cf673 (heading) classes:workintxt is-loaded elementor-invisible elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">TOGETHER</h2>
+--- 78a246b (heading) classes:courgtxt is-loaded elementor-invisible elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">WE <mark>LEAD</mark></h2>
+--- c839de9 (heading) classes:is-loaded-3 maxhdr elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default"><a href="/privacy-policy">By submitting your cell phone number you are agreeing to receive periodic text messages from Romero for Colorado. Message and data rates may apply. Text HELP for more information. Text STOP to stop receiving messages. <u>Privacy Policy</u></a></h2>
+--- 8688b57 (heading) classes:maxttq elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">TOGETHER <BR>WE LEAD</h2>
+--- 26d48b3 (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default"><a href="/privacy-policy">By submitting your cell phone number you are agreeing to receive periodic text messages from Romero for Colorado. Message and data rates may apply. Text HELP for more information. Text STOP to stop receiving messages. <u>Privacy Policy</u></a></h2>
+--- d5537ac (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">Watch Our <BR>
+Latest Video</h2>
+--- 471a462 (heading) classes:biohder elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">MEET DWAYNE ROMERO</h2>
+--- 2bcc5e0 (heading) classes:biohder elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">Forged in Service</h2>
+--- 4523fc8 (text-editor) classes:elementor-widget elementor-widget-text-editor
+<p>United States Army Engineer Officer Dwayne Romero is a husband, father, combat veteran, small business owner, and Democratic candidate for Colorado’s Third Congressional District. Raised by a single mom, Dwayne understands the challenges working Coloradans are facing. At age 12, Dwayne started folding laundry at his family’s apartment complex to help the family make ends’ meet, an experience that taught him hard work, responsibility, and the value of a dollar. </p>
+--- 111ad5c (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">Chip in today to Team Romero</h2>
+--- 78a94d9 (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">If you've saved your information with ActBlue Express, your donation will go through immediately.</h2>
+--- 5de0756 (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">JOIN OUR CAMPAIGN</h2>
+--- bdfc7d4 (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default"><a href="/privacy-policy">By submitting your cell phone number you are agreeing to receive periodic text messages from Romero for Colorado. Message and data rates may apply. Text HELP for more information. Text STOP to stop receiving messages. <u>Privacy Policy</u></a></h2>
+--- 6b7c004 (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">PO Box 371, Woody Creek, CO 81656 <BR><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="acc5c2cac3ecdec3c1c9dec3cac3decfc3c0c3decdc8c382cfc3c1">[email&#160;protected]</a>
+
+
+</h2>
+--- 7a11596 (heading) classes:elementor-widget elementor-widget-heading
+<div class="elementor-heading-title elementor-size-default">Paid for by Romero for Colorado
+--- 7c686bb (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">Use of his military rank, job titles and photographs in uniform does not imply endorsement by the U.S. Army or the Department of War.
+
+
+</h2>
+--- fb27e76 (heading) classes:apollospan elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default"><a href="http://apolloartistry.com/" target="_blank">Powered By <span>Apollo</span>
+
+
+</a></h2>
+--- 6559d52 (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">MEET DWAYNE</h2>
+--- 5304234 (heading) classes:biohder elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">FIGHTER. VETERAN. HUSBAND. FATHER. Leader.</h2>
+--- 9238808 (text-editor) classes:biotxt elementor-widget elementor-widget-text-editor
+<p>United States Army Engineer Officer Dwayne Romero is a husband, father, combat veteran, small business owner, and Democratic candidate for <strong>Colorado’s Third Congressional District.</strong></p><p>Raised by a single mom, Dwayne understands the challenges working Coloradans are facing. At age 12, Dwayne started folding laundry at his family’s apartment complex to help the family make ends’ meet, an experience that taught him hard work, responsibility, and the value of a dollar. At 18, Dwayne was recruited to play baseball at the United States Military Academy at West Point, where he made the Dean’s List all four years.</p>
+--- bb06659 (text-editor) classes:biotxt elementor-widget elementor-widget-text-editor
+<p>Dwayne served in the U.S. Army Corps of Engineers for seven years and graduated from the Army Ranger School. As Combat Engineer Executive Officer during the Persian Gulf War, Dwayne earned a Bronze Star for leadership valor. During his time in the Army, Dwayne was stationed at Fort Carson, Colorado.</p><p>After his military service, Dwayne returned to Colorado to raise a family with his wife Margaret. They just celebrated their 35th wedding anniversary. Dwayne and Margaret – a kindergarten teacher for 25 years and Gold Star family member – are proud to have lived and worked in Colorado for more than 35 years. They have three daughters, two of whom serve or have served as officers in the U.S. military.</p>
+--- e7ee551 (text-editor) classes:biotxt elementor-widget elementor-widget-text-editor
+<p>Committed to his community, Dwayne joined then-Governor John Hickenlooper’s Administration as Director of Economic Development — the top official in charge of creating good-paying jobs, growing our economy, and strengthening the middle class.</p><p>Dwayne also served on his local City Council, as a board member of both his Fire Protection District and Roaring Fork Transit Authority, and on the local School District Board of Education, including as President from 2020 to 2021. He coached the local high school baseball team for nine years and he currently serves as an elected Board Director for the Snowmass Village Water and Sanitation Board.</p><p>Today, Dwayne employs 120 Coloradans as the owner and operator of a property management company on the Western Slope.</p>
+--- 7d976968 (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">STAND WITH DWAYNE ROMERO</h2>
+--- 1b75645 (heading) classes:elementor-widget elementor-widget-heading
+<p class="elementor-heading-title elementor-size-default">If you’ve saved your payment info with ActBlue Express, your donation will go through immediately.</p>
+--- be15eb3 (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">Donate to TEAM ROMERO</h2>
+--- 1008626 (heading) classes:elementor-widget elementor-widget-heading
+<p class="elementor-heading-title elementor-size-default">If you’ve saved your payment info with ActBlue Express, your donation will go through immediately.</p>
+
+########## issues ##########
+--- 1709ac9 (heading) classes:biohder elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">FIGHT FOR CO-03</h2>
+--- 2808882 (heading) classes:elementor-widget elementor-widget-heading
+<h1 class="elementor-heading-title elementor-size-default">Donate to Support Romero for Colorado</h1>
+--- 946956f (text-editor) classes:elementor-widget elementor-widget-text-editor
+<p>If you&#8217;ve saved your information with ActBlue Express, your donation will go through immediately.</p>
+--- a6b33f2 (heading) classes:elementor-widget elementor-widget-heading
+<h1 class="elementor-heading-title elementor-size-default">TOGETHER WE LEAD</h1>
+--- b46aed8 (heading) classes:elementor-widget elementor-widget-heading
+<h1 class="elementor-heading-title elementor-size-default">Platform &amp; Policy Priorities</h1>
+--- 80f9afc (text-editor) classes:elementor-widget elementor-widget-text-editor
+<p>I stand for Colorado. I am a husband in this district. A father. A veteran. A business owner employing over 120 Coloradans. A servant leader — and that goes back 43 years. There are wins and losses in my record. That&#8217;s relatable. And being relatable matters, because the people of CO-03 deserve to see themselves in their leader.</p>
+<p>I&#8217;m absolutely committed to fighting for what&#8217;s best for this district. What the House needs is more pragmatic problem-solvers who are willing to roll up their sleeves, identify problems, and get things done. Someone with the fortitude and resolve to stand up for the values of Coloradans. That&#8217;s who I am.</p>
+<p>I&#8217;ve spent my life in service — to this country, to my family, and to this community. I know what it means to work hard and still feel like the system isn&#8217;t working for you. I was raised by a single mom on minimum wage and food stamps. I know, with absolute humility, what it&#8217;s like when the basics feel out of reach.</p>
+<p>I&#8217;m not a career politician. I&#8217;m a husband and father with a track record of service to this district — as a veteran, a small business owner, a school board president, a city councilman, and Director of Economic Development for our state. I&#8217;ve done the work. And I&#8217;m ready to take that experience to Congress and fight for CO-03.</p><p>&#8211; Dwayne Romero</p>
+--- 7efdb88 (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">HOW I’M GOING TO FIGHT FOR YOU:</h2>
+--- 93317f7 (text-editor) classes:prettytxt elementor-widget elementor-widget-text-editor
+<p>Affordability is at the top of my priority list. Think about all the people in our district and what matters most to them — its cost of living: housing costs, access to health care, and prices at the pump and the grocery store for that matter. Washington has been making it harder for Coloradans to make ends meet. I’m going to fight to make it easier, starting with repealing these disastrous tariffs and expanding the Family Tax Credits.</p>
+--- c0f9f82 (text-editor) classes:prettytxt elementor-widget elementor-widget-text-editor
+<p>Our farmers and ranchers are the bedrock of many of our communities and are a core part of our heritage. Many work the land that their parents and grandparents tended before them for generations. Right now, Washington is making their lives harder — not easier. That has to stop. I&#8217;ll fight for our family farms, ranches, and small agriculture businesses to strengthen rural economies for the next generation. We must pass a robust Farm Bill and keep foreign entities out of Colorado water and farmland ownership.</p>
+--- 71dca62 (text-editor) classes:prettytxt elementor-widget elementor-widget-text-editor
+<p>Water is the key to life here in Colorado. As an elected member of my local water and sanitation district board, I see firsthand what&#8217;s at stake — from the challenges facing the Colorado River Compact, to attempts to take more water out of our home basins, and what this historic drought is doing to our water supply. We need someone in Congress who will hold the line for our district’s water resources. This is job number one.</p>
+--- 41c3cc4 (text-editor) classes:prettytxt elementor-widget elementor-widget-text-editor
+<p>I&#8217;m a realist when it comes to energy. Turning an aircraft carrier takes energy and time. My approach is practical: we need to focus on using our legacy energy resources that are produced right here in CO-03 as we simultaneously press hard on the advancement and deployment of alternative energies. This transition window isn’t just pragmatic, it’s the only way we meet our ever increasing energy demand. An all-of-the-above approach is the only way we provide the reliable and affordable energy our communities need and deserve.</p>
+--- 7c5edcd (text-editor) classes:prettytxt elementor-widget elementor-widget-text-editor
+<p>I look at our public lands and I see something worth fighting for. Right now, our national forests across CD3 have seen massive reductions in field staff. That&#8217;s not a policy disagreement; that&#8217;s a crisis for our lands, our communities, and our economies that depend on these multiuse lands being protected. We need to oppose efforts to sell or transfer out public lands to private interests and support our firefighters and increase fire resilience.</p>
+--- 4fb9c10 (text-editor) classes:prettytxt elementor-widget elementor-widget-text-editor
+<p>We need to make sure the people who live in and love our district — from young people to families — can stay here. Right now, they are being priced out. Whether you&#8217;re a rancher&#8217;s kid hoping to take over the business or a working family trying to put down roots, you deserve a real shot. We need to build more housing and bring down the cost of staying here. Let’s stop Wall Street behemoths from buying up homes and driving up rents, repeal outdated red tape that hinders construction, and invest in housing construction in our rural communities.</p>
+--- a685d13 (text-editor) classes:prettytxt elementor-widget elementor-widget-text-editor
+<p>The One Big Ugly Bill completely turned our health care network on its head — Medicare, Medicaid, &amp; SNAP were decimated and people were kicked off their health plans. Rural hospitals are lifelines for both health care and jobs. When they close, communities lose. That&#8217;s a crisis. I will put healthcare at the top of my priority list. We’ve got to keep rural hospitals open and funded, allow medicare to negotiate lower drug prices, and protect women’s access to reproductive healthcare.</p>
+--- 4663f29 (text-editor) classes:prettytxt elementor-widget elementor-widget-text-editor
+<p>Washington has failed on immigration for decades. I believe we can secure our border, uphold our values, and fix a broken system — all at the same time. That&#8217;s not a partisan position; it&#8217;s a practical one. And practical solutions are what this district deserves. Part of immigration reform needs to include a path to citizenship for long-term, law-abiding community members, and provide for more immigration judges to detain the bad guys and protect those seeking safe haven.</p>
+--- e63f8a8 (text-editor) classes:prettytxt elementor-widget elementor-widget-text-editor
+<p>I served. I took an oath at 18 years old — 43 years ago — swearing to defend the Constitution against all enemies, foreign and domestic. I earned a Bronze Star in the Gulf War. Two of my daughters have served or are serving as military officers. I know what veterans gave, and I know they deserve real, dependable support when they come home — not bureaucratic delays and budget cuts.</p>
+--- 5d9e119 (text-editor) classes:prettytxt elementor-widget elementor-widget-text-editor
+<p>Congress exists to represent the people, not to rubber-stamp whoever&#8217;s in the Oval Office. I&#8217;ll have the backbone to fight for what&#8217;s right, even at my own peril. This includes banning all federal officials from trading stocks, ending dark money in political spending, enacting term limits, and closing the revolving door between Congress and cushy lobbyist gigs.</p>
+--- 28415f1 (text-editor) classes:prettytxt elementor-widget elementor-widget-text-editor
+<p>Too many people in Western and Southern Colorado feel like DC doesn&#8217;t know they exist — let alone hear them. That has to change. As your Congressman, I&#8217;ll be accessible, responsive, and relentless about cutting through government bureaucracy to help everyday people get results. Whether it&#8217;s a veteran waiting on benefits, a family navigating a federal agency, or a small business owner fighting for answers — I&#8217;ll do the unglamorous but essential work of constituent service that too many politicians skip. No photo ops. No excuses. Just a fighter who answers the call, rolls up his sleeves, and gets to work for Colorado.</p>
+--- 43c4726 (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">Chip in today to Team Romero</h2>
+--- c5a1a5c (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">If you've saved your information with ActBlue Express, your donation will go through immediately.</h2>
+--- 71c5b4e (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">JOIN OUR CAMPAIGN</h2>
+--- 1a953a7 (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default"><a href="/privacy-policy">By submitting your cell phone number you are agreeing to receive periodic text messages from Romero for Colorado. Message and data rates may apply. Text HELP for more information. Text STOP to stop receiving messages. <u>Privacy Policy</u></a></h2>
+--- 6b7c004 (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">PO Box 371, Woody Creek, CO 81656 <BR><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="670e0901082715080a02150801081504080b08150603084904080a">[email&#160;protected]</a>
+
+
+</h2>
+--- 7a11596 (heading) classes:elementor-widget elementor-widget-heading
+<div class="elementor-heading-title elementor-size-default">Paid for by Romero for Colorado
+--- 7c686bb (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">Use of his military rank, job titles and photographs in uniform does not imply endorsement by the U.S. Army or the Department of War.
+
+
+</h2>
+--- fb27e76 (heading) classes:apollospan elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default"><a href="http://apolloartistry.com/" target="_blank">Powered By <span>Apollo</span>
+
+
+</a></h2>
+--- 7d976968 (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">STAND WITH DWAYNE ROMERO</h2>
+--- 1b75645 (heading) classes:elementor-widget elementor-widget-heading
+<p class="elementor-heading-title elementor-size-default">If you’ve saved your payment info with ActBlue Express, your donation will go through immediately.</p>
+--- be15eb3 (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">Donate to TEAM ROMERO</h2>
+--- 1008626 (heading) classes:elementor-widget elementor-widget-heading
+<p class="elementor-heading-title elementor-size-default">If you’ve saved your payment info with ActBlue Express, your donation will go through immediately.</p>
+--- 6559d52 (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">MEET DWAYNE</h2>
+--- 5304234 (heading) classes:biohder elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">FIGHTER. VETERAN. HUSBAND. FATHER. Leader.</h2>
+--- 9238808 (text-editor) classes:biotxt elementor-widget elementor-widget-text-editor
+<p>United States Army Engineer Officer Dwayne Romero is a husband, father, combat veteran, small business owner, and Democratic candidate for <strong>Colorado’s Third Congressional District.</strong></p><p>Raised by a single mom, Dwayne understands the challenges working Coloradans are facing. At age 12, Dwayne started folding laundry at his family’s apartment complex to help the family make ends’ meet, an experience that taught him hard work, responsibility, and the value of a dollar. At 18, Dwayne was recruited to play baseball at the United States Military Academy at West Point, where he made the Dean’s List all four years.</p>
+--- bb06659 (text-editor) classes:biotxt elementor-widget elementor-widget-text-editor
+<p>Dwayne served in the U.S. Army Corps of Engineers for seven years and graduated from the Army Ranger School. As Combat Engineer Executive Officer during the Persian Gulf War, Dwayne earned a Bronze Star for leadership valor. During his time in the Army, Dwayne was stationed at Fort Carson, Colorado.</p><p>After his military service, Dwayne returned to Colorado to raise a family with his wife Margaret. They just celebrated their 35th wedding anniversary. Dwayne and Margaret – a kindergarten teacher for 25 years and Gold Star family member – are proud to have lived and worked in Colorado for more than 35 years. They have three daughters, two of whom serve or have served as officers in the U.S. military.</p>
+--- e7ee551 (text-editor) classes:biotxt elementor-widget elementor-widget-text-editor
+<p>Committed to his community, Dwayne joined then-Governor John Hickenlooper’s Administration as Director of Economic Development — the top official in charge of creating good-paying jobs, growing our economy, and strengthening the middle class.</p><p>Dwayne also served on his local City Council, as a board member of both his Fire Protection District and Roaring Fork Transit Authority, and on the local School District Board of Education, including as President from 2020 to 2021. He coached the local high school baseball team for nine years and he currently serves as an elected Board Director for the Snowmass Village Water and Sanitation Board.</p><p>Today, Dwayne employs 120 Coloradans as the owner and operator of a property management company on the Western Slope.</p>
+
+########## privacy-policy ##########
+--- 51c88c2 (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">Privacy Policy</h2>
+--- af84d83 (text-editor) classes:pritxt elementor-widget elementor-widget-text-editor
+<p><strong>INFORMATION THAT IS GATHERED FROM VISITORS</strong></p><p>In common with other websites, log files are stored on the web server saving details such as the visitor’s IP address, browser type, referring page and time of visit. Cookies may be used to remember visitor preferences when interacting with the website. Where registration is required, the visitor’s email and a username will be stored on the server.</p><p><strong>HOW THE INFORMATION IS USED</strong></p><p>The information is used to enhance the vistor’s experience when using the website to display personalised content and possibly advertising. E-mail addresses will not be sold, rented or leased to 3rd parties. E-mail may be sent to inform you of news of our services or offers by us or our affiliates.</p><p><strong>VISITOR OPTIONS</strong></p><p>If you have subscribed to one of our services, you may unsubscribe by following the instructions which are included in e-mail that you receive. You may be able to block cookies via your browser settings but this may prevent you from access to certain features of the website.</p><p><strong>COOKIES</strong></p><p>Cookies are small digital signature files that are stored by your web browser that allow your preferences to be recorded when visiting the website. Also they may be used to track your return visits to the website. 3rd party advertising companies may also use cookies for tracking purposes.</p><p><strong>GOOGLE ADS</strong></p><p>Google, as a third party vendor, uses cookies to serve ads. Google’s use of the DART cookie enables it to serve ads to visitors based on their visit to sites they visit on the Internet. Website visitors may opt out of the use of the DART cookie by visiting the Google ad and content network privacy policy.</p><p><strong>TEXTING</strong></p><p>The above excludes text messaging originator opt-in data and consent, which information will not be shared with any third parties, provided that the foregoing does not apply to sharing (1) with vendors, consultants and other service providers who need access to such information to carry out work on our behalf (and who will not use such information for their own purposes); and (2) if we believe disclosure is required by any applicable law, rule, or regulation or to comply with law enforcement or legal process.</p>
+--- 782313a (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">Accessibility</h2>
+--- 8442dff (text-editor) classes:pritxt elementor-widget elementor-widget-text-editor
+<p><strong>General</strong></p><p>Our Organization strives to ensure that its services are accessible to people with disabilities. We have invested a significant amount of resources to help ensure that its website is made easier to use and more accessible for people with disabilities, with the strong belief that website accessibility efforts assist all users and that every person has the right to live with dignity, equality, comfort and independence.</p><p>Accessibility on our website by the UserWay’s Web Accessibility Widget is powered by a dedicated accessibility server. The software allows this website to improve its compliance with the Web Content Accessibility Guidelines (WCAG 2.1).</p><p><strong>Enabling the Accessibility Menu</strong></p><p>The accessibility menu can be enabled by clicking the accessibility menu icon that appears on the corner of the page. After triggering the accessibility menu, please wait a moment for the accessibility menu to load in its entirety.</p><p><strong>Disclaimer</strong></p><p>We are committed to continuing efforts to constantly improve the accessibility of our site and services in the belief that it is our collective moral obligation to allow seamless, accessible and unhindered use also for those of us with disabilities.</p><p>In an ongoing effort to continually improve and remediate accessibility issues, we also regularly rescan with UserWay’s Accessibility Scanner to identify and fix every possible accessibility barrier on our site. Despite our efforts to make all pages and content fully accessible, some content may not have yet been fully adapted to the strictest accessibility standards. This may be a result of not having found or identified the most appropriate technological solution.</p><p><strong>Here For You</strong></p><p>If you are experiencing difficulty with any content or require assistance with any part of our site, please contact us during normal business hours as detailed below and we will be happy to assist.</p><p><strong>Contact Us</strong></p><p>If you wish to report an accessibility issue, have any questions or need assistance, please contact us.</p>
+--- 6b7c004 (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">PO Box 371, Woody Creek, CO 81656 <BR><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f990979f96b98b96949c8b969f968b9a9695968b989d96d79a9694">[email&#160;protected]</a>
+
+
+</h2>
+--- 7a11596 (heading) classes:elementor-widget elementor-widget-heading
+<div class="elementor-heading-title elementor-size-default">Paid for by Romero for Colorado
+--- 7c686bb (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">Use of his military rank, job titles and photographs in uniform does not imply endorsement by the U.S. Army or the Department of War.
+
+
+</h2>
+--- fb27e76 (heading) classes:apollospan elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default"><a href="http://apolloartistry.com/" target="_blank">Powered By <span>Apollo</span>
+
+
+</a></h2>
+--- 7d976968 (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">STAND WITH DWAYNE ROMERO</h2>
+--- 1b75645 (heading) classes:elementor-widget elementor-widget-heading
+<p class="elementor-heading-title elementor-size-default">If you’ve saved your payment info with ActBlue Express, your donation will go through immediately.</p>
+--- be15eb3 (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">Donate to TEAM ROMERO</h2>
+--- 1008626 (heading) classes:elementor-widget elementor-widget-heading
+<p class="elementor-heading-title elementor-size-default">If you’ve saved your payment info with ActBlue Express, your donation will go through immediately.</p>
+--- 6559d52 (heading) classes:elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">MEET DWAYNE</h2>
+--- 5304234 (heading) classes:biohder elementor-widget elementor-widget-heading
+<h2 class="elementor-heading-title elementor-size-default">FIGHTER. VETERAN. HUSBAND. FATHER. Leader.</h2>
+--- 9238808 (text-editor) classes:biotxt elementor-widget elementor-widget-text-editor
+<p>United States Army Engineer Officer Dwayne Romero is a husband, father, combat veteran, small business owner, and Democratic candidate for <strong>Colorado’s Third Congressional District.</strong></p><p>Raised by a single mom, Dwayne understands the challenges working Coloradans are facing. At age 12, Dwayne started folding laundry at his family’s apartment complex to help the family make ends’ meet, an experience that taught him hard work, responsibility, and the value of a dollar. At 18, Dwayne was recruited to play baseball at the United States Military Academy at West Point, where he made the Dean’s List all four years.</p>
+--- bb06659 (text-editor) classes:biotxt elementor-widget elementor-widget-text-editor
+<p>Dwayne served in the U.S. Army Corps of Engineers for seven years and graduated from the Army Ranger School. As Combat Engineer Executive Officer during the Persian Gulf War, Dwayne earned a Bronze Star for leadership valor. During his time in the Army, Dwayne was stationed at Fort Carson, Colorado.</p><p>After his military service, Dwayne returned to Colorado to raise a family with his wife Margaret. They just celebrated their 35th wedding anniversary. Dwayne and Margaret – a kindergarten teacher for 25 years and Gold Star family member – are proud to have lived and worked in Colorado for more than 35 years. They have three daughters, two of whom serve or have served as officers in the U.S. military.</p>
+--- e7ee551 (text-editor) classes:biotxt elementor-widget elementor-widget-text-editor
+<p>Committed to his community, Dwayne joined then-Governor John Hickenlooper’s Administration as Director of Economic Development — the top official in charge of creating good-paying jobs, growing our economy, and strengthening the middle class.</p><p>Dwayne also served on his local City Council, as a board member of both his Fire Protection District and Roaring Fork Transit Authority, and on the local School District Board of Education, including as President from 2020 to 2021. He coached the local high school baseball team for nine years and he currently serves as an elected Board Director for the Snowmass Village Water and Sanitation Board.</p><p>Today, Dwayne employs 120 Coloradans as the owner and operator of a property management company on the Western Slope.</p>

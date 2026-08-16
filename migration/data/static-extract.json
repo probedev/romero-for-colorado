@@ -1,0 +1,757 @@
+{
+  "home": {
+    "documents": [
+      {
+        "id": 6,
+        "type": "wp-post",
+        "settings": null
+      },
+      {
+        "id": 6127,
+        "type": "popup",
+        "settings": {
+          "prevent_scroll": "yes",
+          "entrance_animation": "fadeIn",
+          "exit_animation": "fadeInUp",
+          "entrance_animation_duration": {
+            "unit": "px",
+            "size": 0.5,
+            "sizes": []
+          },
+          "triggers": [],
+          "timing": []
+        }
+      },
+      {
+        "id": 8567,
+        "type": "popup",
+        "settings": {
+          "entrance_animation": "fadeIn",
+          "prevent_scroll": "yes",
+          "classes": "mainfundpop",
+          "exit_animation": "fadeInUp",
+          "entrance_animation_duration": {
+            "unit": "px",
+            "size": 1.2,
+            "sizes": []
+          },
+          "triggers": {
+            "page_load": "yes",
+            "page_load_delay": 0
+          },
+          "timing": {
+            "sources_sources": [
+              "search",
+              "external"
+            ],
+            "sources": "yes"
+          }
+        }
+      },
+      {
+        "id": 7857,
+        "type": "popup",
+        "settings": {
+          "entrance_animation": "fadeInUp",
+          "entrance_animation_duration": {
+            "unit": "px",
+            "size": 1,
+            "sizes": []
+          },
+          "prevent_close_on_background_click": "yes",
+          "exit_animation": "fadeInUp",
+          "a11y_navigation": "yes",
+          "triggers": {
+            "scrolling_offset": 80,
+            "scrolling": "yes",
+            "scrolling_direction": "down"
+          },
+          "timing": {
+            "sources_sources": [
+              "search",
+              "external"
+            ],
+            "sources": "yes"
+          }
+        }
+      }
+    ],
+    "head": {
+      "title": "Romero for Colorado",
+      "metas": [
+        "<meta charset=\"UTF-8\">",
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+        "<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />",
+        "<meta name=\"description\" content=\"United States Army Engineer Officer Dwayne Romero is a husband, father, combat veteran, small business owner, and Democratic candidate for Colorado’s Third Congressional District.\" />",
+        "<meta property=\"og:locale\" content=\"en_US\" />",
+        "<meta property=\"og:type\" content=\"website\" />",
+        "<meta property=\"og:title\" content=\"Romero for Colorado\" />",
+        "<meta property=\"og:description\" content=\"United States Army Engineer Officer Dwayne Romero is a husband, father, combat veteran, small business owner, and Democratic candidate for Colorado’s Third Congressional District.\" />",
+        "<meta property=\"og:url\" content=\"https://romeroforcolorado.com/\" />",
+        "<meta property=\"og:site_name\" content=\"Romero for Colorado\" />",
+        "<meta property=\"article:modified_time\" content=\"2026-04-30T16:34:37+00:00\" />",
+        "<meta property=\"og:image\" content=\"https://romeroforcolorado.com/wp-content/uploads/2026/03/drshare.png\" />",
+        "<meta property=\"og:image:width\" content=\"1200\" />",
+        "<meta property=\"og:image:height\" content=\"630\" />",
+        "<meta property=\"og:image:type\" content=\"image/png\" />",
+        "<meta name=\"twitter:card\" content=\"summary_large_image\" />",
+        "<meta name=\"twitter:image\" content=\"https://romeroforcolorado.com/wp-content/uploads/2026/03/drshare.png\" />",
+        "<meta name=\"generator\" content=\"WordPress 6.9.7\" />",
+        "<meta name=\"generator\" content=\"Elementor 3.35.5; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto\">",
+        "<meta name=\"msapplication-TileImage\" content=\"https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-270x270.png\" />"
+      ],
+      "links": [
+        "<link rel=\"canonical\" href=\"https://romeroforcolorado.com/\" />",
+        "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Romero for Colorado &raquo; Feed\" href=\"https://romeroforcolorado.com/feed/\" />",
+        "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Romero for Colorado &raquo; Comments Feed\" href=\"https://romeroforcolorado.com/comments/feed/\" />",
+        "<link rel=\"alternate\" title=\"oEmbed (JSON)\" type=\"application/json+oembed\" href=\"https://romeroforcolorado.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fromeroforcolorado.com%2F\" />",
+        "<link rel=\"alternate\" title=\"oEmbed (XML)\" type=\"text/xml+oembed\" href=\"https://romeroforcolorado.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fromeroforcolorado.com%2F&#038;format=xml\" />",
+        "<link rel='stylesheet' id='widget-icon-list-css' href='https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.35.5' media='all' />",
+        "<link rel='stylesheet' id='elementor-icons-css' href='https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.47.0' media='all' />",
+        "<link rel='stylesheet' id='widget-social-icons-css' href='https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.35.5' media='all' />",
+        "<link rel='stylesheet' id='e-apple-webkit-css' href='https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=3.35.5' media='all' />",
+        "<link rel='stylesheet' id='elementor-gf-roboto-css' href='https://fonts.googleapis.com/css?family=Roboto:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;display=auto' media='all' />",
+        "<link rel='stylesheet' id='elementor-gf-robotoslab-css' href='https://fonts.googleapis.com/css?family=Roboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;display=auto' media='all' />",
+        "<link rel='stylesheet' id='elementor-gf-poppins-css' href='https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;display=auto' media='all' />",
+        "<link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' media='all' />",
+        "<link rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' media='all' />",
+        "<link rel='stylesheet' id='elementor-icons-fa-brands-css' href='https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3' media='all' />",
+        "<link rel=\"alternate\" title=\"JSON\" type=\"application/json\" href=\"https://romeroforcolorado.com/wp-json/wp/v2/pages/6\" />",
+        "<link rel=\"icon\" href=\"https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-32x32.png\" sizes=\"32x32\" />",
+        "<link rel=\"icon\" href=\"https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-192x192.png\" sizes=\"192x192\" />",
+        "<link rel=\"apple-touch-icon\" href=\"https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-180x180.png\" />"
+      ]
+    },
+    "forms": [
+      {
+        "action": "https://secure.numero.ai/signup/Sign-Up-227ef8ab-ce0e-4354-b510-b62d3cb58a71",
+        "method": "GET",
+        "inputs": [
+          "<input name=\"type\" type=\"hidden\" value=\"SignupForm\" />",
+          "<input type=\"email\" placeholder=\"Email Address\" id=\"f1_email\" name=\"email\" required=\"\">",
+          "<input type=\"text\" placeholder=\"Zip Code\" name=\"zip\" id=\"f1_zip\" maxlength=\"5\">",
+          "<input type=\"text\"  name=\"phone\" placeholder=\"Phone (Optional)\" id=\"f1_phone\" maxlength=\"25\">",
+          "<input name=\"YesSignMeUpForUpdatesForBinder\" type=\"hidden\" value=\"true\" />",
+          "<input type=\"submit\" class=\"btno btno-red\" value=\"JOIN US\" name=\"\">"
+        ],
+        "selects": [],
+        "textareas": []
+      },
+      {
+        "action": "https://secure.numero.ai/signup/Sign-Up-227ef8ab-ce0e-4354-b510-b62d3cb58a71",
+        "method": "GET",
+        "inputs": [
+          "<input name=\"type\" type=\"hidden\" value=\"SignupForm\" />",
+          "<input type=\"email\" placeholder=\"Email Address\" id=\"f1_email\" name=\"email\" required=\"\">",
+          "<input type=\"text\" placeholder=\"Zip Code\" name=\"zip\" id=\"f1_zip\" maxlength=\"5\">",
+          "<input type=\"text\"  name=\"phone\" placeholder=\"Phone (Optional)\" id=\"f1_phone\" maxlength=\"25\">",
+          "<input name=\"YesSignMeUpForUpdatesForBinder\" type=\"hidden\" value=\"true\" />",
+          "<input type=\"submit\" class=\"btno btno-red\" value=\"JOIN US\" name=\"\">"
+        ],
+        "selects": [],
+        "textareas": []
+      },
+      {
+        "action": "https://secure.numero.ai/signup/Sign-Up-227ef8ab-ce0e-4354-b510-b62d3cb58a71",
+        "method": "GET",
+        "inputs": [
+          "<input name=\"type\" type=\"hidden\" value=\"SignupForm\" />",
+          "<input type=\"email\" placeholder=\"Email Address\" id=\"f1_email\" name=\"email\" required=\"\">",
+          "<input type=\"text\" placeholder=\"Zip Code\" name=\"zip\" id=\"f1_zip\" maxlength=\"5\">",
+          "<input type=\"text\"  name=\"phone\" placeholder=\"Phone (Optional)\" id=\"f1_phone\" maxlength=\"25\">",
+          "<input name=\"YesSignMeUpForUpdatesForBinder\" type=\"hidden\" value=\"true\" />",
+          "<input type=\"submit\" class=\"btno btno-red\" value=\"STAY UPDATED\" name=\"\">"
+        ],
+        "selects": [],
+        "textareas": []
+      }
+    ],
+    "actblue": [
+      "https://secure.actblue.com/donate/rfc-website?amount=5&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=25&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=250&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=10&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=100&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website",
+      "https://secure.actblue.com/donate/rfc-website",
+      "https://secure.actblue.com/donate/rfc-website",
+      "https://secure.actblue.com/donate/rfc-website?amount=10&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=25&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=50&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=250&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=500&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website",
+      "https://secure.actblue.com/donate/rfc-website",
+      "https://secure.actblue.com/donate/rfc-website",
+      "https://secure.actblue.com/donate/rfc-website?amount=10&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=25&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=50&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=100&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=250&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website",
+      "https://secure.actblue.com/donate/rfc-website?amount=10&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=25&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=50&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=100&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=250&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website"
+    ],
+    "assets": [
+      "https://romeroforcolorado.com/wp-content/uploads/2026/03/drshare.png",
+      "https://romeroforcolorado.com/wp-content/uploads/2026/03/logorr.svg",
+      "https://romeroforcolorado.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fromeroforcolorado.com%2F",
+      "https://romeroforcolorado.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fromeroforcolorado.com%2F&format=xml",
+      "https://romeroforcolorado.com/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.4.6",
+      "https://romeroforcolorado.com/wp-content/themes/hello-elementor/assets/css/theme.css?ver=3.4.6",
+      "https://romeroforcolorado.com/wp-content/themes/hello-elementor/assets/css/header-footer.css?ver=3.4.6",
+      "https://romeroforcolorado.com/wp-content/plugins/jet-elements/assets/css/jet-elements.css?ver=2.8.1",
+      "https://romeroforcolorado.com/wp-content/plugins/jet-elements/assets/css/addons/jet-button.css?ver=2.8.1",
+      "https://romeroforcolorado.com/wp-content/plugins/jet-elements/assets/css/skin/jet-button.css?ver=2.8.1",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-shrink.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/widget-video.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css?ver=3.35.1",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.47.0",
+      "https://romeroforcolorado.com/wp-content/uploads/elementor/css/post-5584.css?ver=1772388939",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/widget-nested-accordion.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/uploads/elementor/css/post-6.css?ver=1777566885",
+      "https://romeroforcolorado.com/wp-content/uploads/elementor/css/post-7010.css?ver=1772388939",
+      "https://romeroforcolorado.com/wp-content/uploads/elementor/css/post-3864.css?ver=1777566926",
+      "https://romeroforcolorado.com/wp-content/uploads/elementor/css/post-8567.css?ver=1772634756",
+      "https://romeroforcolorado.com/wp-content/uploads/elementor/css/post-7857.css?ver=1772414694",
+      "https://romeroforcolorado.com/wp-content/uploads/elementor/css/post-6127.css?ver=1772487906",
+      "https://romeroforcolorado.com/wp-content/themes/hello-theme-child-master/style.css?ver=2.0.0",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3",
+      "https://romeroforcolorado.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+      "https://romeroforcolorado.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-json/",
+      "https://romeroforcolorado.com/wp-json/wp/v2/pages/6",
+      "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-32x32.png",
+      "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-192x192.png",
+      "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-180x180.png",
+      "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-270x270.png",
+      "https://romeroforcolorado.com/wp-content/uploads/2026/03/sst.svg",
+      "https://romeroforcolorado.com/wp-content/uploads/2018/11/drlogob.svg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb2.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb2-300x223.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb2-768x570.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb1.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb1-300x223.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb1-768x570.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb4.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb4-300x223.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb4-768x570.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb6.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb6-300x223.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb6-768x570.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb7.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb7-300x223.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb7-768x570.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb5.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb5-300x223.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb5-768x570.jpg",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/jet-elements/assets/js/lib/tweenjs/tweenjs.min.js?ver=2.0.2",
+      "https://romeroforcolorado.com/wp-admin/admin-ajax.php",
+      "https://romeroforcolorado.com/wp-json/jet-elements-api/v1/elementor-template",
+      "https://romeroforcolorado.com/wp-content/plugins/jet-elements/assets/js/jet-elements.min.js?ver=2.8.1",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.35.1",
+      "https://romeroforcolorado.com/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1",
+      "https://romeroforcolorado.com/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.35.1",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.35.1",
+      "https://romeroforcolorado.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9.7",
+      "https://romeroforcolorado.com/wp-includes/js/wp-emoji-loader.min.js"
+    ]
+  },
+  "issues": {
+    "documents": [
+      {
+        "id": 8590,
+        "type": "wp-page",
+        "settings": null
+      },
+      {
+        "id": 8567,
+        "type": "popup",
+        "settings": {
+          "entrance_animation": "fadeIn",
+          "prevent_scroll": "yes",
+          "classes": "mainfundpop",
+          "exit_animation": "fadeInUp",
+          "entrance_animation_duration": {
+            "unit": "px",
+            "size": 1.2,
+            "sizes": []
+          },
+          "triggers": {
+            "page_load": "yes",
+            "page_load_delay": 0
+          },
+          "timing": {
+            "sources_sources": [
+              "search",
+              "external"
+            ],
+            "sources": "yes"
+          }
+        }
+      },
+      {
+        "id": 7857,
+        "type": "popup",
+        "settings": {
+          "entrance_animation": "fadeInUp",
+          "entrance_animation_duration": {
+            "unit": "px",
+            "size": 1,
+            "sizes": []
+          },
+          "prevent_close_on_background_click": "yes",
+          "exit_animation": "fadeInUp",
+          "a11y_navigation": "yes",
+          "triggers": {
+            "scrolling_offset": 80,
+            "scrolling": "yes",
+            "scrolling_direction": "down"
+          },
+          "timing": {
+            "sources_sources": [
+              "search",
+              "external"
+            ],
+            "sources": "yes"
+          }
+        }
+      },
+      {
+        "id": 6127,
+        "type": "popup",
+        "settings": {
+          "prevent_scroll": "yes",
+          "entrance_animation": "fadeIn",
+          "exit_animation": "fadeInUp",
+          "entrance_animation_duration": {
+            "unit": "px",
+            "size": 0.5,
+            "sizes": []
+          },
+          "triggers": [],
+          "timing": []
+        }
+      }
+    ],
+    "head": {
+      "title": "Issues - Romero for Colorado",
+      "metas": [
+        "<meta charset=\"UTF-8\">",
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+        "<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />",
+        "<meta property=\"og:locale\" content=\"en_US\" />",
+        "<meta property=\"og:type\" content=\"article\" />",
+        "<meta property=\"og:title\" content=\"Issues - Romero for Colorado\" />",
+        "<meta property=\"og:description\" content=\"Donate to Support Dwayne Romero for Colorado FIGHT FOR CO-03 Donate to Support Romero for Colorado If you&#8217;ve saved your information with ActBlue Express, your donation will go through immediately. FIGHT FOR CO-03 Donate to Support Romero for Colorado If you&#8217;ve saved your information with ActBlue Express, your donation will go through immediately. Home TOGETHER [&hellip;]\" />",
+        "<meta property=\"og:url\" content=\"https://romeroforcolorado.com/issues/\" />",
+        "<meta property=\"og:site_name\" content=\"Romero for Colorado\" />",
+        "<meta property=\"article:modified_time\" content=\"2026-05-01T18:45:52+00:00\" />",
+        "<meta property=\"og:image\" content=\"https://romeroforcolorado.com/wp-content/uploads/2026/03/drshare.png\" />",
+        "<meta property=\"og:image:width\" content=\"1200\" />",
+        "<meta property=\"og:image:height\" content=\"630\" />",
+        "<meta property=\"og:image:type\" content=\"image/png\" />",
+        "<meta name=\"twitter:card\" content=\"summary_large_image\" />",
+        "<meta name=\"twitter:label1\" content=\"Est. reading time\" />",
+        "<meta name=\"twitter:data1\" content=\"11 minutes\" />",
+        "<meta name=\"generator\" content=\"WordPress 6.9.7\" />",
+        "<meta name=\"generator\" content=\"Elementor 3.35.5; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto\">",
+        "<meta name=\"msapplication-TileImage\" content=\"https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-270x270.png\" />"
+      ],
+      "links": [
+        "<link rel=\"canonical\" href=\"https://romeroforcolorado.com/issues/\" />",
+        "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Romero for Colorado &raquo; Feed\" href=\"https://romeroforcolorado.com/feed/\" />",
+        "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Romero for Colorado &raquo; Comments Feed\" href=\"https://romeroforcolorado.com/comments/feed/\" />",
+        "<link rel=\"alternate\" title=\"oEmbed (JSON)\" type=\"application/json+oembed\" href=\"https://romeroforcolorado.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fromeroforcolorado.com%2Fissues%2F\" />",
+        "<link rel=\"alternate\" title=\"oEmbed (XML)\" type=\"text/xml+oembed\" href=\"https://romeroforcolorado.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fromeroforcolorado.com%2Fissues%2F&#038;format=xml\" />",
+        "<link rel='stylesheet' id='widget-icon-list-css' href='https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.35.5' media='all' />",
+        "<link rel='stylesheet' id='elementor-icons-css' href='https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.47.0' media='all' />",
+        "<link rel='stylesheet' id='elementor-gf-roboto-css' href='https://fonts.googleapis.com/css?family=Roboto:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;display=auto' media='all' />",
+        "<link rel='stylesheet' id='elementor-gf-robotoslab-css' href='https://fonts.googleapis.com/css?family=Roboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;display=auto' media='all' />",
+        "<link rel='stylesheet' id='elementor-gf-poppins-css' href='https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;display=auto' media='all' />",
+        "<link rel='stylesheet' id='elementor-gf-figtree-css' href='https://fonts.googleapis.com/css?family=Figtree:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;display=auto' media='all' />",
+        "<link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' media='all' />",
+        "<link rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' media='all' />",
+        "<link rel='stylesheet' id='elementor-icons-fa-brands-css' href='https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3' media='all' />",
+        "<link rel=\"alternate\" title=\"JSON\" type=\"application/json\" href=\"https://romeroforcolorado.com/wp-json/wp/v2/pages/8590\" />",
+        "<link rel=\"icon\" href=\"https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-32x32.png\" sizes=\"32x32\" />",
+        "<link rel=\"icon\" href=\"https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-192x192.png\" sizes=\"192x192\" />",
+        "<link rel=\"apple-touch-icon\" href=\"https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-180x180.png\" />"
+      ]
+    },
+    "forms": [
+      {
+        "action": "https://secure.numero.ai/signup/Sign-Up-227ef8ab-ce0e-4354-b510-b62d3cb58a71",
+        "method": "GET",
+        "inputs": [
+          "<input name=\"type\" type=\"hidden\" value=\"SignupForm\" />",
+          "<input type=\"email\" placeholder=\"Email Address\" id=\"f1_email\" name=\"email\" required=\"\">",
+          "<input type=\"text\" placeholder=\"Zip Code\" name=\"zip\" id=\"f1_zip\" maxlength=\"5\">",
+          "<input type=\"text\"  name=\"phone\" placeholder=\"Phone (Optional)\" id=\"f1_phone\" maxlength=\"25\">",
+          "<input name=\"YesSignMeUpForUpdatesForBinder\" type=\"hidden\" value=\"true\" />",
+          "<input type=\"submit\" class=\"btno btno-red\" value=\"STAY UPDATED\" name=\"\">"
+        ],
+        "selects": [],
+        "textareas": []
+      }
+    ],
+    "actblue": [
+      "https://secure.actblue.com/donate/rfc-website?amount=5&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=25&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=250&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=10&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=100&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website",
+      "https://secure.actblue.com/donate/rfc-website",
+      "https://secure.actblue.com/donate/rfc-website?amount=10&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=25&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=50&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=250&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=500&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website",
+      "https://secure.actblue.com/donate/rfc-website",
+      "https://secure.actblue.com/donate/rfc-website",
+      "https://secure.actblue.com/donate/rfc-website?amount=10&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=25&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=50&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=100&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=250&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website",
+      "https://secure.actblue.com/donate/rfc-website?amount=10&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=25&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=50&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=100&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=250&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website"
+    ],
+    "assets": [
+      "https://romeroforcolorado.com/wp-content/uploads/2026/03/drshare.png",
+      "https://romeroforcolorado.com/wp-content/uploads/2026/03/logorr.svg",
+      "https://romeroforcolorado.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fromeroforcolorado.com%2Fissues%2F",
+      "https://romeroforcolorado.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fromeroforcolorado.com%2Fissues%2F&format=xml",
+      "https://romeroforcolorado.com/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.4.6",
+      "https://romeroforcolorado.com/wp-content/themes/hello-elementor/assets/css/theme.css?ver=3.4.6",
+      "https://romeroforcolorado.com/wp-content/themes/hello-elementor/assets/css/header-footer.css?ver=3.4.6",
+      "https://romeroforcolorado.com/wp-content/plugins/jet-elements/assets/css/jet-elements.css?ver=2.8.1",
+      "https://romeroforcolorado.com/wp-content/plugins/jet-elements/assets/css/addons/jet-button.css?ver=2.8.1",
+      "https://romeroforcolorado.com/wp-content/plugins/jet-elements/assets/css/skin/jet-button.css?ver=2.8.1",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-shrink.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/widget-video.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css?ver=3.35.1",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.47.0",
+      "https://romeroforcolorado.com/wp-content/uploads/elementor/css/post-5584.css?ver=1772388939",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/widget-nested-accordion.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/uploads/elementor/css/post-8590.css?ver=1777661157",
+      "https://romeroforcolorado.com/wp-content/uploads/elementor/css/post-7010.css?ver=1772388939",
+      "https://romeroforcolorado.com/wp-content/uploads/elementor/css/post-3864.css?ver=1777566926",
+      "https://romeroforcolorado.com/wp-content/uploads/elementor/css/post-8567.css?ver=1772634756",
+      "https://romeroforcolorado.com/wp-content/uploads/elementor/css/post-7857.css?ver=1772414694",
+      "https://romeroforcolorado.com/wp-content/uploads/elementor/css/post-6127.css?ver=1772487906",
+      "https://romeroforcolorado.com/wp-content/themes/hello-theme-child-master/style.css?ver=2.0.0",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3",
+      "https://romeroforcolorado.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+      "https://romeroforcolorado.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-json/",
+      "https://romeroforcolorado.com/wp-json/wp/v2/pages/8590",
+      "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-32x32.png",
+      "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-192x192.png",
+      "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-180x180.png",
+      "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-270x270.png",
+      "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2.png",
+      "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-300x300.png",
+      "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-150x150.png",
+      "https://romeroforcolorado.com/wp-content/uploads/2026/04/dwrosig.svg",
+      "https://romeroforcolorado.com/wp-content/uploads/2018/11/drlogob.svg",
+      "https://romeroforcolorado.com/wp-content/uploads/2026/03/sst.svg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb2.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb2-300x223.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb2-768x570.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb1.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb1-300x223.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb1-768x570.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb4.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb4-300x223.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb4-768x570.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb6.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb6-300x223.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb6-768x570.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb7.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb7-300x223.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb7-768x570.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb5.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb5-300x223.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb5-768x570.jpg",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/jet-elements/assets/js/lib/tweenjs/tweenjs.min.js?ver=2.0.2",
+      "https://romeroforcolorado.com/wp-admin/admin-ajax.php",
+      "https://romeroforcolorado.com/wp-json/jet-elements-api/v1/elementor-template",
+      "https://romeroforcolorado.com/wp-content/plugins/jet-elements/assets/js/jet-elements.min.js?ver=2.8.1",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.35.1",
+      "https://romeroforcolorado.com/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1",
+      "https://romeroforcolorado.com/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.35.1",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.35.1",
+      "https://romeroforcolorado.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9.7",
+      "https://romeroforcolorado.com/wp-includes/js/wp-emoji-loader.min.js"
+    ]
+  },
+  "privacy-policy": {
+    "documents": [
+      {
+        "id": 4616,
+        "type": "wp-post",
+        "settings": null
+      },
+      {
+        "id": 8567,
+        "type": "popup",
+        "settings": {
+          "entrance_animation": "fadeIn",
+          "prevent_scroll": "yes",
+          "classes": "mainfundpop",
+          "exit_animation": "fadeInUp",
+          "entrance_animation_duration": {
+            "unit": "px",
+            "size": 1.2,
+            "sizes": []
+          },
+          "triggers": {
+            "page_load": "yes",
+            "page_load_delay": 0
+          },
+          "timing": {
+            "sources_sources": [
+              "search",
+              "external"
+            ],
+            "sources": "yes"
+          }
+        }
+      },
+      {
+        "id": 7857,
+        "type": "popup",
+        "settings": {
+          "entrance_animation": "fadeInUp",
+          "entrance_animation_duration": {
+            "unit": "px",
+            "size": 1,
+            "sizes": []
+          },
+          "prevent_close_on_background_click": "yes",
+          "exit_animation": "fadeInUp",
+          "a11y_navigation": "yes",
+          "triggers": {
+            "scrolling_offset": 80,
+            "scrolling": "yes",
+            "scrolling_direction": "down"
+          },
+          "timing": {
+            "sources_sources": [
+              "search",
+              "external"
+            ],
+            "sources": "yes"
+          }
+        }
+      },
+      {
+        "id": 6127,
+        "type": "popup",
+        "settings": {
+          "prevent_scroll": "yes",
+          "entrance_animation": "fadeIn",
+          "exit_animation": "fadeInUp",
+          "entrance_animation_duration": {
+            "unit": "px",
+            "size": 0.5,
+            "sizes": []
+          },
+          "triggers": [],
+          "timing": []
+        }
+      }
+    ],
+    "head": {
+      "title": "Privacy Policy - Romero for Colorado",
+      "metas": [
+        "<meta charset=\"UTF-8\">",
+        "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+        "<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />",
+        "<meta property=\"og:locale\" content=\"en_US\" />",
+        "<meta property=\"og:type\" content=\"article\" />",
+        "<meta property=\"og:title\" content=\"Privacy Policy - Romero for Colorado\" />",
+        "<meta property=\"og:description\" content=\"Privacy Policy INFORMATION THAT IS GATHERED FROM VISITORS In common with other websites, log files are stored on the web server saving details such as the visitor’s IP address, browser type, referring page and time of visit. Cookies may be used to remember visitor preferences when interacting with the website. Where registration is required, the [&hellip;]\" />",
+        "<meta property=\"og:url\" content=\"https://romeroforcolorado.com/privacy-policy/\" />",
+        "<meta property=\"og:site_name\" content=\"Romero for Colorado\" />",
+        "<meta property=\"article:modified_time\" content=\"2026-03-10T18:21:49+00:00\" />",
+        "<meta property=\"og:image\" content=\"https://romeroforcolorado.com/wp-content/uploads/2026/03/drshare.png\" />",
+        "<meta property=\"og:image:width\" content=\"1200\" />",
+        "<meta property=\"og:image:height\" content=\"630\" />",
+        "<meta property=\"og:image:type\" content=\"image/png\" />",
+        "<meta name=\"twitter:card\" content=\"summary_large_image\" />",
+        "<meta name=\"twitter:label1\" content=\"Est. reading time\" />",
+        "<meta name=\"twitter:data1\" content=\"4 minutes\" />",
+        "<meta name=\"generator\" content=\"WordPress 6.9.7\" />",
+        "<meta name=\"generator\" content=\"Elementor 3.35.5; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto\">",
+        "<meta name=\"msapplication-TileImage\" content=\"https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-270x270.png\" />"
+      ],
+      "links": [
+        "<link rel=\"canonical\" href=\"https://romeroforcolorado.com/privacy-policy/\" />",
+        "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Romero for Colorado &raquo; Feed\" href=\"https://romeroforcolorado.com/feed/\" />",
+        "<link rel=\"alternate\" type=\"application/rss+xml\" title=\"Romero for Colorado &raquo; Comments Feed\" href=\"https://romeroforcolorado.com/comments/feed/\" />",
+        "<link rel=\"alternate\" title=\"oEmbed (JSON)\" type=\"application/json+oembed\" href=\"https://romeroforcolorado.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fromeroforcolorado.com%2Fprivacy-policy%2F\" />",
+        "<link rel=\"alternate\" title=\"oEmbed (XML)\" type=\"text/xml+oembed\" href=\"https://romeroforcolorado.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fromeroforcolorado.com%2Fprivacy-policy%2F&#038;format=xml\" />",
+        "<link rel='stylesheet' id='widget-icon-list-css' href='https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.35.5' media='all' />",
+        "<link rel='stylesheet' id='elementor-icons-css' href='https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.47.0' media='all' />",
+        "<link rel='stylesheet' id='elementor-gf-roboto-css' href='https://fonts.googleapis.com/css?family=Roboto:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;display=auto' media='all' />",
+        "<link rel='stylesheet' id='elementor-gf-robotoslab-css' href='https://fonts.googleapis.com/css?family=Roboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;display=auto' media='all' />",
+        "<link rel='stylesheet' id='elementor-gf-poppins-css' href='https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;display=auto' media='all' />",
+        "<link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' media='all' />",
+        "<link rel='stylesheet' id='elementor-icons-fa-brands-css' href='https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3' media='all' />",
+        "<link rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' media='all' />",
+        "<link rel=\"alternate\" title=\"JSON\" type=\"application/json\" href=\"https://romeroforcolorado.com/wp-json/wp/v2/pages/4616\" />",
+        "<link rel=\"icon\" href=\"https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-32x32.png\" sizes=\"32x32\" />",
+        "<link rel=\"icon\" href=\"https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-192x192.png\" sizes=\"192x192\" />",
+        "<link rel=\"apple-touch-icon\" href=\"https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-180x180.png\" />"
+      ]
+    },
+    "forms": [],
+    "actblue": [
+      "https://secure.actblue.com/donate/rfc-website",
+      "https://secure.actblue.com/donate/rfc-website",
+      "https://secure.actblue.com/donate/rfc-website?amount=10&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=25&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=50&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=100&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=250&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website",
+      "https://secure.actblue.com/donate/rfc-website?amount=10&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=25&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=50&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=100&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website?amount=250&express_lane=true",
+      "https://secure.actblue.com/donate/rfc-website"
+    ],
+    "assets": [
+      "https://romeroforcolorado.com/wp-content/uploads/2026/03/drshare.png",
+      "https://romeroforcolorado.com/wp-content/uploads/2026/03/logorr.svg",
+      "https://romeroforcolorado.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fromeroforcolorado.com%2Fprivacy-policy%2F",
+      "https://romeroforcolorado.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fromeroforcolorado.com%2Fprivacy-policy%2F&format=xml",
+      "https://romeroforcolorado.com/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.4.6",
+      "https://romeroforcolorado.com/wp-content/themes/hello-elementor/assets/css/theme.css?ver=3.4.6",
+      "https://romeroforcolorado.com/wp-content/themes/hello-elementor/assets/css/header-footer.css?ver=3.4.6",
+      "https://romeroforcolorado.com/wp-content/plugins/jet-elements/assets/css/jet-elements.css?ver=2.8.1",
+      "https://romeroforcolorado.com/wp-content/plugins/jet-elements/assets/css/addons/jet-button.css?ver=2.8.1",
+      "https://romeroforcolorado.com/wp-content/plugins/jet-elements/assets/css/skin/jet-button.css?ver=2.8.1",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-shrink.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/widget-video.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css?ver=3.35.1",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.47.0",
+      "https://romeroforcolorado.com/wp-content/uploads/elementor/css/post-5584.css?ver=1772388939",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/uploads/elementor/css/post-4616.css?ver=1773166911",
+      "https://romeroforcolorado.com/wp-content/uploads/elementor/css/post-7010.css?ver=1772388939",
+      "https://romeroforcolorado.com/wp-content/uploads/elementor/css/post-3864.css?ver=1777566926",
+      "https://romeroforcolorado.com/wp-content/uploads/elementor/css/post-8567.css?ver=1772634756",
+      "https://romeroforcolorado.com/wp-content/uploads/elementor/css/post-7857.css?ver=1772414694",
+      "https://romeroforcolorado.com/wp-content/uploads/elementor/css/post-6127.css?ver=1772487906",
+      "https://romeroforcolorado.com/wp-content/themes/hello-theme-child-master/style.css?ver=2.0.0",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3",
+      "https://romeroforcolorado.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+      "https://romeroforcolorado.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-json/",
+      "https://romeroforcolorado.com/wp-json/wp/v2/pages/4616",
+      "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-32x32.png",
+      "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-192x192.png",
+      "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-180x180.png",
+      "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-270x270.png",
+      "https://romeroforcolorado.com/wp-content/uploads/2018/11/drlogob.svg",
+      "https://romeroforcolorado.com/wp-content/uploads/2026/03/sst.svg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb2.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb2-300x223.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb2-768x570.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb1.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb1-300x223.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb1-768x570.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb4.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb4-300x223.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb4-768x570.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb6.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb6-300x223.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb6-768x570.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb7.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb7-300x223.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb7-768x570.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb5.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb5-300x223.jpg",
+      "https://romeroforcolorado.com/wp-content/uploads/2021/07/bb5-768x570.jpg",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.35.5",
+      "https://romeroforcolorado.com/wp-content/plugins/jet-elements/assets/js/lib/tweenjs/tweenjs.min.js?ver=2.0.2",
+      "https://romeroforcolorado.com/wp-admin/admin-ajax.php",
+      "https://romeroforcolorado.com/wp-json/jet-elements-api/v1/elementor-template",
+      "https://romeroforcolorado.com/wp-content/plugins/jet-elements/assets/js/jet-elements.min.js?ver=2.8.1",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.35.1",
+      "https://romeroforcolorado.com/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1",
+      "https://romeroforcolorado.com/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.35.1",
+      "https://romeroforcolorado.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.35.1",
+      "https://romeroforcolorado.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9.7",
+      "https://romeroforcolorado.com/wp-includes/js/wp-emoji-loader.min.js"
+    ]
+  }
+}

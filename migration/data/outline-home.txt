@@ -1,0 +1,1089 @@
+TXT: body class="home wp-singular page-template page-template-elementor_header_footer page page-id-6 wp-embed-responsive wp-theme-hello-elementor wp-child-theme-hello-theme-child-master hello-elementor-default elementor-default elementor-template-full-width elementor-kit-5584 elementor-page elementor-page-6">
+TXT: Skip to content
+--- DOC 6 class="elementor elementor-6"
+--- sec ce8d215 class="elementor-element elementor-element-ce8d215 e-con-full e-flex e-con e-parent"
+TXT: details id="e-n-accordion-item-1210" class="e-n-accordion-item" >
+TXT: summary class="e-n-accordion-item-title" data-accordion-index="1" tabindex="0" aria-expanded="false" aria-controls="e-n-accordion-item-1210" >
+TXT: Donate to Support Dwayne Romero for Colorado
+TXT: /div>
+TXT: /span>
+TXT: i aria-hidden="true" class="fas fa-window-close">
+TXT: /i>
+TXT: /span>
+TXT: i aria-hidden="true" class="fas fa-chevron-right">
+TXT: /i>
+TXT: /span>
+TXT: /span>
+TXT: /summary>
+--- sec 35bb9de class="elementor-element elementor-element-35bb9de e-con-full e-flex e-con e-child"
+--- sec d3ee79d class="elementor-element elementor-element-d3ee79d e-flex e-con-boxed elementor-invisible e-con e-child"
+--- sec fc04f43 class="elementor-element elementor-element-fc04f43 e-con-full e-flex e-con e-child"
+H2:
+TXT: FIGHT FOR CO-03
+TXT: /div>
+TXT: /div>
+H1:
+TXT: Donate to Support Romero for Colorado
+TXT: /div>
+TXT: /div>
+TXT: If you've saved your information with ActBlue Express, your donation will go through immediately.
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec a3a4b61 class="elementor-element elementor-element-a3a4b61 e-con-full e-flex e-con e-child"
+--- sec 34bd563 class="elementor-element elementor-element-34bd563 e-con-full e-flex e-con e-child"
+A: https://secure.actblue.com/donate/rfc-website?amount=5&express_lane=true
+TXT: /div>
+TXT: /div>
+TXT: $5
+TXT: /span>
+TXT: /div>
+TXT: $5
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: https://secure.actblue.com/donate/rfc-website?amount=25&express_lane=true
+TXT: /div>
+TXT: /div>
+TXT: $25
+TXT: /span>
+TXT: /div>
+TXT: $25
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: https://secure.actblue.com/donate/rfc-website?amount=250&express_lane=true
+TXT: /div>
+TXT: /div>
+TXT: $250
+TXT: /span>
+TXT: /div>
+TXT: $250
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec 432c061 class="elementor-element elementor-element-432c061 e-con-full e-flex e-con e-child"
+A: https://secure.actblue.com/donate/rfc-website?amount=10&express_lane=true
+TXT: /div>
+TXT: /div>
+TXT: $10
+TXT: /span>
+TXT: /div>
+TXT: $10
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: https://secure.actblue.com/donate/rfc-website?amount=100&express_lane=true
+TXT: /div>
+TXT: /div>
+TXT: $100
+TXT: /span>
+TXT: /div>
+TXT: $100
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: https://secure.actblue.com/donate/rfc-website
+TXT: /div>
+TXT: /div>
+TXT: Other Amount
+TXT: /span>
+TXT: /div>
+TXT: Other Amount
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /details>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec 75e89a5 class="elementor-element elementor-element-75e89a5 elementor-hidden-desktop elementor-hidden-tablet e-flex "
+--- sec 514a718 class="elementor-element elementor-element-514a718 e-con-full e-flex e-con e-child"
+IMG: https://romeroforcolorado.com/wp-content/uploads/2026/03/logorr.svg alt="" class="attachment-large size-large wp-image-8366"
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec 05c455d class="elementor-element elementor-element-05c455d e-con-full e-flex e-con e-child"
+A: https://secure.actblue.com/donate/rfc-website
+TXT: /div>
+TXT: /div>
+TXT: Donate
+TXT: /span>
+TXT: /div>
+TXT: Donate
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec 966e0f2 class="elementor-element elementor-element-966e0f2 e-con-full elementor-hidden-mobile e-flex e-con e-parent"
+--- sec 007a7f6 class="elementor-element elementor-element-007a7f6 e-con-full e-flex e-con e-child"
+A: /facebook
+TXT: Facebook
+TXT: /span>
+TXT: i aria-hidden="true" class="fab fa-facebook">
+TXT: /i>
+TXT: /span>
+A: /twitter
+TXT: X-twitter
+TXT: /span>
+TXT: i aria-hidden="true" class="fab fa-x-twitter">
+TXT: /i>
+TXT: /span>
+A: /instagram
+TXT: Instagram
+TXT: /span>
+TXT: i aria-hidden="true" class="fab fa-instagram">
+TXT: /i>
+TXT: /span>
+A: /youtube
+TXT: Youtube
+TXT: /span>
+TXT: i aria-hidden="true" class="fab fa-youtube">
+TXT: /i>
+TXT: /span>
+A: /bluesky
+TXT: /span>
+TXT: svg xmlns="http://www.w3.org/2000/svg" width="973pt" height="1556" viewBox="0 0 973 1167">
+TXT: /path>
+TXT: /svg>
+TXT: /span>
+A: /threads
+TXT: Threads
+TXT: /span>
+TXT: i aria-hidden="true" class="fab fa-threads">
+TXT: /i>
+TXT: /span>
+A: /tiktok
+TXT: Tiktok
+TXT: /span>
+TXT: i aria-hidden="true" class="fab fa-tiktok">
+TXT: /i>
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec 5996c27 class="elementor-element elementor-element-5996c27 e-con-full e-flex e-con e-child"
+IMG: https://romeroforcolorado.com/wp-content/uploads/2026/03/logorr.svg alt="" class="attachment-large size-large wp-image-8366"
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec c2c602e class="elementor-element elementor-element-c2c602e e-con-full e-flex e-con e-child"
+A: /volunteer
+TXT: Volunteer
+TXT: /span>
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: https://secure.actblue.com/donate/rfc-website
+TXT: /div>
+TXT: /div>
+TXT: Donate
+TXT: /span>
+TXT: /div>
+TXT: Donate
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec 567ea19 class="elementor-element elementor-element-567ea19 e-con-full animated-fast elementor-hidden-mobile e-flex "
+--- sec 094c38f class="elementor-element elementor-element-094c38f e-flex e-con-boxed e-con e-child"
+--- sec 1f89fde class="elementor-element elementor-element-1f89fde e-con-full e-flex e-con e-child"
+H2:
+TXT: TOGETHER
+TXT: /div>
+TXT: /div>
+H2:
+TXT: WE
+TXT: mark>LEAD
+TXT: /mark>
+TXT: /div>
+TXT: /div>
+--- sec 411bb76 class="elementor-element elementor-element-411bb76 e-con-full e-flex elementor-invisible e-con e-child"
+TXT: form action="https://secure.numero.ai/signup/Sign-Up-227ef8ab-ce0e-4354-b510-b62d3cb58a71" method="GET" name="signup" accept-charset="utf-8" class="ngp-signup-header" autocomplete="on">
+INPUT: type=hidden name=type value="SignupForm"
+TXT: label for="Email Address">Email Address
+TXT: /label>
+INPUT: type=email name=email value=""
+TXT: /div>
+TXT: label for="Zip Code">Zip Code
+TXT: /label>
+INPUT: type=text name=zip value=""
+TXT: /div>
+TXT: label for="Phone Number">Phone Number (Optional)
+TXT: /label>
+INPUT: type=text name=phone value=""
+TXT: /div>
+TXT: /div>
+INPUT: type=hidden name=YesSignMeUpForUpdatesForBinder value="true"
+INPUT: type=submit name= value="JOIN US"
+TXT: /div>
+TXT: /form>
+TXT: /div>
+TXT: .
+TXT: /span>
+TXT: /div>
+TXT: /div>
+H2:
+A: /privacy-policy
+TXT: By submitting your cell phone number you are agreeing to receive periodic text messages from Romero for Colorado. Message and data rates may apply. Text HELP for more information. Text STOP to stop receiving messages.
+TXT: u>Privacy Policy
+TXT: /u>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec 588687f class="elementor-element elementor-element-588687f e-con-full e-flex e-con e-child"
+--- sec 1e525e1 class="elementor-element elementor-element-1e525e1 e-con-full e-flex elementor-invisible e-con e-child"
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec 4d37f2c class="elementor-element elementor-element-4d37f2c e-con-full elementor-hidden-desktop elementor-hidden-tab"
+--- sec ddbbfbe class="elementor-element elementor-element-ddbbfbe e-con-full e-flex e-con e-child"
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec a67d8ce class="elementor-element elementor-element-a67d8ce e-con-full e-flex e-con e-child"
+--- sec 263066d class="elementor-element elementor-element-263066d e-flex e-con-boxed e-con e-child"
+--- sec 440e499 class="elementor-element elementor-element-440e499 e-con-full e-flex e-con e-child"
+A: #elementor-action%3Aaction%3Dlightbox%26settings%3DeyJ0eXBlIjoidmlkZW8iLCJ2aWRlb1R5cGUiOiJ5b3V0dWJlIiwidXJsIjoiaHR0cHM6XC9cL3d3dy55b3V0dWJlLmNvbVwvZW1iZWRcL1pHY1RKclZJQWs4P2ZlYXR1cmU9b2VtYmVkIn0%3D
+TXT: svg xmlns="http://www.w3.org/2000/svg" width="1200pt" height="1200pt" viewBox="0 0 1200 1200">
+TXT: /path>
+TXT: /svg>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+H2:
+TXT: TOGETHER
+TXT: BR>WE LEAD
+TXT: /div>
+TXT: /div>
+TXT: form action="https://secure.numero.ai/signup/Sign-Up-227ef8ab-ce0e-4354-b510-b62d3cb58a71" method="GET" name="signup" accept-charset="utf-8" class="ngp-signup-header" autocomplete="on">
+INPUT: type=hidden name=type value="SignupForm"
+TXT: label for="Email Address">Email Address
+TXT: /label>
+INPUT: type=email name=email value=""
+TXT: /div>
+TXT: label for="Zip Code">Zip Code
+TXT: /label>
+INPUT: type=text name=zip value=""
+TXT: /div>
+TXT: label for="Phone Number">Phone Number (Optional)
+TXT: /label>
+INPUT: type=text name=phone value=""
+TXT: /div>
+TXT: /div>
+INPUT: type=hidden name=YesSignMeUpForUpdatesForBinder value="true"
+INPUT: type=submit name= value="JOIN US"
+TXT: /div>
+TXT: /form>
+TXT: /div>
+TXT: .
+TXT: /span>
+TXT: /div>
+TXT: /div>
+H2:
+A: /privacy-policy
+TXT: By submitting your cell phone number you are agreeing to receive periodic text messages from Romero for Colorado. Message and data rates may apply. Text HELP for more information. Text STOP to stop receiving messages.
+TXT: u>Privacy Policy
+TXT: /u>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: /facebook
+TXT: Facebook
+TXT: /span>
+TXT: i aria-hidden="true" class="fab fa-facebook">
+TXT: /i>
+TXT: /span>
+A: /twitter
+TXT: X-twitter
+TXT: /span>
+TXT: i aria-hidden="true" class="fab fa-x-twitter">
+TXT: /i>
+TXT: /span>
+A: /instagram
+TXT: Instagram
+TXT: /span>
+TXT: i aria-hidden="true" class="fab fa-instagram">
+TXT: /i>
+TXT: /span>
+A: /youtube
+TXT: Youtube
+TXT: /span>
+TXT: i aria-hidden="true" class="fab fa-youtube">
+TXT: /i>
+TXT: /span>
+A: /bluesky
+TXT: /span>
+TXT: svg xmlns="http://www.w3.org/2000/svg" width="973pt" height="1556" viewBox="0 0 973 1167">
+TXT: /path>
+TXT: /svg>
+TXT: /span>
+A: /threads
+TXT: Threads
+TXT: /span>
+TXT: i aria-hidden="true" class="fab fa-threads">
+TXT: /i>
+TXT: /span>
+A: /tiktok
+TXT: Tiktok
+TXT: /span>
+TXT: i aria-hidden="true" class="fab fa-tiktok">
+TXT: /i>
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec fd22e49 class="elementor-element elementor-element-fd22e49 e-con-full elementor-hidden-mobile e-flex e-con e-parent"
+A: #elementor-action%3Aaction%3Dlightbox%26settings%3DeyJ0eXBlIjoidmlkZW8iLCJ2aWRlb1R5cGUiOiJ5b3V0dWJlIiwidXJsIjoiaHR0cHM6XC9cL3d3dy55b3V0dWJlLmNvbVwvZW1iZWRcL1pHY1RKclZJQWs4P2ZlYXR1cmU9b2VtYmVkIn0%3D
+TXT: svg xmlns="http://www.w3.org/2000/svg" height="100px" width="100px" fill="#000000" data-name="Layer 1" viewBox="0 0 100 100" x="0px" y="0px">
+TXT: title>all
+TXT: /title>
+TXT: /path>
+TXT: /svg>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+H2:
+TXT: Watch Our
+TXT: BR> Latest Video
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec b914417 class="elementor-element elementor-element-b914417 e-con-full e-flex e-con e-parent"
+--- sec 1c1d02a class="elementor-element elementor-element-1c1d02a e-flex e-con-boxed e-con e-child"
+--- sec 7002cae class="elementor-element elementor-element-7002cae e-flex e-con-boxed e-con e-child"
+IMG: https://romeroforcolorado.com/wp-content/uploads/2026/03/sst.svg alt="" class="attachment-large size-large wp-image-8492"
+TXT: /div>
+TXT: /div>
+H2:
+TXT: MEET DWAYNE ROMERO
+TXT: /div>
+TXT: /div>
+H2:
+TXT: Forged in Service
+TXT: /div>
+TXT: /div>
+TXT: United States Army Engineer Officer Dwayne Romero is a husband, father, combat veteran, small business owner, and Democratic candidate for Colorado’s Third Congressional District. Raised by a single mom, Dwayne understands the challenges working Coloradans are facing. At age 12, Dwayne started folding laundry at his family’s apartment complex to help the family make ends’ meet, an experience that taught him hard work, responsibility, and the value of a dollar.
+TXT: /div>
+TXT: /div>
+--- sec 9a64742 class="elementor-element elementor-element-9a64742 e-con-full e-flex e-con e-child"
+A: #elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjYxMjciLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D
+TXT: /div>
+TXT: /div>
+TXT: svg xmlns="http://www.w3.org/2000/svg" width="1200pt" height="1200pt" viewBox="0 0 1200 1200">
+TXT: /path>
+TXT: /svg>
+TXT: /span>
+TXT: Read More
+TXT: /span>
+TXT: /div>
+TXT: svg xmlns="http://www.w3.org/2000/svg" width="1200pt" height="1200pt" viewBox="0 0 1200 1200">
+TXT: /path>
+TXT: /svg>
+TXT: /span>
+TXT: Read More
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: /issues
+TXT: /div>
+TXT: /div>
+TXT: svg xmlns="http://www.w3.org/2000/svg" width="1200pt" height="1200pt" viewBox="0 0 1200 1200">
+TXT: /path>
+TXT: /svg>
+TXT: /span>
+TXT: Issues
+TXT: /span>
+TXT: /div>
+TXT: svg xmlns="http://www.w3.org/2000/svg" width="1200pt" height="1200pt" viewBox="0 0 1200 1200">
+TXT: /path>
+TXT: /svg>
+TXT: /span>
+TXT: Issues
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: /volunteer
+TXT: /div>
+TXT: /div>
+TXT: svg xmlns="http://www.w3.org/2000/svg" width="1200pt" height="1200pt" viewBox="0 0 1200 1200">
+TXT: /path>
+TXT: /svg>
+TXT: /span>
+TXT: Volunteer
+TXT: /span>
+TXT: /div>
+TXT: svg xmlns="http://www.w3.org/2000/svg" width="1200pt" height="1200pt" viewBox="0 0 1200 1200">
+TXT: /path>
+TXT: /svg>
+TXT: /span>
+TXT: Volunteer
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec 84c4781 class="elementor-element elementor-element-84c4781 e-flex e-con-boxed e-con e-parent"
+H2:
+TXT: Chip in today to Team Romero
+TXT: /div>
+TXT: /div>
+--- sec cefac18 class="elementor-element elementor-element-cefac18 e-grid e-con-full e-con e-child"
+A: https://secure.actblue.com/donate/rfc-website?amount=10&express_lane=true
+TXT: /div>
+TXT: /div>
+TXT: $10
+TXT: /span>
+TXT: /div>
+TXT: $10
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: https://secure.actblue.com/donate/rfc-website?amount=25&express_lane=true
+TXT: /div>
+TXT: /div>
+TXT: $25
+TXT: /span>
+TXT: /div>
+TXT: $25
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: https://secure.actblue.com/donate/rfc-website?amount=50&express_lane=true
+TXT: /div>
+TXT: /div>
+TXT: $50
+TXT: /span>
+TXT: /div>
+TXT: $50
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: https://secure.actblue.com/donate/rfc-website?amount=250&express_lane=true
+TXT: /div>
+TXT: /div>
+TXT: $250
+TXT: /span>
+TXT: /div>
+TXT: $250
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: https://secure.actblue.com/donate/rfc-website?amount=500&express_lane=true
+TXT: /div>
+TXT: /div>
+TXT: $500
+TXT: /span>
+TXT: /div>
+TXT: $500
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: https://secure.actblue.com/donate/rfc-website
+TXT: /div>
+TXT: /div>
+TXT: Other
+TXT: BR>Amount
+TXT: /span>
+TXT: /div>
+TXT: Other
+TXT: BR>Amount
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec 0078193 class="elementor-element elementor-element-0078193 e-con-full e-flex e-con e-child"
+TXT: svg xmlns="http://www.w3.org/2000/svg" width="388" height="245pt" viewBox="0 0 291 245">
+TXT: /path>
+TXT: /svg>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+H2:
+TXT: If you've saved your information with ActBlue Express, your donation will go through immediately.
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec 7bdc004 class="elementor-element elementor-element-7bdc004 e-con-full e-flex e-con e-parent"
+--- sec df5a2f1 class="elementor-element elementor-element-df5a2f1 e-con-full e-flex e-con e-child"
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec f10b7f9 class="elementor-element elementor-element-f10b7f9 e-con-full e-flex e-con e-child"
+--- sec eb8bf63 class="elementor-element elementor-element-eb8bf63 e-flex e-con-boxed e-con e-child"
+H2:
+TXT: JOIN OUR CAMPAIGN
+TXT: /div>
+TXT: /div>
+TXT: form action="https://secure.numero.ai/signup/Sign-Up-227ef8ab-ce0e-4354-b510-b62d3cb58a71" method="GET" name="signup" accept-charset="utf-8" class="ngp-signup-header" autocomplete="on">
+INPUT: type=hidden name=type value="SignupForm"
+TXT: label for="Email Address">Email Address
+TXT: /label>
+INPUT: type=email name=email value=""
+TXT: /div>
+TXT: label for="Zip Code">Zip Code
+TXT: /label>
+INPUT: type=text name=zip value=""
+TXT: /div>
+TXT: label for="Phone Number">Phone Number (Optional)
+TXT: /label>
+INPUT: type=text name=phone value=""
+TXT: /div>
+TXT: /div>
+INPUT: type=hidden name=YesSignMeUpForUpdatesForBinder value="true"
+INPUT: type=submit name= value="STAY UPDATED"
+TXT: /div>
+TXT: /form>
+TXT: /div>
+TXT: .
+TXT: /span>
+TXT: /div>
+TXT: /div>
+H2:
+A: /privacy-policy
+TXT: By submitting your cell phone number you are agreeing to receive periodic text messages from Romero for Colorado. Message and data rates may apply. Text HELP for more information. Text STOP to stop receiving messages.
+TXT: u>Privacy Policy
+TXT: /u>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: footer data-elementor-type="footer" data-elementor-id="3864" class="elementor elementor-3864 elementor-location-footer" data-elementor-post-type="elementor_library">
+--- sec df4901d class="elementor-element elementor-element-df4901d e-flex e-con-boxed e-con e-parent"
+--- sec 6a4cf59 class="elementor-element elementor-element-6a4cf59 e-con-full e-flex e-con e-child"
+A: https://secure.actblue.com/donate/rfc-website
+TXT: /div>
+TXT: /div>
+TXT: Donate
+TXT: /span>
+TXT: /div>
+TXT: Donate
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: /volunteer
+TXT: /div>
+TXT: /div>
+TXT: Volunteer
+TXT: /span>
+TXT: /div>
+TXT: Volunteer
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec c94c371 class="elementor-element elementor-element-c94c371 e-flex e-con-boxed e-con e-parent"
+A: https://romeroforcolorado.com
+IMG: https://romeroforcolorado.com/wp-content/uploads/2018/11/drlogob.svg alt="" class="attachment-large size-large wp-image-8400"
+TXT: /div>
+TXT: /div>
+--- sec 26965a3 class="elementor-element elementor-element-26965a3 e-con-full e-flex e-con e-child"
+TXT: ul class="elementor-icon-list-items elementor-inline-items">
+A: https://romeroforcolorado.com
+TXT: Home
+TXT: /span>
+TXT: /li>
+A: #about
+TXT: Meet Dwayne
+TXT: /span>
+TXT: /li>
+A: /signup
+TXT: Sign Up
+TXT: /span>
+TXT: /li>
+A: /issues
+TXT: Issues
+TXT: /span>
+TXT: /li>
+A: /volunteer
+TXT: Volunteer
+TXT: /span>
+TXT: /li>
+A: https://secure.actblue.com/donate/rfc-website
+TXT: Donate
+TXT: /span>
+TXT: /li>
+TXT: /ul>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec 9724c96 class="elementor-element elementor-element-9724c96 e-con-full e-flex e-con e-child"
+A: /facebook
+TXT: i aria-hidden="true" class="fab fa-facebook">
+TXT: /i>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: /twitter
+TXT: i aria-hidden="true" class="fab fa-x-twitter">
+TXT: /i>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: /instagram
+TXT: i aria-hidden="true" class="fab fa-instagram">
+TXT: /i>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: /youtube
+TXT: i aria-hidden="true" class="fab fa-youtube">
+TXT: /i>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: /bluesky
+TXT: svg xmlns="http://www.w3.org/2000/svg" width="973pt" height="1556" viewBox="0 0 973 1167">
+TXT: /path>
+TXT: /svg>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: /threads
+TXT: i aria-hidden="true" class="fab fa-threads">
+TXT: /i>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: /tiktok
+TXT: i aria-hidden="true" class="fab fa-tiktok">
+TXT: /i>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec bd2b781 class="elementor-element elementor-element-bd2b781 e-flex e-con-boxed e-con e-child"
+H2:
+TXT: PO Box 371, Woody Creek, CO 81656
+TXT: BR>
+A: /cdn-cgi/l/email-protection
+TXT: [email&#160;protected]
+TXT: /div>
+TXT: /div>
+TXT: ul class="elementor-icon-list-items elementor-inline-items">
+A: /privacy-policy
+TXT: Privacy Policy
+TXT: /span>
+TXT: /li>
+A: /cdn-cgi/l/email-protection#c6afa8a0a986b4a9aba3b4a9a0a9b4a5a9aaa9b4a7a2a9e8a5a9ab
+TXT: Contact
+TXT: /span>
+TXT: /li>
+A: /cdn-cgi/l/email-protection#12626077616152607d7f77607d747d60717d7e7d6073767d3c717d7f
+TXT: Press
+TXT: /span>
+TXT: /li>
+A: /privacy-policy/#accessibility
+TXT: Accessibility
+TXT: /span>
+TXT: /li>
+TXT: /ul>
+TXT: /div>
+TXT: /div>
+TXT: Paid for by Romero for Colorado
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec 471334b class="elementor-element elementor-element-471334b e-flex e-con-boxed e-con e-child"
+H2:
+TXT: Use of his military rank, job titles and photographs in uniform does not imply endorsement by the U.S. Army or the Department of War.
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+H2:
+A: http://apolloartistry.com/
+TXT: Powered By
+TXT: Apollo
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /footer>
+--- DOC 6127 class="elementor elementor-6127 elementor-location-popup"
+--- sec 76ac604 class="elementor-element elementor-element-76ac604 e-flex e-con-boxed e-con e-parent"
+--- sec 62f2211 class="elementor-element elementor-element-62f2211 e-flex e-con-boxed e-con e-child"
+H2:
+TXT: MEET DWAYNE
+TXT: /div>
+TXT: /div>
+H2:
+TXT: FIGHTER. VETERAN. HUSBAND. FATHER. Leader.
+TXT: /div>
+TXT: /div>
+TXT: United States Army Engineer Officer Dwayne Romero is a husband, father, combat veteran, small business owner, and Democratic candidate for
+TXT: strong>Colorado’s Third Congressional District.
+TXT: /strong>
+TXT: Raised by a single mom, Dwayne understands the challenges working Coloradans are facing. At age 12, Dwayne started folding laundry at his family’s apartment complex to help the family make ends’ meet, an experience that taught him hard work, responsibility, and the value of a dollar. At 18, Dwayne was recruited to play baseball at the United States Military Academy at West Point, where he made the Dean’s List all four years.
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec cf9f47f class="elementor-element elementor-element-cf9f47f e-flex e-con-boxed e-con e-child"
+--- sec 0b4246a class="elementor-element elementor-element-0b4246a e-con-full e-flex e-con e-child"
+IMG: https://romeroforcolorado.com/wp-content/uploads/2021/07/bb2.jpg alt="" class="attachment-large size-large wp-image-8520"
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec 56e74d0 class="elementor-element elementor-element-56e74d0 e-con-full e-flex e-con e-child"
+IMG: https://romeroforcolorado.com/wp-content/uploads/2021/07/bb1.jpg alt="" class="attachment-large size-large wp-image-8519"
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec 5abac8b class="elementor-element elementor-element-5abac8b e-con-full e-flex e-con e-child"
+IMG: https://romeroforcolorado.com/wp-content/uploads/2021/07/bb4.jpg alt="" class="attachment-large size-large wp-image-8549"
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec 7727864 class="elementor-element elementor-element-7727864 e-flex e-con-boxed e-con e-child"
+TXT: Dwayne served in the U.S. Army Corps of Engineers for seven years and graduated from the Army Ranger School. As Combat Engineer Executive Officer during the Persian Gulf War, Dwayne earned a Bronze Star for leadership valor. During his time in the Army, Dwayne was stationed at Fort Carson, Colorado.
+TXT: After his military service, Dwayne returned to Colorado to raise a family with his wife Margaret. They just celebrated their 35th wedding anniversary. Dwayne and Margaret – a kindergarten teacher for 25 years and Gold Star family member – are proud to have lived and worked in Colorado for more than 35 years. They have three daughters, two of whom serve or have served as officers in the U.S. military.
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec c6dff90 class="elementor-element elementor-element-c6dff90 e-flex e-con-boxed e-con e-child"
+--- sec 5256af5 class="elementor-element elementor-element-5256af5 e-con-full e-flex e-con e-child"
+IMG: https://romeroforcolorado.com/wp-content/uploads/2021/07/bb6.jpg alt="" class="attachment-large size-large wp-image-8552"
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec e03d7cf class="elementor-element elementor-element-e03d7cf e-con-full e-flex e-con e-child"
+IMG: https://romeroforcolorado.com/wp-content/uploads/2021/07/bb7.jpg alt="" class="attachment-large size-large wp-image-8551"
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec 731960c class="elementor-element elementor-element-731960c e-con-full e-flex e-con e-child"
+IMG: https://romeroforcolorado.com/wp-content/uploads/2021/07/bb5.jpg alt="" class="attachment-large size-large wp-image-8553"
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec 4f5e553 class="elementor-element elementor-element-4f5e553 e-flex e-con-boxed e-con e-child"
+TXT: Committed to his community, Dwayne joined then-Governor John Hickenlooper’s Administration as Director of Economic Development — the top official in charge of creating good-paying jobs, growing our economy, and strengthening the middle class.
+TXT: Dwayne also served on his local City Council, as a board member of both his Fire Protection District and Roaring Fork Transit Authority, and on the local School District Board of Education, including as President from 2020 to 2021. He coached the local high school baseball team for nine years and he currently serves as an elected Board Director for the Snowmass Village Water and Sanitation Board.
+TXT: Today, Dwayne employs 120 Coloradans as the owner and operator of a property management company on the Western Slope.
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- DOC 8567 class="elementor elementor-8567 elementor-location-popup"
+--- sec 42125afe class="elementor-element elementor-element-42125afe e-con-full e-flex e-con e-parent"
+--- sec 28ad6a89 class="elementor-element elementor-element-28ad6a89 e-con-full e-flex e-con e-child"
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec 521caee0 class="elementor-element elementor-element-521caee0 e-con-full e-flex e-con e-child"
+--- sec 791c4cad class="elementor-element elementor-element-791c4cad e-flex e-con-boxed e-con e-child"
+IMG: https://romeroforcolorado.com/wp-content/uploads/2026/03/sst.svg alt="" class="attachment-large size-large wp-image-8492"
+TXT: /div>
+TXT: /div>
+H2:
+TXT: STAND WITH DWAYNE ROMERO
+TXT: /div>
+TXT: /div>
+TXT: If you’ve saved your payment info with ActBlue Express, your donation will go through immediately.
+TXT: /div>
+TXT: /div>
+--- sec 6875880 class="elementor-element elementor-element-6875880 e-con-full e-grid e-con e-child"
+A: https://secure.actblue.com/donate/rfc-website?amount=10&express_lane=true
+TXT: /div>
+TXT: /div>
+TXT: $10
+TXT: /span>
+TXT: /div>
+TXT: $10
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: https://secure.actblue.com/donate/rfc-website?amount=25&express_lane=true
+TXT: /div>
+TXT: /div>
+TXT: $25
+TXT: /span>
+TXT: /div>
+TXT: $25
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: https://secure.actblue.com/donate/rfc-website?amount=50&express_lane=true
+TXT: /div>
+TXT: /div>
+TXT: $50
+TXT: /span>
+TXT: /div>
+TXT: $50
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: https://secure.actblue.com/donate/rfc-website?amount=100&express_lane=true
+TXT: /div>
+TXT: /div>
+TXT: $100
+TXT: /span>
+TXT: /div>
+TXT: $100
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: https://secure.actblue.com/donate/rfc-website?amount=250&express_lane=true
+TXT: /div>
+TXT: /div>
+TXT: $250
+TXT: /span>
+TXT: /div>
+TXT: $250
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: https://secure.actblue.com/donate/rfc-website
+TXT: /div>
+TXT: /div>
+TXT: Other Amount
+TXT: /span>
+TXT: /div>
+TXT: Other Amount
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- sec 486585ed class="elementor-element elementor-element-486585ed e-con-full e-flex e-con e-child"
+A: #elementor-action%3Aaction%3Dpopup%3Aclose%26settings%3DeyJkb19ub3Rfc2hvd19hZ2FpbiI6IiJ9
+TXT: i aria-hidden="true" class="fas fa-chevron-right">
+TXT: /i>
+TXT: /span>
+TXT: Continue to Website
+TXT: /span>
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+--- DOC 7857 class="elementor elementor-7857 elementor-location-popup"
+--- sec 09be89c class="elementor-element elementor-element-09be89c e-flex e-con-boxed e-con e-parent"
+--- sec 7bf29c5 class="elementor-element elementor-element-7bf29c5 e-con-full e-flex e-con e-child"
+H2:
+TXT: Donate to TEAM ROMERO
+TXT: /div>
+TXT: /div>
+--- sec 2975dfd class="elementor-element elementor-element-2975dfd e-flex e-con-boxed e-con e-child"
+--- sec d7cec28 class="elementor-element elementor-element-d7cec28 e-con-full e-flex e-con e-child"
+--- sec 17c501d class="elementor-element elementor-element-17c501d e-con-full e-grid e-con e-child"
+A: https://secure.actblue.com/donate/rfc-website?amount=10&express_lane=true
+TXT: /div>
+TXT: /div>
+TXT: $10
+TXT: /span>
+TXT: /div>
+TXT: $10
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: https://secure.actblue.com/donate/rfc-website?amount=25&express_lane=true
+TXT: /div>
+TXT: /div>
+TXT: $25
+TXT: /span>
+TXT: /div>
+TXT: $25
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: https://secure.actblue.com/donate/rfc-website?amount=50&express_lane=true
+TXT: /div>
+TXT: /div>
+TXT: $50
+TXT: /span>
+TXT: /div>
+TXT: $50
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: https://secure.actblue.com/donate/rfc-website?amount=100&express_lane=true
+TXT: /div>
+TXT: /div>
+TXT: $100
+TXT: /span>
+TXT: /div>
+TXT: $100
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: https://secure.actblue.com/donate/rfc-website?amount=250&express_lane=true
+TXT: /div>
+TXT: /div>
+TXT: $250
+TXT: /span>
+TXT: /div>
+TXT: $250
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+A: https://secure.actblue.com/donate/rfc-website
+TXT: /div>
+TXT: /div>
+TXT: Other Amount
+TXT: /span>
+TXT: /div>
+TXT: Other Amount
+TXT: /span>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: If you’ve saved your payment info with ActBlue Express, your donation will go through immediately.
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /div>
+TXT: /body>
+TXT: /html>

@@ -1,0 +1,241 @@
+
+			@media (max-width: 767px) {
+    .elementor-hidden-phone {
+        display: none;
+    }
+}
+
+a:focus {
+    outline: none!important;
+}
+
+html body{
+padding:0px;
+	border-top: solid 23px #000000;
+	border-left: solid 23px #000000;
+	border-right: solid 23px #000000;
+}
+
+div#content {
+    background: #0f0f0f;
+}
+
+.elementor-inner, .elementor-location-footer {
+
+}
+
+@media (max-width: 968px) {
+html body{
+padding:0px;
+	border-top: solid 0px #d9ddf2;
+	border-left: solid 0px #d9ddf2;
+	border-right: solid 0px #d9ddf2;
+}
+}
+
+.is-loaded {
+    -moz-animation-duration: 1.2s;
+    animation-duration: 1.2s;
+    animation-delay: .5s;
+    animation-timing-function: cubic-bezier(.32,1.25,.375,1.15);
+    animation-fill-mode: both;
+    -webkit-animation-name: text-in-up-small;
+    animation-name: text-in-up-small;
+}
+
+.is-loaded-2 {
+    -moz-animation-duration: 1.2s;
+    animation-duration: 1.2s;
+    animation-delay: 0.6s;
+    animation-timing-function: cubic-bezier(.32,1.25,.375,1.15);
+    animation-fill-mode: both;
+    -webkit-animation-name: text-in-up-small;
+    animation-name: text-in-up-small;
+}
+
+.is-loaded-3 {
+    -moz-animation-duration: 1.2s;
+    animation-duration: 1.2s;
+    animation-delay: 0.7s;
+    animation-timing-function: cubic-bezier(.32,1.25,.375,1.15);
+    animation-fill-mode: both;
+    -webkit-animation-name: text-in-up-small;
+    animation-name: text-in-up-small;
+}
+
+.is-loaded-4 {
+    -moz-animation-duration: 1.2s;
+    animation-duration: 1.2s;
+    animation-delay: 0.8s;
+    animation-timing-function: cubic-bezier(.32,1.25,.375,1.15);
+    animation-fill-mode: both;
+    -webkit-animation-name: text-in-up-small;
+    animation-name: text-in-up-small;
+}
+
+.is-loaded-5 {
+    -moz-animation-duration: 1.2s;
+    animation-duration: 1.2s;
+    animation-delay: 1s;
+    animation-timing-function: cubic-bezier(.32,1.25,.375,1.15);
+    animation-fill-mode: both;
+    -webkit-animation-name: text-in-up-small;
+    animation-name: text-in-up-small;
+}
+
+
+.is-faded {
+    -moz-animation-duration: 1.2s;
+    animation-duration: 1.2s;
+    animation-delay: .5s;
+    animation-timing-function: cubic-bezier(.32,1.25,.375,1.15);
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+@keyframes text-in-up-small {
+0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0,10px,0);
+    -moz-transform: translate3d(0,10px,0);
+    transform: translate3d(0,10px,0);
+}
+
+100% {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    transform: none;
+}
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+.sclydleft {
+  --clip-poly-left-start: polygon(-100% 0, -100% 100%, 0 100%, 0 0); 
+  --clip-poly-left-end: polygon(0 0, 0 100%, 100% 100%, 100% 0);
+  -webkit-clip-path: var(--clip-poly-left-start);
+  clip-path: var(--clip-poly-left-start);
+  animation: slideClipPath .7s cubic-bezier(0.65, 0.43, 0.61, 1) .3s forwards;
+  position: relative;
+
+}
+
+@keyframes slideClipPath {
+  0% {
+    -webkit-clip-path: var(--clip-poly-left-start);
+    clip-path: var(--clip-poly-left-start);
+  }
+  100% {
+    -webkit-clip-path: var(--clip-poly-left-end);
+    clip-path: var(--clip-poly-left-end);
+  }
+}
+
+.sclydright {
+  --clip-poly-right-start: polygon(100% 0, 100% 100%, 200% 100%, 200% 0); /* Start off-screen to the right */
+  --clip-poly-right-end: polygon(0 0, 0 100%, 100% 100%, 100% 0); /* End fully visible */
+  -webkit-clip-path: var(--clip-poly-right-start);
+  clip-path: var(--clip-poly-right-start);
+  animation: slideClipPathRight 0.6s cubic-bezier(0.65, 0.43, 0.61, 1) 0.1s forwards;
+  position: relative;
+}
+
+@keyframes slideClipPathRight {
+  0% {
+    -webkit-clip-path: var(--clip-poly-right-start);
+    clip-path: var(--clip-poly-right-start);
+  }
+  100% {
+    -webkit-clip-path: var(--clip-poly-right-end);
+    clip-path: var(--clip-poly-right-end);
+  }
+}
+
+.sclydup {
+  --clip-poly-up-start: polygon(0 100%, 0 200%, 100% 200%, 100% 100%); /* Start off-screen below */
+  --clip-poly-up-end: polygon(0 0, 0 100%, 100% 100%, 100% 0); /* End fully visible */
+  -webkit-clip-path: var(--clip-poly-up-start);
+  clip-path: var(--clip-poly-up-start);
+  animation: slideClipPathUp 0.5s cubic-bezier(0.65, 0.43, 0.61, 1) 0.4s forwards;
+  position: relative;
+}
+
+@keyframes slideClipPathUp {
+  0% {
+    -webkit-clip-path: var(--clip-poly-up-start);
+    clip-path: var(--clip-poly-up-start);
+  }
+  100% {
+    -webkit-clip-path: var(--clip-poly-up-end);
+    clip-path: var(--clip-poly-up-end);
+  }
+}
+
+.nomoshow {
+    padding-top:2px!important;
+}
+
+@media only screen and (max-width : 950px){
+.nomoshow {
+    display:none!important;
+}}
+
+.twmen {
+    right: 12px!important;
+}
+
+/**  Gravity Forms error ***/
+
+.gform_wrapper li.gfield.gfield_error, .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+    background-color: rgba(255, 223, 224, 0)!important;
+    margin-bottom: 0px!important;
+    border-top: 0px solid #C89797;
+    border-bottom: 0px solid #C89797;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    box-sizing: border-box;
+}
+
+.gform_wrapper div.validation_error {
+    color: #ffffff;
+    font-size: 13px;
+    background: #ea364b;
+    border-radius: 3px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    border-top: 0px solid #790000;
+    border-bottom: 0px solid #790000;
+    padding: 11px 0;
+    clear: both;
+    width: 98%;
+    text-align: center;
+}
+
+.gform_wrapper .validation_message {
+    color: #f72c2c;
+    line-height: 13px;
+    padding-top: 10px!important;
+    font-weight: 700;
+    letter-spacing: normal;
+}
+
+.pp-gravity-form .gform_wrapper li.gfield_error input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]), .gform_wrapper li.gfield_error textarea {
+    border-width: 1px;
+    border-color: #f72c2c!important;
+}
+
+body img.gform_ajax_spinner {
+    content:url(/wp-content/uploads/2018/12/Rolling-1s-22px.gif) !important;
+}
+		

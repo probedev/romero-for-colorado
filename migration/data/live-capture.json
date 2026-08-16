@@ -1,0 +1,859 @@
+{
+  "pages": {
+    "home": {
+      "title": "Romero for Colorado",
+      "metas": [
+        {
+          "name": null,
+          "property": null,
+          "content": null,
+          "charset": "UTF-8"
+        },
+        {
+          "name": "viewport",
+          "property": null,
+          "content": "width=device-width, initial-scale=1",
+          "charset": null
+        },
+        {
+          "name": "robots",
+          "property": null,
+          "content": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+          "charset": null
+        },
+        {
+          "name": "description",
+          "property": null,
+          "content": "United States Army Engineer Officer Dwayne Romero is a husband, father, combat veteran, small business owner, and Democratic candidate for Colorado’s Third Congressional District.",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:locale",
+          "content": "en_US",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:type",
+          "content": "website",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:title",
+          "content": "Romero for Colorado",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:description",
+          "content": "United States Army Engineer Officer Dwayne Romero is a husband, father, combat veteran, small business owner, and Democratic candidate for Colorado’s Third Congressional District.",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:url",
+          "content": "https://romeroforcolorado.com/",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:site_name",
+          "content": "Romero for Colorado",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "article:modified_time",
+          "content": "2026-04-30T16:34:37+00:00",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:image",
+          "content": "https://romeroforcolorado.com/wp-content/uploads/2026/03/drshare.png",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:image:width",
+          "content": "1200",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:image:height",
+          "content": "630",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:image:type",
+          "content": "image/png",
+          "charset": null
+        },
+        {
+          "name": "twitter:card",
+          "property": null,
+          "content": "summary_large_image",
+          "charset": null
+        },
+        {
+          "name": "twitter:image",
+          "property": null,
+          "content": "https://romeroforcolorado.com/wp-content/uploads/2026/03/drshare.png",
+          "charset": null
+        },
+        {
+          "name": "generator",
+          "property": null,
+          "content": "WordPress 6.9.7",
+          "charset": null
+        },
+        {
+          "name": "generator",
+          "property": null,
+          "content": "Elementor 3.35.5; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto",
+          "charset": null
+        },
+        {
+          "name": "msapplication-TileImage",
+          "property": null,
+          "content": "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-270x270.png",
+          "charset": null
+        }
+      ],
+      "links": [
+        {
+          "rel": "canonical",
+          "href": "https://romeroforcolorado.com/",
+          "sizes": null,
+          "type": ""
+        },
+        {
+          "rel": "icon",
+          "href": "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-32x32.png",
+          "sizes": "32x32",
+          "type": ""
+        },
+        {
+          "rel": "icon",
+          "href": "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-192x192.png",
+          "sizes": "192x192",
+          "type": ""
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-180x180.png",
+          "sizes": null,
+          "type": ""
+        }
+      ],
+      "lang": "en-US",
+      "styles": {
+        "body": {
+          "font-family": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "24px",
+          "letter-spacing": "normal",
+          "color": "rgb(51, 51, 51)",
+          "background-color": "rgb(15, 15, 15)",
+          "text-transform": "none",
+          "text-align": "start",
+          "padding": "0px",
+          "margin": "0px",
+          "border-radius": "0px",
+          "border": "",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 1280,
+            "h": 900
+          }
+        },
+        "h1": {
+          "font-family": "stratos, sans-serif",
+          "font-size": "44px",
+          "font-weight": "800",
+          "line-height": "44px",
+          "letter-spacing": "-0.6px",
+          "color": "rgb(15, 15, 15)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "text-transform": "uppercase",
+          "text-align": "start",
+          "padding": "0px",
+          "margin": "0px",
+          "border-radius": "0px",
+          "border": "0px none rgb(15, 15, 15)",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        "h2": {
+          "font-family": "Poppins, sans-serif",
+          "font-size": "18px",
+          "font-weight": "700",
+          "line-height": "18px",
+          "letter-spacing": "2px",
+          "color": "rgb(15, 15, 15)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "text-transform": "uppercase",
+          "text-align": "start",
+          "padding": "0px",
+          "margin": "0px",
+          "border-radius": "0px",
+          "border": "0px none rgb(15, 15, 15)",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        "p": {
+          "font-family": "Poppins, sans-serif",
+          "font-size": "17px",
+          "font-weight": "400",
+          "line-height": "25.5px",
+          "letter-spacing": "normal",
+          "color": "rgb(15, 15, 15)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "text-transform": "none",
+          "text-align": "start",
+          "padding": "0px",
+          "margin": "0px 0px 15.3px",
+          "border-radius": "0px",
+          "border": "0px none rgb(15, 15, 15)",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        "donateBtn": {
+          "font-family": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "24px",
+          "letter-spacing": "normal",
+          "color": "rgb(173, 159, 59)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "text-transform": "none",
+          "text-align": "start",
+          "padding": "0px",
+          "margin": "0px",
+          "border-radius": "2px",
+          "border": "0px none rgb(173, 159, 59)",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        "submitBtn": {
+          "font-family": "brothers, sans-serif",
+          "font-size": "20px",
+          "font-weight": "900",
+          "line-height": "30px",
+          "letter-spacing": "1px",
+          "color": "rgb(0, 0, 0)",
+          "background-color": "rgb(173, 160, 59)",
+          "text-transform": "none",
+          "text-align": "center",
+          "padding": "15px 10px 14px",
+          "margin": "0px",
+          "border-radius": "2px",
+          "border": "0px none rgb(0, 0, 0)",
+          "rect": {
+            "x": 506,
+            "y": 672.40625,
+            "w": 177,
+            "h": 65
+          }
+        },
+        "input": {
+          "font-family": "nexa, sans-serif",
+          "font-size": "18px",
+          "font-weight": "300",
+          "line-height": "27px",
+          "letter-spacing": "normal",
+          "color": "rgb(15, 15, 15)",
+          "background-color": "rgb(244, 244, 244)",
+          "text-transform": "none",
+          "text-align": "start",
+          "padding": "19px",
+          "margin": "0px",
+          "border-radius": "2px",
+          "border": "0px none rgb(15, 15, 15)",
+          "rect": {
+            "x": 93,
+            "y": 599.40625,
+            "w": 287,
+            "h": 65
+          }
+        }
+      }
+    },
+    "issues": {
+      "title": "Issues - Romero for Colorado",
+      "metas": [
+        {
+          "name": null,
+          "property": null,
+          "content": null,
+          "charset": "UTF-8"
+        },
+        {
+          "name": "viewport",
+          "property": null,
+          "content": "width=device-width, initial-scale=1",
+          "charset": null
+        },
+        {
+          "name": "robots",
+          "property": null,
+          "content": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:locale",
+          "content": "en_US",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:type",
+          "content": "article",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:title",
+          "content": "Issues - Romero for Colorado",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:description",
+          "content": "Donate to Support Dwayne Romero for Colorado FIGHT FOR CO-03 Donate to Support Romero for Colorado If you’ve saved your information with ActBlue Express, your donation will go through immediately. FIGHT FOR CO-03 Donate to Support Romero for Colorado If you’ve saved your information with ActBlue Express, your donation will go through immediately. Home TOGETHER […]",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:url",
+          "content": "https://romeroforcolorado.com/issues/",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:site_name",
+          "content": "Romero for Colorado",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "article:modified_time",
+          "content": "2026-05-01T18:45:52+00:00",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:image",
+          "content": "https://romeroforcolorado.com/wp-content/uploads/2026/03/drshare.png",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:image:width",
+          "content": "1200",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:image:height",
+          "content": "630",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:image:type",
+          "content": "image/png",
+          "charset": null
+        },
+        {
+          "name": "twitter:card",
+          "property": null,
+          "content": "summary_large_image",
+          "charset": null
+        },
+        {
+          "name": "twitter:label1",
+          "property": null,
+          "content": "Est. reading time",
+          "charset": null
+        },
+        {
+          "name": "twitter:data1",
+          "property": null,
+          "content": "11 minutes",
+          "charset": null
+        },
+        {
+          "name": "generator",
+          "property": null,
+          "content": "WordPress 6.9.7",
+          "charset": null
+        },
+        {
+          "name": "generator",
+          "property": null,
+          "content": "Elementor 3.35.5; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto",
+          "charset": null
+        },
+        {
+          "name": "msapplication-TileImage",
+          "property": null,
+          "content": "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-270x270.png",
+          "charset": null
+        }
+      ],
+      "links": [
+        {
+          "rel": "canonical",
+          "href": "https://romeroforcolorado.com/issues/",
+          "sizes": null,
+          "type": ""
+        },
+        {
+          "rel": "icon",
+          "href": "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-32x32.png",
+          "sizes": "32x32",
+          "type": ""
+        },
+        {
+          "rel": "icon",
+          "href": "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-192x192.png",
+          "sizes": "192x192",
+          "type": ""
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-180x180.png",
+          "sizes": null,
+          "type": ""
+        }
+      ],
+      "lang": "en-US",
+      "styles": {
+        "body": {
+          "font-family": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "24px",
+          "letter-spacing": "normal",
+          "color": "rgb(51, 51, 51)",
+          "background-color": "rgb(15, 15, 15)",
+          "text-transform": "none",
+          "text-align": "start",
+          "padding": "0px",
+          "margin": "0px",
+          "border-radius": "0px",
+          "border": "",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 1280,
+            "h": 900
+          }
+        },
+        "h1": {
+          "font-family": "stratos, sans-serif",
+          "font-size": "44px",
+          "font-weight": "800",
+          "line-height": "44px",
+          "letter-spacing": "-0.6px",
+          "color": "rgb(15, 15, 15)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "text-transform": "uppercase",
+          "text-align": "start",
+          "padding": "0px",
+          "margin": "0px",
+          "border-radius": "0px",
+          "border": "0px none rgb(15, 15, 15)",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        "h2": {
+          "font-family": "Poppins, sans-serif",
+          "font-size": "18px",
+          "font-weight": "700",
+          "line-height": "18px",
+          "letter-spacing": "2px",
+          "color": "rgb(15, 15, 15)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "text-transform": "uppercase",
+          "text-align": "start",
+          "padding": "0px",
+          "margin": "0px",
+          "border-radius": "0px",
+          "border": "0px none rgb(15, 15, 15)",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        "p": {
+          "font-family": "Poppins, sans-serif",
+          "font-size": "17px",
+          "font-weight": "400",
+          "line-height": "25.5px",
+          "letter-spacing": "normal",
+          "color": "rgb(15, 15, 15)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "text-transform": "none",
+          "text-align": "start",
+          "padding": "0px",
+          "margin": "0px 0px 15.3px",
+          "border-radius": "0px",
+          "border": "0px none rgb(15, 15, 15)",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        "donateBtn": {
+          "font-family": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "24px",
+          "letter-spacing": "normal",
+          "color": "rgb(173, 159, 59)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "text-transform": "none",
+          "text-align": "start",
+          "padding": "0px",
+          "margin": "0px",
+          "border-radius": "2px",
+          "border": "0px none rgb(173, 159, 59)",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        "submitBtn": {
+          "font-family": "brothers, sans-serif",
+          "font-size": "20px",
+          "font-weight": "900",
+          "line-height": "30px",
+          "letter-spacing": "1px",
+          "color": "rgb(0, 0, 0)",
+          "background-color": "rgb(173, 160, 59)",
+          "text-transform": "none",
+          "text-align": "center",
+          "padding": "15px 10px 14px",
+          "margin": "0px",
+          "border-radius": "3px",
+          "border": "0px none rgb(0, 0, 0)",
+          "rect": {
+            "x": 723.5,
+            "y": 4330.640625,
+            "w": 450,
+            "h": 65
+          }
+        },
+        "input": {
+          "font-family": "nexa, sans-serif",
+          "font-size": "18px",
+          "font-weight": "300",
+          "line-height": "27px",
+          "letter-spacing": "normal",
+          "color": "rgb(15, 15, 15)",
+          "background-color": "rgb(244, 244, 244)",
+          "text-transform": "none",
+          "text-align": "start",
+          "padding": "19px",
+          "margin": "0px",
+          "border-radius": "2px",
+          "border": "0px none rgb(15, 15, 15)",
+          "rect": {
+            "x": 723.5,
+            "y": 4184.640625,
+            "w": 262,
+            "h": 65
+          }
+        }
+      }
+    },
+    "privacy-policy": {
+      "title": "Privacy Policy - Romero for Colorado",
+      "metas": [
+        {
+          "name": null,
+          "property": null,
+          "content": null,
+          "charset": "UTF-8"
+        },
+        {
+          "name": "viewport",
+          "property": null,
+          "content": "width=device-width, initial-scale=1",
+          "charset": null
+        },
+        {
+          "name": "robots",
+          "property": null,
+          "content": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:locale",
+          "content": "en_US",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:type",
+          "content": "article",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:title",
+          "content": "Privacy Policy - Romero for Colorado",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:description",
+          "content": "Privacy Policy INFORMATION THAT IS GATHERED FROM VISITORS In common with other websites, log files are stored on the web server saving details such as the visitor’s IP address, browser type, referring page and time of visit. Cookies may be used to remember visitor preferences when interacting with the website. Where registration is required, the […]",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:url",
+          "content": "https://romeroforcolorado.com/privacy-policy/",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:site_name",
+          "content": "Romero for Colorado",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "article:modified_time",
+          "content": "2026-03-10T18:21:49+00:00",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:image",
+          "content": "https://romeroforcolorado.com/wp-content/uploads/2026/03/drshare.png",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:image:width",
+          "content": "1200",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:image:height",
+          "content": "630",
+          "charset": null
+        },
+        {
+          "name": null,
+          "property": "og:image:type",
+          "content": "image/png",
+          "charset": null
+        },
+        {
+          "name": "twitter:card",
+          "property": null,
+          "content": "summary_large_image",
+          "charset": null
+        },
+        {
+          "name": "twitter:label1",
+          "property": null,
+          "content": "Est. reading time",
+          "charset": null
+        },
+        {
+          "name": "twitter:data1",
+          "property": null,
+          "content": "4 minutes",
+          "charset": null
+        },
+        {
+          "name": "generator",
+          "property": null,
+          "content": "WordPress 6.9.7",
+          "charset": null
+        },
+        {
+          "name": "generator",
+          "property": null,
+          "content": "Elementor 3.35.5; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto",
+          "charset": null
+        },
+        {
+          "name": "msapplication-TileImage",
+          "property": null,
+          "content": "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-270x270.png",
+          "charset": null
+        }
+      ],
+      "links": [
+        {
+          "rel": "canonical",
+          "href": "https://romeroforcolorado.com/privacy-policy/",
+          "sizes": null,
+          "type": ""
+        },
+        {
+          "rel": "icon",
+          "href": "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-32x32.png",
+          "sizes": "32x32",
+          "type": ""
+        },
+        {
+          "rel": "icon",
+          "href": "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-192x192.png",
+          "sizes": "192x192",
+          "type": ""
+        },
+        {
+          "rel": "apple-touch-icon",
+          "href": "https://romeroforcolorado.com/wp-content/uploads/2026/03/cropped-faviconsm2-180x180.png",
+          "sizes": null,
+          "type": ""
+        }
+      ],
+      "lang": "en-US",
+      "styles": {
+        "body": {
+          "font-family": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "24px",
+          "letter-spacing": "normal",
+          "color": "rgb(51, 51, 51)",
+          "background-color": "rgb(0, 0, 0)",
+          "text-transform": "none",
+          "text-align": "start",
+          "padding": "0px",
+          "margin": "0px",
+          "border-radius": "0px",
+          "border": "",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 1280,
+            "h": 900
+          }
+        },
+        "h2": {
+          "font-family": "brothers, sans-serif",
+          "font-size": "46px",
+          "font-weight": "800",
+          "line-height": "46px",
+          "letter-spacing": "-0.5px",
+          "color": "rgb(255, 255, 255)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "text-transform": "uppercase",
+          "text-align": "start",
+          "padding": "0px",
+          "margin": "0px",
+          "border-radius": "0px",
+          "border": "0px none rgb(255, 255, 255)",
+          "rect": {
+            "x": 197.5,
+            "y": 348.921875,
+            "w": 885,
+            "h": 46
+          }
+        },
+        "p": {
+          "font-family": "Poppins, sans-serif",
+          "font-size": "20px",
+          "font-weight": "400",
+          "line-height": "32px",
+          "letter-spacing": "normal",
+          "color": "rgb(255, 255, 255)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "text-transform": "none",
+          "text-align": "start",
+          "padding": "0px",
+          "margin": "0px 0px 18px",
+          "border-radius": "0px",
+          "border": "0px none rgb(255, 255, 255)",
+          "rect": {
+            "x": 197.5,
+            "y": 434.921875,
+            "w": 885,
+            "h": 32
+          }
+        },
+        "donateBtn": {
+          "font-family": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "font-size": "16px",
+          "font-weight": "400",
+          "line-height": "24px",
+          "letter-spacing": "normal",
+          "color": "rgb(173, 159, 59)",
+          "background-color": "rgba(0, 0, 0, 0)",
+          "text-transform": "none",
+          "text-align": "start",
+          "padding": "0px",
+          "margin": "0px",
+          "border-radius": "0px",
+          "border": "0px none rgb(173, 159, 59)",
+          "rect": {
+            "x": 320,
+            "y": 3447.921875,
+            "w": 320,
+            "h": 74
+          }
+        }
+      }
+    }
+  },
+  "popups": {},
+  "forms": [
+    {
+      "capturedURL": "https://secure.numero.ai/signup/Sign-Up-227ef8ab-ce0e-4354-b510-b62d3cb58a71?type=SignupForm&email=migration-test%40example.com&zip=80001&phone=3035550100&YesSignMeUpForUpdatesForBinder=true",
+      "method": "GET"
+    },
+    {
+      "capturedURL": "https://secure.numero.ai/signup/Sign-Up-227ef8ab-ce0e-4354-b510-b62d3cb58a71?type=SignupForm&email=migration-test%40example.com&zip=80001&phone=3035550100&YesSignMeUpForUpdatesForBinder=true",
+      "method": "GET"
+    }
+  ],
+  "stickyNav": {
+    "top": null,
+    "scrolled": null
+  }
+}
