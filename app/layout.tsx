@@ -51,6 +51,7 @@ export default function RootLayout({
         <Script
           src="https://cdn.userway.org/widget.js"
           data-account="I1rdyyTswi"
+          data-color="#ad9f3b"
           strategy="lazyOnload"
         />
         {/* Meta pixel (same ID as live site) */}

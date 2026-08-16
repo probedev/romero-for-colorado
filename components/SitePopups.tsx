@@ -37,22 +37,25 @@ export default function SitePopups() {
     if (sourcesAllowed()) setFundOpen(true);
   }, []);
 
-  // Scroll popup at 80% down (source-gated, fires once)
+  // Scroll popup at 80% down (source-gated, fires once). Also checked at
+  // mount and when the page-load popup closes, so restored/anchored scroll
+  // positions past 80% still trigger it without a further scroll event.
   useEffect(() => {
     if (!sourcesAllowed()) return;
-    const onScroll = () => {
+    const check = () => {
       if (scrollFired.current) return;
       const max = document.documentElement.scrollHeight - window.innerHeight;
       if (max <= 0) return;
       if (window.scrollY / max >= 0.8) {
         scrollFired.current = true;
         setScrollOpen(true);
-        window.removeEventListener("scroll", onScroll);
+        window.removeEventListener("scroll", check);
       }
     };
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+    check();
+    window.addEventListener("scroll", check, { passive: true });
+    return () => window.removeEventListener("scroll", check);
+  }, [fundOpen]);
 
   // Delegated triggers for Read More / video lightbox links
   useEffect(() => {

@@ -19,7 +19,12 @@
   width: calc(var(--icon-size) + 2 * var(--icon-padding));
   height: calc(var(--icon-size) + 2 * var(--icon-padding));
   background-color: transparent;
-  transition: background-color 0.3s;
+  border-radius: 50%; /* elementor-shape-circle */
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.social-icon:hover {
+  transform: scale(0.9); /* elementor-animation-shrink */
 }
 
 .social-icon svg {
