@@ -1,0 +1,345 @@
+/* Headers. Home: desktop header (966e0f2) overlaps the hero via negative
+   bottom margin; mobile header (75e89a5) is a black bar. Issues: simpler
+   header (b9666ff) over the photo hero. */
+
+/* --- Shared social icon row (Elementor social-icons widget) --- */
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0;
+}
+
+.social-icon {
+  --icon-size: 24px;
+  --icon-padding: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(var(--icon-size) + 2 * var(--icon-padding));
+  height: calc(var(--icon-size) + 2 * var(--icon-padding));
+  background-color: transparent;
+  transition: background-color 0.3s;
+}
+
+.social-icon svg {
+  height: var(--icon-size);
+  width: auto;
+  fill: var(--color-gray-light);
+  transition: fill 0.3s;
+  display: block;
+}
+
+.social-icon:hover {
+  background-color: var(--color-accent);
+}
+
+.social-icon:hover svg {
+  fill: var(--color-primary);
+}
+
+/* --- Home desktop header --- */
+.hh-desktop {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: -115px;
+  padding: 35px 46px 20px 40px;
+}
+
+.hh-social {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 7px 0 0 10px;
+  flex: 1;
+}
+
+.hh-logo {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.hh-logo-img {
+  margin: -10px 0 -55px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.hh-logo-img img {
+  width: 100%;
+  max-width: 240px;
+  height: auto;
+}
+
+.hh-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+}
+
+/* "Volunteer" underline link-button */
+.btn-underline {
+  display: inline-block;
+  background-color: transparent;
+  font-family: var(--font-poppins);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1;
+  text-shadow: 0 0 29px rgba(0, 0, 0, 0.76);
+  color: #ffffff;
+  border-bottom: 2px solid var(--color-accent);
+  padding: 0 0 8px 0;
+  margin: 0 5px 0 0;
+  transition: color 0.3s, border-color 0.3s;
+}
+
+.btn-underline:hover,
+.btn-underline:focus {
+  color: var(--color-gray-light);
+  border-color: var(--color-gray-light);
+}
+
+/* Gold "Donate" header button */
+.btn-donate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 175px;
+  height: 60px;
+  border-radius: 3px;
+  background-color: var(--color-accent);
+  transition: background-color 0.3s;
+}
+
+.btn-donate .btn-label {
+  font-family: var(--font-brothers);
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: 2px;
+  color: var(--color-primary);
+  margin: 0 0 1px 0;
+  transition: color 0.3s;
+}
+
+.btn-donate:hover {
+  background-color: var(--color-red);
+}
+
+.btn-donate:hover .btn-label {
+  color: var(--color-gray-bg);
+}
+
+/* --- Home mobile header (black bar) --- */
+.hh-mobile {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 10px;
+  padding: 50px 0;
+  background-color: var(--color-primary);
+}
+
+.hh-mobile-logo {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+
+.hh-mobile-logo-img {
+  margin: 0 0 -10px 0;
+  text-align: start;
+  width: 100%;
+}
+
+.hh-mobile-logo-img img {
+  width: 100%;
+  max-width: 115px;
+  height: auto;
+}
+
+.hh-mobile-donate {
+  display: flex;
+  width: 50%;
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: 5px;
+}
+
+.hh-mobile-donate .btn-donate-sm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: var(--color-accent);
+  margin-left: auto;
+  transition: background-color 0.3s;
+}
+
+.hh-mobile-donate .btn-donate-sm .btn-label {
+  font-family: var(--font-brothers);
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: 1px;
+  color: var(--color-primary);
+  transition: color 0.3s;
+}
+
+.hh-mobile-donate .btn-donate-sm:hover {
+  background-color: var(--color-red);
+}
+
+.hh-mobile-donate .btn-donate-sm:hover .btn-label {
+  color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  .hh-desktop {
+    margin-bottom: -90px;
+    padding: 20px 18px 20px 24px;
+  }
+
+  .social-icon {
+    --icon-size: 17px;
+    --icon-padding: 4px;
+  }
+
+  .hh-logo-img {
+    margin: 0 0 -25px 0;
+  }
+
+  .hh-logo-img img {
+    max-width: 166px;
+  }
+
+  .btn-underline {
+    font-size: 16px;
+    margin: 0 5px 0 -12px;
+  }
+
+  .btn-donate {
+    width: 161px;
+    height: 50px;
+  }
+
+  .btn-donate .btn-label {
+    font-size: 18px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .hh-mobile {
+    gap: 0;
+    padding: 13px 8px 10px 8px;
+  }
+}
+
+/* --- Issues header (over photo hero) --- */
+.ih {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  padding: 30px 40px 20px 25px;
+}
+
+.ih-logo {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.ih-logo-img {
+  margin: 0 0 -34px 10px;
+  text-align: start;
+  width: 100%;
+}
+
+.ih-logo-img img {
+  width: 100%;
+  max-width: 186px;
+  height: auto;
+}
+
+.ih-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+}
+
+@media (max-width: 1024px) {
+  .ih {
+    padding: 20px 20px 20px 30px;
+  }
+
+  .ih-logo-img {
+    margin: 0 0 -34px 0;
+  }
+
+  .ih-logo-img img {
+    max-width: 114px;
+  }
+}
+
+@media (max-width: 767px) {
+  .ih {
+    flex-wrap: nowrap;
+    padding: 20px;
+  }
+
+  .ih-logo {
+    width: 30%;
+    flex: none;
+    justify-content: flex-start;
+  }
+
+  .ih-logo-img {
+    margin: 0 0 3px 0;
+  }
+
+  .ih-logo-img img {
+    max-width: 86px;
+  }
+
+  .ih-nav {
+    width: 70%;
+    flex: none;
+    gap: 10px;
+  }
+
+  .ih-nav .btn-underline {
+    margin: 0 10px 0 -7px;
+  }
+
+  .ih-nav .btn-donate {
+    width: 109px;
+    height: 44px;
+  }
+
+  .ih-nav .btn-donate .btn-label {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,39 @@
+/* Design tokens extracted from the live site's Elementor kit (post-5584)
+   and page-level CSS. Values are verbatim from the live site — do not
+   "clean up" in Phase 1. */
+:root {
+  /* Kit global colors */
+  --color-primary: #0f0f0f;
+  --color-secondary: #343434;
+  --color-text: #0f0f0f;
+  --color-accent: #ad9f3b;
+  --color-white: #ffffff;
+  --color-gold-light: #c4b75d;
+  --color-red: #e55252;
+  --color-gray-light: #e2e2e2;
+  --color-gray-bg: #f4f4f4;
+  --color-blue: #127dd6;
+  --color-blue-2: #1b81d5;
+  --color-peach: #ffddac;
+
+  /* Page-level custom colors */
+  --color-gold-form: #ada03b;      /* signup submit button */
+  --color-gold-highlight: #ada13b; /* "WE LEAD" mark highlight */
+  --color-red-accent: #e94a42;     /* .biohder span */
+  --color-orange: #e18151;         /* .workintxt span */
+  --color-placeholder: #6b6b6b;
+
+  /* Font stacks (brothers/stratos load from Adobe Fonts kit ncg8rno;
+     "nexa" is not in the kit and falls back to sans-serif, as on live) */
+  --font-brothers: "brothers", sans-serif;
+  --font-stratos: "stratos", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+  --font-roboto-slab: "Roboto Slab", sans-serif;
+  --font-nexa: "nexa", sans-serif;
+  --font-times: "Times New Roman", sans-serif;
+
+  /* Layout */
+  --container-max: 1140px;
+  --frame-width: 23px; /* black border framing the site on desktop */
+}

@@ -1,0 +1,377 @@
+/* Footer (Elementor template 3864) — shared across all pages. */
+.ft-cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 0 40px;
+}
+
+.ft-cta-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: -15px;
+}
+
+.ft-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  height: 74px;
+  transition: background-color 0.3s;
+}
+
+.ft-btn .btn-label {
+  font-family: var(--font-brothers);
+  font-size: 23px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: 1px;
+  transition: color 0.3s;
+}
+
+.ft-btn-donate {
+  background-color: var(--color-accent);
+}
+
+.ft-btn-donate .btn-label {
+  color: var(--color-primary);
+}
+
+.ft-btn-donate:hover {
+  background-color: var(--color-red);
+}
+
+.ft-btn-donate:hover .btn-label {
+  color: #ffffff;
+}
+
+.ft-btn-volunteer {
+  background-color: var(--color-primary);
+}
+
+.ft-btn-volunteer .btn-label {
+  color: #ffffff;
+}
+
+.ft-btn-volunteer:hover {
+  background-color: var(--color-red);
+}
+
+/* Main footer body over the mountain graphic */
+.ft {
+  position: relative;
+  background-color: var(--color-gray-bg);
+  background-image: url("/images/MT.svg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-bottom: 20px solid #000000;
+  padding: 70px 20px 90px 20px;
+}
+
+.ft::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(180deg, #ffffff 4%, #e2e2e2e0 100%);
+  pointer-events: none;
+}
+
+.ft-inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 1163px;
+  margin: 0 auto;
+}
+
+.ft-logo {
+  text-align: center;
+  padding: 0 0 25px 0;
+}
+
+.ft-logo img {
+  width: 100%;
+  max-width: 322px;
+  height: auto;
+}
+
+.ft-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0; /* Elementor default container padding (26965a3) */
+}
+
+.ft-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-inline: calc(-22px / 2);
+  padding-bottom: 3px;
+}
+
+.ft-nav li {
+  margin-inline: calc(22px / 2);
+}
+
+.ft-nav li,
+.ft-nav a,
+.ft-nav .ft-nav-text {
+  font-family: var(--font-poppins);
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.3em;
+  letter-spacing: 3px;
+  color: var(--color-primary);
+}
+
+.ft-nav a {
+  transition: color 0.3s;
+}
+
+.ft-nav a:hover {
+  color: var(--color-accent);
+}
+
+.ft-social {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 18px;
+  padding: 15px 0 70px 0;
+}
+
+.ft-social a {
+  color: var(--color-primary);
+  font-size: 31px;
+}
+
+.ft-social a svg {
+  fill: var(--color-primary);
+  transition: fill 0.3s;
+}
+
+.ft-social a:hover {
+  transform: scale(0.9);
+}
+
+.ft-social a:hover svg {
+  fill: var(--color-accent);
+}
+
+.ft-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 830px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ft-address {
+  font-family: var(--font-poppins);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6em;
+  color: var(--color-primary);
+  text-align: center;
+  padding: 0 0 2px 0;
+}
+
+.ft-address a {
+  color: inherit;
+}
+
+.ft-links {
+  display: flex;
+  justify-content: center;
+}
+
+.ft-links ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-inline: calc(-22px / 2);
+  padding-bottom: 3px;
+}
+
+.ft-links li {
+  margin-inline: calc(22px / 2);
+}
+
+.ft-links li,
+.ft-links a {
+  font-family: var(--font-poppins);
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.3em;
+  letter-spacing: 2px;
+  color: var(--color-primary);
+}
+
+.ft-links a {
+  transition: color 0.3s;
+}
+
+.ft-links a:hover {
+  color: var(--color-accent);
+}
+
+.ft-paidfor {
+  text-align: center;
+  margin: 10px 0 0 0;
+  padding: 15px 22px 16px 22px;
+  border: 1px solid var(--color-accent);
+}
+
+.ft-paidfor .ft-paidfor-text {
+  font-family: var(--font-times);
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  letter-spacing: 3px;
+  color: var(--color-primary);
+}
+
+.ft-legal {
+  display: flex;
+  flex-direction: column;
+  max-width: 693px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ft-disclaimer {
+  font-family: var(--font-poppins);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7em;
+  color: var(--color-primary);
+  text-align: center;
+  padding: 0 0 2px 0;
+}
+
+.ft-apollo {
+  font-family: var(--font-poppins);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: var(--color-primary);
+  text-align: center;
+  padding: 5px 0 10px 0;
+}
+
+.ft-apollo span {
+  text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+  .ft {
+    border-bottom-width: 0;
+  }
+
+  .ft-logo img {
+    max-width: 307px;
+  }
+
+  .ft-legal {
+    max-width: 614px;
+  }
+}
+
+@media (max-width: 767px) {
+  .ft {
+    background-size: 897px auto;
+    padding: 40px 30px 60px 30px;
+  }
+
+  .ft-logo {
+    padding: 0 0 20px 0;
+  }
+
+  .ft-logo img {
+    max-width: 282px;
+  }
+
+
+  .ft-nav ul {
+    margin-inline: calc(-20px / 2);
+    padding-bottom: 0;
+  }
+
+  .ft-nav li {
+    margin-inline: calc(20px / 2);
+  }
+
+  .ft-nav li,
+  .ft-nav a,
+  .ft-nav .ft-nav-text {
+    font-size: 18px;
+    line-height: 1.7em;
+    letter-spacing: 2px;
+  }
+
+  .ft-social {
+    padding: 10px 10px 40px 10px;
+  }
+
+  .ft-social a {
+    font-size: 28px;
+  }
+
+  .ft-contact {
+    gap: 10px;
+  }
+
+  .ft-address {
+    font-size: 16px;
+    line-height: 1.5em;
+    padding: 10px 0 0 0;
+  }
+
+  .ft-links ul {
+    margin-inline: calc(-12px / 2);
+    padding: 5px 0 0 0;
+  }
+
+  .ft-links li {
+    margin-inline: calc(12px / 2);
+  }
+
+  .ft-links li,
+  .ft-links a {
+    font-size: 15px;
+    line-height: 1.7em;
+    letter-spacing: 1px;
+  }
+
+  .ft-paidfor .ft-paidfor-text {
+    font-size: 14px;
+    line-height: 1.4em;
+    letter-spacing: 2px;
+  }
+
+  .ft-disclaimer {
+    font-size: 11px;
+    line-height: 1.5em;
+    padding: 10px 0 0 0;
+  }
+
+  .ft-apollo {
+    font-size: 14px;
+    padding: 15px 0 10px 0;
+  }
+}

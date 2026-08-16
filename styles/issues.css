@@ -1,0 +1,403 @@
+/* Issues page (Elementor page 8590). */
+
+/* Hero over photo (9eff487) */
+.iss-hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Elementor default gap between header and hero band */
+  background-color: var(--color-primary);
+  background-image: url("/images/phrr.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.iss-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(180deg, #0f0f0f82 0%, var(--color-primary) 100%);
+  pointer-events: none;
+}
+
+.iss-hero-band {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 40px 110px 35px;
+}
+
+.iss-hero-stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.iss-hero-star {
+  text-align: center;
+  padding: 0 0 20px 0;
+}
+
+.iss-hero-star img {
+  width: 100%;
+  max-width: 73px;
+  height: auto;
+}
+
+.iss-hero-title {
+  font-family: var(--font-stratos);
+  font-size: 107px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1em;
+  color: #ffffff;
+  text-align: center;
+  padding: 0 0 10px 0;
+}
+
+.iss-divider {
+  text-align: center;
+  padding: 20px 0 50px 0;
+}
+
+.iss-divider .iss-divider-line {
+  display: block;
+  width: 264px;
+  border-top: 2px solid var(--color-accent);
+  margin: 15px auto;
+}
+
+/* Platform intro (32b1a01) */
+.iss-platform {
+  background-color: var(--color-primary);
+}
+
+.iss-platform-band {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 40px 130px 35px;
+}
+
+.iss-platform-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: calc(924px + 20px);
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px; /* Elementor default container padding (530f704) */
+}
+
+.iss-platform-title {
+  font-family: var(--font-brothers);
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1em;
+  color: #ffffff;
+  text-align: start;
+  padding: 0 0 10px 0;
+}
+
+.iss-platform-text {
+  font-family: "Figtree", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #ffffff;
+  text-align: start;
+  padding: 0 0 7px 0;
+}
+
+.iss-signature {
+  margin: -35px 0 0 0;
+  text-align: start;
+}
+
+.iss-signature img {
+  width: 100%;
+  max-width: 438px;
+  height: auto;
+}
+
+/* Accordion section (41c507e) */
+.iss-acc {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(180deg, var(--color-gray-bg) 0%, #c2c2c2 100%);
+  padding: 120px 50px 160px 50px;
+}
+
+.iss-acc-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.iss-acc-title {
+  font-family: var(--font-stratos);
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 1em;
+  letter-spacing: 1px;
+  color: var(--color-primary);
+  text-align: center;
+}
+
+.iss-acc-divider {
+  text-align: center;
+  padding: 10px 0 20px 0;
+}
+
+.iss-acc-divider .iss-divider-line {
+  display: block;
+  width: 264px;
+  border-top: 2px solid var(--color-accent);
+  margin: 5px auto;
+}
+
+.iss-acc-card {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.iss-acc-item {
+  display: block;
+}
+
+.iss-acc-item-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  list-style: none;
+  background-color: #ffffff;
+  border-bottom: 1px solid #c9c9c9;
+  padding: 37px 40px 36px 35px;
+}
+
+.iss-acc-item:last-child .iss-acc-item-title {
+  border: none !important;
+}
+
+.iss-acc-item-title::-webkit-details-marker {
+  display: none;
+}
+
+.iss-acc-item-text {
+  font-family: var(--font-brothers);
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1em;
+  color: var(--color-primary);
+  padding-right: 50px;
+  transition: color 0.3s;
+}
+
+.iss-acc-item-title:hover .iss-acc-item-text {
+  color: var(--color-secondary);
+}
+
+.iss-acc-item[open] .iss-acc-item-text {
+  color: var(--color-accent);
+}
+
+.iss-acc-icon {
+  display: flex;
+  align-items: center;
+  margin-inline-start: 10px; /* Elementor n-accordion icon gap */
+}
+
+.iss-acc-icon svg {
+  height: 30px;
+  width: auto;
+  fill: #737171;
+  display: block;
+  transition: fill 0.3s;
+}
+
+.iss-acc-item-title:hover .iss-acc-icon svg {
+  fill: var(--color-accent);
+}
+
+.iss-acc-icon .e-opened {
+  display: none;
+}
+
+.iss-acc-item[open] .iss-acc-icon .e-opened {
+  display: flex;
+  transform: scale(1.3);
+  transition: all 0.2s ease 0s;
+}
+
+.iss-acc-item[open] .iss-acc-icon .e-opened svg {
+  fill: var(--color-accent);
+}
+
+.iss-acc-item[open] .iss-acc-icon .e-closed {
+  display: none;
+}
+
+.iss-acc-content {
+  background-color: #ffffff;
+  padding: 50px 20px 40px 20px;
+}
+
+.iss-acc-content-inner {
+  max-width: 870px;
+  margin: 0 auto;
+}
+
+.iss-acc-content-inner p {
+  font-family: var(--font-poppins);
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 1.6em;
+  color: var(--color-text);
+  text-wrap: pretty;
+}
+
+@media (max-width: 1024px) {
+  .iss-hero-band {
+    padding: 40px 30px 40px 30px;
+  }
+
+  .iss-hero-star img {
+    max-width: 41px;
+  }
+
+  .iss-hero-title {
+    font-size: 70px;
+  }
+
+  .iss-platform-band {
+    padding: 20px 50px 80px 50px;
+  }
+
+  .iss-platform-text {
+    font-size: 19px;
+  }
+
+  .iss-signature img {
+    max-width: 276px;
+  }
+
+  .iss-acc {
+    padding: 100px 40px 120px 40px;
+  }
+
+  .iss-acc-title {
+    font-size: 32px;
+  }
+
+  .iss-acc-item-title {
+    font-size: 30px;
+  }
+
+  .iss-acc-item-text {
+    font-size: 30px;
+    padding-right: 0;
+  }
+
+  .iss-acc-content {
+    padding: 60px 40px 60px 40px;
+  }
+
+  .iss-acc-content-inner p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .iss-hero-band {
+    flex-wrap: nowrap;
+    padding: 30px 20px 40px 20px;
+  }
+
+  .iss-hero-star {
+    padding: 0 0 15px 0;
+  }
+
+  .iss-hero-title {
+    font-size: 36px;
+    line-height: 1em;
+  }
+
+  .iss-divider {
+    padding: 0;
+  }
+
+  .iss-divider .iss-divider-line {
+    width: 134px;
+  }
+
+  .iss-platform-band {
+    padding: 10px 20px 50px 20px;
+  }
+
+  .iss-platform-title {
+    font-size: 26px;
+    line-height: 1em;
+    text-align: center;
+  }
+
+  .iss-platform-text {
+    font-size: 18px;
+    padding: 0;
+  }
+
+  .iss-signature {
+    margin: -12px 0 0 0;
+  }
+
+  .iss-signature img {
+    max-width: 222px;
+  }
+
+  .iss-acc {
+    padding: 70px 20px 110px 20px;
+  }
+
+  .iss-acc-divider {
+    padding: 0 0 10px 0;
+  }
+
+  .iss-acc-divider .iss-divider-line {
+    width: 134px;
+  }
+
+  .iss-acc-card {
+    padding: 10px;
+  }
+
+  .iss-acc-item-title {
+    padding: 25px 20px 25px 25px;
+  }
+
+  .iss-acc-item-text {
+    font-size: 24px;
+    line-height: 1.1em;
+  }
+
+  .iss-acc-content {
+    padding: 40px 30px 60px 30px;
+  }
+
+  .iss-acc-content-inner p {
+    font-size: 17px;
+  }
+}

@@ -1,0 +1,132 @@
+/* Privacy Policy page (Elementor page 4616). */
+.priv {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+  background-image: linear-gradient(180deg, #1a1a1a 0%, var(--color-secondary) 100%);
+  padding: 110px 33px 190px 33px;
+}
+
+.priv-logo {
+  text-align: center;
+  padding: 0 0 60px 0;
+}
+
+.priv-logo img {
+  width: 100%;
+  max-width: 304px;
+  height: auto;
+}
+
+.priv-inner {
+  display: flex;
+  flex-direction: column;
+  max-width: calc(885px + 20px);
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 10px; /* Elementor default container padding (09b42d3) */
+}
+
+.priv-title {
+  font-family: var(--font-brothers);
+  font-size: 46px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  text-align: start;
+}
+
+.priv-text {
+  font-family: var(--font-poppins);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6em;
+  color: #ffffff;
+  text-align: start;
+  padding: 40px 0 0 0;
+}
+
+.priv-text a {
+  color: var(--color-accent);
+  word-break: break-word;
+}
+
+.priv-text a:hover,
+.priv-text a:focus {
+  color: var(--color-primary);
+}
+
+.priv-spacer {
+  height: 50px;
+}
+
+.priv-divider {
+  padding: 85px 0;
+}
+
+.priv-divider-line {
+  display: block;
+  width: 100%;
+  border-top: 1px solid var(--color-accent);
+}
+
+.priv-return {
+  margin: 40px 0 0 0;
+}
+
+.btn-return {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 343px;
+  max-width: 100%;
+  height: 65px;
+  border-radius: 1px;
+  background-color: var(--color-accent);
+  transition: background-color 0.3s;
+}
+
+.btn-return .btn-label {
+  font-family: var(--font-brothers);
+  font-size: 17px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: var(--color-primary);
+  margin: 2px 0 0 0;
+}
+
+.btn-return:hover {
+  background-color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .priv {
+    padding: 70px 20px 140px 20px;
+  }
+
+  .priv-logo {
+    padding: 0 0 40px 0;
+  }
+
+  .priv-logo img {
+    max-width: 196px;
+  }
+
+  .priv-title {
+    font-size: 35px;
+    line-height: 0.9em;
+  }
+
+  .priv-text {
+    font-size: 17px;
+  }
+
+  .priv-divider {
+    padding: 70px 0;
+  }
+}

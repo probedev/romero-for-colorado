@@ -1,0 +1,339 @@
+/* Top "Donate to Support Dwayne Romero for Colorado" expandable banner
+   (Elementor nested accordion ce8d215/0b8c67d on home, 332db3f/7293326 on
+   issues — identical styling). */
+.tb {
+  position: relative;
+  z-index: 8;
+  background-color: var(--color-secondary);
+}
+
+.tb-item {
+  display: block;
+}
+
+.tb-title {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  list-style: none;
+  background-color: var(--color-secondary);
+  padding: 21px 10px 19px 10px;
+}
+
+.tb-title::-webkit-details-marker {
+  display: none;
+}
+
+.tb-title-text {
+  font-family: var(--font-poppins);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.6em;
+  letter-spacing: 3px;
+  color: var(--color-gray-light);
+}
+
+.tb-title:hover .tb-title-text {
+  color: #ffffff;
+}
+
+.tb-item[open] > .tb-title {
+  background-color: var(--color-accent);
+}
+
+.tb-item[open] > .tb-title .tb-title-text {
+  color: var(--color-accent);
+}
+
+.tb-title-icon {
+  position: absolute;
+  right: 0;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.tb-title-icon svg {
+  height: 19px;
+  width: auto;
+  fill: var(--color-gray-light);
+  display: block;
+}
+
+.tb-title:hover .tb-title-icon svg {
+  fill: var(--color-white);
+}
+
+.tb-icon-opened {
+  display: none;
+}
+
+.tb-item[open] .tb-icon-opened {
+  display: flex;
+  transform: scale(1.3);
+  transition: all 0.2s ease 0s;
+}
+
+.tb-item[open] .tb-icon-opened svg {
+  fill: var(--color-primary);
+}
+
+.tb-item[open] .tb-icon-closed {
+  display: none;
+}
+
+/* Expanded content */
+.tb-content {
+  background-color: var(--color-accent);
+  animation: rfc-fadeIn 0.6s both;
+  padding: 10px; /* Elementor default container padding (35bb9de) */
+}
+
+.tb-inner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+  max-width: calc(1046px + 60px);
+  margin: 0 auto;
+  border-radius: 0 6px 6px 0;
+  padding: 20px 30px 80px 30px;
+}
+
+.tb-left {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  gap: 10px;
+}
+
+.tb-kicker {
+  font-family: var(--font-poppins);
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: 2px;
+  color: var(--color-primary);
+  padding: 0 0 8px 0;
+}
+
+.tb-heading {
+  font-family: var(--font-stratos);
+  font-size: 44px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: -0.6px;
+  color: var(--color-primary);
+  margin: -3px 0 0 0;
+  padding: 0 0 5px 0;
+}
+
+.tb-text {
+  font-family: var(--font-poppins);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: var(--color-primary);
+  margin: 0 0 -15px 0;
+}
+
+.tb-right {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+  gap: 12px;
+  padding: 5px 10px 0 0;
+}
+
+.tb-col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 10px;
+}
+
+/* Shared donate-tier button (jet-button equivalent) */
+.tier {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.tb-tier {
+  width: 100%;
+  height: 60px;
+  border-radius: 2px;
+  background-color: var(--color-primary);
+  padding: 10px 30px; /* jet-button default state padding */
+}
+
+.tb-tier .tier-label {
+  font-family: var(--font-brothers);
+  font-size: 22px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.tb-tier:hover {
+  background-color: #ffffff;
+}
+
+.tb-tier:hover .tier-label {
+  color: var(--color-primary);
+}
+
+.tb-tier-other {
+  background-color: var(--color-accent);
+  border: 2px solid var(--color-primary);
+}
+
+.tb-tier-other .tier-label {
+  font-family: var(--font-poppins);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: none;
+  color: var(--color-primary);
+}
+
+.tb-tier-other:hover {
+  background-color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  .tb-title-text {
+    font-size: 12px;
+  }
+
+  .tb-inner {
+    gap: 0;
+    max-width: calc(1046px + 80px);
+    padding: 0 40px 60px 40px;
+  }
+
+  .tb-left {
+    width: 45%;
+  }
+
+  .tb-kicker {
+    font-size: 15px;
+  }
+
+  .tb-heading {
+    font-size: 29px;
+    line-height: 1.1em;
+    letter-spacing: -0.4px;
+    padding: 0 0 5px 0;
+  }
+
+  .tb-text {
+    font-size: 14px;
+  }
+
+  .tb-right {
+    gap: 8px;
+    padding: 5px 0 0 10px;
+  }
+
+  .tb-col {
+    gap: 8px;
+  }
+
+  .tb-tier {
+    height: 55px;
+  }
+
+  .tb-tier .tier-label {
+    font-size: 19px;
+  }
+
+  .tb-tier-other .tier-label {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .tb-content {
+    padding: 0;
+  }
+
+  .tb-title {
+    padding: 17px 15px 16px 15px;
+  }
+
+  .tb-title-text {
+    font-size: 9px;
+    line-height: 1.3em;
+    letter-spacing: 0.5px;
+  }
+
+  .tb-title-icon svg {
+    height: 9px;
+  }
+
+  .tb-inner {
+    max-width: calc(400px + 60px);
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 15px 30px 60px 30px;
+  }
+
+  .tb-left {
+    width: 100%;
+    padding: 0 0 17px 0;
+  }
+
+  .tb-kicker {
+    font-size: 16px;
+    letter-spacing: 3px;
+    padding: 0 0 4px 0;
+  }
+
+  .tb-heading {
+    font-size: 37px;
+    line-height: 0.9em;
+    letter-spacing: 0;
+    padding: 0;
+  }
+
+  .tb-text {
+    font-size: 14px;
+    line-height: 1.5em;
+    margin: 3px 0 -20px 0;
+  }
+
+  .tb-right {
+    width: 100%;
+    gap: 8px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 0 0 10px 0;
+  }
+
+  .tb-col {
+    width: 100%;
+  }
+
+  .tb-tier {
+    height: 50px;
+  }
+
+  .tb-tier .tier-label {
+    font-size: 19px;
+  }
+
+  .tb-tier-other .tier-label {
+    font-size: 12px;
+  }
+}

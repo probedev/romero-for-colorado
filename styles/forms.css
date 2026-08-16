@@ -1,0 +1,168 @@
+/* Numero signup form styles — copied verbatim from the live site's custom
+   CSS (elements ca025fe / 05c6b8c / 3e8165b). .form-hd = hero form,
+   .form-foot = "JOIN OUR CAMPAIGN" form. */
+/* NOTE: the live site never defines .clearfix, so the form's floats are
+   intentionally uncontained — the submit button floats up next to the phone
+   field. Do not add float containment here. */
+.form-hd,
+.form-foot {
+  width: 100%;
+  max-width: 590px;
+}
+
+.form-hd label,
+.form-foot label {
+  color: #243c7f;
+  font-family: var(--font-poppins);
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 1em;
+  display: none;
+}
+
+.form-hd input,
+.form-foot input {
+  width: 100%;
+  border-radius: 2px;
+  padding: 19px 19px;
+  font-family: var(--font-nexa);
+  font-size: 18px;
+  height: 65px;
+  font-weight: 300;
+  background: #f4f4f4;
+  color: #0f0f0f;
+  border: none;
+  box-sizing: border-box;
+}
+
+.form-hd .inputs > div,
+.form-foot .inputs > div {
+  float: left;
+  box-sizing: border-box;
+}
+
+.form-hd .email {
+  width: 50%;
+  padding-right: 8px;
+}
+
+.form-hd .zip {
+  width: 50%;
+}
+
+.form-hd .phone {
+  width: 70%;
+  margin-top: 8px;
+  padding-right: 8px;
+}
+
+.form-hd .submit-input {
+  width: 30%;
+  float: left;
+  margin-top: 8px;
+}
+
+.form-foot .email {
+  width: 60%;
+  padding-right: 8px;
+}
+
+.form-foot .zip {
+  width: 40%;
+}
+
+.form-foot .phone {
+  width: 100%;
+  margin-top: 8px;
+  padding-right: 0;
+}
+
+.form-foot .submit-input {
+  width: 100%;
+  float: left;
+  margin-top: 8px;
+}
+
+.form-hd .submit-input input,
+.form-foot .submit-input input {
+  font-weight: 900;
+  text-transform: inherit;
+  padding: 15px 10px 14px 10px;
+  font-size: 20px;
+  font-family: var(--font-brothers);
+  border: none;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.form-hd .submit-input input {
+  border-radius: 2px;
+}
+
+.form-foot .submit-input input {
+  border-radius: 3px;
+}
+
+.form-hd input.btno.btno-red,
+.form-foot input.btno.btno-red {
+  background: var(--color-gold-form);
+  color: #000;
+}
+
+.form-hd input.btno.btno-red:hover,
+.form-foot input.btno.btno-red:hover {
+  background: var(--color-red);
+  color: #fff;
+}
+
+.form-hd .email input:hover,
+.form-hd .zip input:hover,
+.form-hd .phone input:hover,
+.form-foot .email input:hover,
+.form-foot .zip input:hover,
+.form-foot .phone input:hover {
+  padding-left: 25px;
+  background: #fff;
+}
+
+.form-hd ::placeholder,
+.form-foot ::placeholder {
+  color: var(--color-placeholder);
+  font-family: var(--font-poppins);
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 767px) {
+  .form-hd .email,
+  .form-foot .email {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 0;
+  }
+
+  .form-hd .phone,
+  .form-foot .phone {
+    width: 100%;
+    padding-right: 0;
+    margin-top: 3px;
+  }
+
+  .form-hd .zip,
+  .form-foot .zip {
+    width: 100%;
+    padding-right: 0;
+    margin-top: 3px;
+  }
+
+  .form-hd .submit-input,
+  .form-foot .submit-input {
+    width: 100%;
+  }
+
+  .form-hd .submit-input input,
+  .form-foot .submit-input input {
+    margin-top: 0;
+  }
+}
