@@ -20,10 +20,10 @@ export const metadata: Metadata = {
     siteName: "Romero for Colorado",
     images: [
       {
-        url: "https://romeroforcolorado.com/images/drshare.png",
+        url: "https://romeroforcolorado.com/images/og-endorsements.jpg",
         width: 1200,
         height: 630,
-        type: "image/png",
+        type: "image/jpeg",
       },
     ],
   },
@@ -37,7 +37,7 @@ export default function Endorsements() {
         <TopBanner headingId="top-donate-endorse" />
         <TopNav current="/endorsements/" />
         <PageHero
-          image="/images/endorsements-hero.jpg"
+          image="/images/endorsements-hero.jpg" imageSm="/images/endorsements-hero-sm.jpg"
           kicker="Team Romero"
           title="Endorsements"
         />

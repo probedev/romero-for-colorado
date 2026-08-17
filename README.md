@@ -35,5 +35,6 @@ the Numero account** — preview URL only until client approval.
 ## Legally required content
 
 The FEC disclaimer, military-endorsement disclaimer, SMS consent language,
-Privacy Policy text, and "Powered By Apollo" credit are byte-for-byte from
-the live site. Do not edit without flagging.
+Privacy Policy text, and footer credit are byte-for-byte from
+the live site (the credit was changed to Breakfastball LLC at the client's
+direction in Phase 2). Do not edit without flagging.

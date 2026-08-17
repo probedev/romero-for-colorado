@@ -1,13 +1,39 @@
 {
   "redirects": [
-    { "source": "/facebook", "destination": "https://www.facebook.com/romeroforcolorado", "statusCode": 302 },
-    { "source": "/twitter", "destination": "https://x.com/RomeroForCO", "statusCode": 302 },
-    { "source": "/instagram", "destination": "https://www.instagram.com/romeroforcolorado", "statusCode": 302 },
-    { "source": "/youtube", "destination": "https://www.youtube.com/@romeroforcolorado", "statusCode": 302 },
-    { "source": "/bluesky", "destination": "https://bsky.app/profile/romeroforcolorado", "statusCode": 302 },
-    { "source": "/threads", "destination": "https://threads.com/@romeroforcolorado", "statusCode": 302 },
-    { "source": "/tiktok", "destination": "https://www.tiktok.com/@romeroforcolorado", "statusCode": 302 },
-    { "source": "/signup", "destination": "https://secure.numero.ai/signup/Sign-Up-227ef8ab-ce0e-4354-b510-b62d3cb58a71", "statusCode": 302 },
-    { "source": "/volunteer", "destination": "https://secure.numero.ai/signup/Volunteer-with-Romero-for-Colorado", "statusCode": 302 }
+    {
+      "source": "/facebook",
+      "destination": "https://www.facebook.com/romeroforcolorado",
+      "statusCode": 301
+    },
+    {
+      "source": "/twitter",
+      "destination": "https://x.com/RomeroForCO",
+      "statusCode": 301
+    },
+    {
+      "source": "/instagram",
+      "destination": "https://www.instagram.com/romeroforcolorado",
+      "statusCode": 301
+    },
+    {
+      "source": "/youtube",
+      "destination": "https://www.youtube.com/@romeroforcolorado",
+      "statusCode": 301
+    },
+    {
+      "source": "/bluesky",
+      "destination": "https://bsky.app/profile/romeroforcolorado",
+      "statusCode": 301
+    },
+    {
+      "source": "/threads",
+      "destination": "https://threads.com/@romeroforcolorado",
+      "statusCode": 301
+    },
+    {
+      "source": "/tiktok",
+      "destination": "https://www.tiktok.com/@romeroforcolorado",
+      "statusCode": 301
+    }
   ]
 }

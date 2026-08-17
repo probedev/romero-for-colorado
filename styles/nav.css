@@ -241,6 +241,7 @@
   position: relative;
   min-height: 460px;
   background-color: var(--color-primary);
+  background-image: var(--ph-img);
   background-position: center 30%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -297,6 +298,7 @@
 @media (max-width: 767px) {
   .ph {
     min-height: 300px;
+    background-image: var(--ph-img-sm, var(--ph-img));
   }
 
   .ph-inner {

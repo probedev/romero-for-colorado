@@ -20,10 +20,10 @@ export const metadata: Metadata = {
     siteName: "Romero for Colorado",
     images: [
       {
-        url: "https://romeroforcolorado.com/images/drshare.png",
+        url: "https://romeroforcolorado.com/images/og-meet-dwayne.jpg",
         width: 1200,
         height: 630,
-        type: "image/png",
+        type: "image/jpeg",
       },
     ],
   },
@@ -37,7 +37,7 @@ export default function MeetDwayne() {
       <main id="content" className="site-main">
         <TopBanner headingId="top-donate-meet" />
         <TopNav current="/meet-dwayne/" />
-        <PageHero image="/images/meet-dwayne-hero.jpg" kicker="Team Romero" title="Meet Dwayne" />
+        <PageHero image="/images/meet-dwayne-hero.jpg" imageSm="/images/meet-dwayne-hero-sm.jpg" kicker="Team Romero" title="Meet Dwayne" />
         <div className="md">
           <div className="md-intro">
             <h2 className="md-title">FIGHTER. VETERAN. HUSBAND. FATHER. Leader.</h2>

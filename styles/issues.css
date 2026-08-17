@@ -323,6 +323,10 @@
 }
 
 @media (max-width: 767px) {
+  .iss-hero {
+    background-image: url("/images/phrr-sm.jpg");
+  }
+
   .iss-hero-band {
     flex-wrap: nowrap;
     padding: 30px 20px 40px 20px; /* nav is a solid bar above on mobile */
@@ -400,4 +404,21 @@
   .iss-acc-content-inner p {
     font-size: 17px;
   }
+}
+
+/* Animated open/close (progressive enhancement; 400ms per the original
+   Elementor accordion setting — no effect in browsers without
+   ::details-content support) */
+.iss-acc-item {
+  interpolate-size: allow-keywords;
+}
+
+.iss-acc-item::details-content {
+  block-size: 0;
+  overflow: clip;
+  transition: block-size 0.4s ease, content-visibility 0.4s allow-discrete;
+}
+
+.iss-acc-item[open]::details-content {
+  block-size: auto;
 }

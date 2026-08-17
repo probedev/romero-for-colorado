@@ -93,9 +93,9 @@ export default function Footer() {
                 War.
               </h2>
             </div>
-            <h2 className="ft-apollo">
-              <a href="http://apolloartistry.com/" target="_blank" rel="noopener">
-                Powered By <span>Apollo</span>
+            <h2 className="ft-credit">
+              <a href="https://www.breakfastball.com" target="_blank" rel="noopener">
+                Powered by <span>Breakfastball LLC</span> 2026
               </a>
             </h2>
           </div>

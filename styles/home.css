@@ -888,6 +888,11 @@
     order: -1;
   }
 
+  .join-photo::before,
+  .join-photo::after {
+    background-image: url("/images/new-family-sm.jpg");
+  }
+
   .join-photo-spacer {
     height: 275px;
   }

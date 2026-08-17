@@ -2,7 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { useCallback, useEffect, useRef, useState } from "react";
 import { actblue, YOUTUBE_LIGHTBOX_URL } from "../lib/urls";
-import { ChevronRightIcon, XmarkIcon } from "./icons";
+import { ChevronRightIcon, PlayIcon, XmarkIcon } from "./icons";
 
 // Popup behavior replicated from Elementor Pro (elements-handlers.min.js):
 // - "fund" popup (8567): opens on page load, delay 0, but ONLY when the
@@ -22,7 +22,24 @@ export default function SitePopups() {
   const [fundOpen, setFundOpen] = useState(false);
   const [scrollOpen, setScrollOpen] = useState(false);
   const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [closing, setClosing] = useState<string | null>(null);
+  const [videoOn, setVideoOn] = useState(false); // fund popup video facade
   const scrollFired = useRef(false);
+
+  // Play the exit animation, then unmount
+  const animateClose = useCallback(
+    (which: "fund" | "scroll" | "lightbox", setter: (v: boolean) => void, ms: number) => {
+      setClosing(which);
+      window.setTimeout(() => {
+        setter(false);
+        setClosing(null);
+      }, ms);
+    },
+    []
+  );
+  const closeFund = useCallback(() => animateClose("fund", setFundOpen, 350), [animateClose]);
+  const closeScroll = useCallback(() => animateClose("scroll", setScrollOpen, 400), [animateClose]);
+  const closeLightbox = useCallback(() => animateClose("lightbox", setLightboxOpen, 300), [animateClose]);
 
   // Lock page scroll while a blocking popup is open
   useEffect(() => {
@@ -70,10 +87,10 @@ export default function SitePopups() {
 
   // Escape closes the topmost popup
   const closeTop = useCallback(() => {
-    if (lightboxOpen) setLightboxOpen(false);
-    else if (fundOpen) setFundOpen(false);
-    else if (scrollOpen) setScrollOpen(false);
-  }, [lightboxOpen, fundOpen, scrollOpen]);
+    if (lightboxOpen) closeLightbox();
+    else if (fundOpen) closeFund();
+    else if (scrollOpen) closeScroll();
+  }, [lightboxOpen, fundOpen, scrollOpen, closeLightbox, closeFund, closeScroll]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -89,12 +106,12 @@ export default function SitePopups() {
     <>
       {/* ===== Page-load donate popup (8567) ===== */}
       <div
-        className={`pp-modal pp-fund${fundOpen ? " pp-open" : ""}`}
+        className={`pp-modal pp-fund${fundOpen ? " pp-open" : ""}${closing === "fund" ? " pp-closing" : ""}`}
         role="dialog"
         aria-modal="true"
         aria-label="Stand with Dwayne Romero"
         onClick={(e) => {
-          if (e.target === e.currentTarget) setFundOpen(false);
+          if (e.target === e.currentTarget) closeFund();
         }}
       >
         <div className="pp-content">
@@ -102,7 +119,7 @@ export default function SitePopups() {
             type="button"
             className="pp-close"
             aria-label="Close"
-            onClick={() => setFundOpen(false)}
+            onClick={closeFund}
           >
             <XmarkIcon />
           </button>
@@ -110,13 +127,26 @@ export default function SitePopups() {
             <div className="pp-fund-body">
               <div className="pp-fund-video">
                 <div className="video-frame">
-                  {fundOpen && (
+                  {fundOpen && videoOn ? (
                     <iframe
-                      src="https://www.youtube-nocookie.com/embed/ZGcTJrVIAk8?start=1&loop=1&playlist=ZGcTJrVIAk8&controls=1"
+                      src="https://www.youtube-nocookie.com/embed/ZGcTJrVIAk8?start=1&loop=1&playlist=ZGcTJrVIAk8&controls=1&autoplay=1"
                       title="Dwayne Romero for Colorado"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                       allowFullScreen
                     />
+                  ) : (
+                    /* facade: self-hosted thumbnail; the real player loads on
+                       click (YouTube requires a click to play either way) */
+                    <button
+                      type="button"
+                      className="yt-facade"
+                      aria-label="Play: Dwayne Romero for Colorado"
+                      onClick={() => setVideoOn(true)}
+                    >
+                      <span className="yt-facade-play" aria-hidden="true">
+                        <PlayIcon />
+                      </span>
+                    </button>
                   )}
                 </div>
               </div>
@@ -149,7 +179,7 @@ export default function SitePopups() {
                       <button
                         type="button"
                         className="pp-fund-continue-btn"
-                        onClick={() => setFundOpen(false)}
+                        onClick={closeFund}
                       >
                         <ChevronRightIcon aria-hidden="true" />
                         <span>Continue to Website</span>
@@ -165,7 +195,7 @@ export default function SitePopups() {
 
       {/* ===== Scroll donate popup (7857) — bottom-left panel ===== */}
       <div
-        className={`pp-modal pp-scroll${scrollOpen ? " pp-open" : ""}`}
+        className={`pp-modal pp-scroll${scrollOpen ? " pp-open" : ""}${closing === "scroll" ? " pp-closing" : ""}`}
         role="dialog"
         aria-label="Donate to Team Romero"
       >
@@ -174,7 +204,7 @@ export default function SitePopups() {
             type="button"
             className="pp-close"
             aria-label="Close"
-            onClick={() => setScrollOpen(false)}
+            onClick={closeScroll}
           >
             <XmarkIcon />
           </button>
@@ -211,19 +241,19 @@ export default function SitePopups() {
 
       {/* ===== YouTube lightbox ===== */}
       <div
-        className={`pp-modal pp-lightbox${lightboxOpen ? " pp-open" : ""}`}
+        className={`pp-modal pp-lightbox${lightboxOpen ? " pp-open" : ""}${closing === "lightbox" ? " pp-closing" : ""}`}
         role="dialog"
         aria-modal="true"
         aria-label="Watch our latest video"
         onClick={(e) => {
-          if (e.target === e.currentTarget) setLightboxOpen(false);
+          if (e.target === e.currentTarget) closeLightbox();
         }}
       >
         <button
           type="button"
           className="pp-close"
           aria-label="Close"
-          onClick={() => setLightboxOpen(false)}
+          onClick={closeLightbox}
         >
           <XmarkIcon />
         </button>

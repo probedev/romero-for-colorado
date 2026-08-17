@@ -5,6 +5,7 @@ import SignupForm from "../../components/SignupForm";
 import SitePopups from "../../components/SitePopups";
 import TopBanner from "../../components/TopBanner";
 import TopNav from "../../components/TopNav";
+import IssueDeepLinks from "../../components/IssueDeepLinks";
 import { CaretDownIcon, CaretRightIcon, StarFlagIcon } from "../../components/icons";
 import { ACTBLUE_BASE, actblue } from "../../lib/urls";
 
@@ -32,9 +33,10 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image", images: [] },
 };
 
-const ISSUES: { title: string; body: React.ReactNode }[] = [
+const ISSUES: { title: string; slug: string; body: React.ReactNode }[] = [
   {
     title: "LOWER THE COST OF LIVING",
+    slug: "cost-of-living",
     body: (
       <p>
         Affordability is at the top of my priority list. Think about all the
@@ -49,6 +51,7 @@ const ISSUES: { title: string; body: React.ReactNode }[] = [
   },
   {
     title: "SUPPORT THE FUTURE OF AGRICULTURE",
+    slug: "agriculture",
     body: (
       <p>
         Our farmers and ranchers are the bedrock of many of our communities and
@@ -64,6 +67,7 @@ const ISSUES: { title: string; body: React.ReactNode }[] = [
   },
   {
     title: "PROTECT OUR WATER",
+    slug: "water",
     body: (
       <p>
         Water is the key to life here in Colorado. As an elected member of my
@@ -78,6 +82,7 @@ const ISSUES: { title: string; body: React.ReactNode }[] = [
   },
   {
     title: "INCREASE AFFORDABLE ENERGY",
+    slug: "energy",
     body: (
       <p>
         I&#8217;m a realist when it comes to energy. Turning an aircraft
@@ -93,6 +98,7 @@ const ISSUES: { title: string; body: React.ReactNode }[] = [
   },
   {
     title: "DEFEND PUBLIC LANDS & ENVIRONMENT",
+    slug: "public-lands",
     body: (
       <p>
         I look at our public lands and I see something worth fighting for.
@@ -107,6 +113,7 @@ const ISSUES: { title: string; body: React.ReactNode }[] = [
   },
   {
     title: "CHAMPION ACCESS TO HOUSING",
+    slug: "housing",
     body: (
       <p>
         We need to make sure the people who live in and love our district —
@@ -123,6 +130,7 @@ const ISSUES: { title: string; body: React.ReactNode }[] = [
   },
   {
     title: "ADVOCATE FOR GOOD HEALTHCARE & RURAL HOSPITALS",
+    slug: "healthcare",
     body: (
       <p>
         The One Big Ugly Bill completely turned our health care network on its
@@ -138,6 +146,7 @@ const ISSUES: { title: string; body: React.ReactNode }[] = [
   },
   {
     title: "FINALLY ENACT IMMIGRATION REFORM",
+    slug: "immigration",
     body: (
       <p>
         Washington has failed on immigration for decades. I believe we can
@@ -153,6 +162,7 @@ const ISSUES: { title: string; body: React.ReactNode }[] = [
   },
   {
     title: "KEEP THE FAITH WITH VETERANS & MILITARY FAMILIES",
+    slug: "veterans",
     body: (
       <p>
         I served. I took an oath at 18 years old — 43 years ago — swearing to
@@ -166,6 +176,7 @@ const ISSUES: { title: string; body: React.ReactNode }[] = [
   },
   {
     title: "BRING ACCOUNTABILITY TO GOVERNMENT",
+    slug: "accountability",
     body: (
       <p>
         Congress exists to represent the people, not to rubber-stamp
@@ -179,6 +190,7 @@ const ISSUES: { title: string; body: React.ReactNode }[] = [
   },
   {
     title: "MAKE SURE YOUR VOICE IS HEARD",
+    slug: "your-voice",
     body: (
       <p>
         Too many people in Western and Southern Colorado feel like DC
@@ -276,7 +288,7 @@ export default function Issues() {
             </div>
             <div className="iss-acc-card is-loaded-2">
               {ISSUES.map((item, i) => (
-                <details className="iss-acc-item" name="issues-accordion" key={i}>
+                <details className="iss-acc-item" name="issues-accordion" id={item.slug} key={item.slug}>
                   <summary className="iss-acc-item-title">
                     <span className="iss-acc-item-text">{item.title}</span>
                     <span className="iss-acc-icon" aria-hidden="true">
@@ -362,6 +374,7 @@ export default function Issues() {
       </main>
       <Footer />
       <SitePopups />
+      <IssueDeepLinks />
     </>
   );
 }

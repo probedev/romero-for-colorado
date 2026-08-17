@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     publishedTime: "2026-07-30T00:00:00-06:00",
     images: [
       {
-        url: "https://romeroforcolorado.com/images/drshare.png",
+        url: "https://romeroforcolorado.com/images/og-news.jpg",
         width: 1200,
         height: 630,
-        type: "image/png",
+        type: "image/jpeg",
       },
     ],
   },

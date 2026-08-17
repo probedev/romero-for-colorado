@@ -19,10 +19,10 @@ export const metadata: Metadata = {
     siteName: "Romero for Colorado",
     images: [
       {
-        url: "https://romeroforcolorado.com/images/drshare.png",
+        url: "https://romeroforcolorado.com/images/og-news.jpg",
         width: 1200,
         height: 630,
-        type: "image/png",
+        type: "image/jpeg",
       },
     ],
   },
@@ -35,7 +35,7 @@ export default function News() {
       <main id="content" className="site-main">
         <TopBanner headingId="top-donate-news" />
         <TopNav current="/news/" />
-        <PageHero image="/images/news-hero.jpg" kicker="Team Romero" title="News & Press" />
+        <PageHero image="/images/news-hero.jpg" imageSm="/images/news-hero-sm.jpg" kicker="Team Romero" title="News & Press" />
         <section className="nw">
           <div className="nw-head">
             <p className="nw-kicker">News &amp; Press</p>

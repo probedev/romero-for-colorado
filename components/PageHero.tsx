@@ -2,15 +2,21 @@
 // full-width image (layout per the reference site, Romero design language).
 export default function PageHero({
   image,
+  imageSm,
   kicker,
   title,
 }: {
   image: string;
+  imageSm?: string;
   kicker: string;
   title: string;
 }) {
+  const style = {
+    "--ph-img": `url(${image})`,
+    "--ph-img-sm": `url(${imageSm ?? image})`,
+  } as React.CSSProperties;
   return (
-    <section className="ph" style={{ backgroundImage: `url(${image})` }}>
+    <section className="ph" style={style}>
       <div className="ph-inner">
         <p className="ph-kicker">{kicker}</p>
         <h1 className="ph-title">{title}</h1>

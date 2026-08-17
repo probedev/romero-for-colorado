@@ -1,0 +1,31 @@
+# Romero for Colorado
+
+User-agent: *
+Allow: /
+
+# AI training crawlers (parity with the previous site's policy)
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+Sitemap: https://romeroforcolorado.com/sitemap.xml

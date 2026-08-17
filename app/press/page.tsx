@@ -19,10 +19,10 @@ export const metadata: Metadata = {
     siteName: "Romero for Colorado",
     images: [
       {
-        url: "https://romeroforcolorado.com/images/drshare.png",
+        url: "https://romeroforcolorado.com/images/og-news.jpg",
         width: 1200,
         height: 630,
-        type: "image/png",
+        type: "image/jpeg",
       },
     ],
   },

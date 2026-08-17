@@ -264,7 +264,7 @@
   padding: 0 0 2px 0;
 }
 
-.ft-apollo {
+.ft-credit {
   font-family: var(--font-poppins);
   font-size: 15px;
   font-weight: 400;
@@ -274,7 +274,7 @@
   padding: 5px 0 10px 0;
 }
 
-.ft-apollo span {
+.ft-credit span {
   text-decoration: underline;
 }
 
@@ -370,7 +370,7 @@
     padding: 10px 0 0 0;
   }
 
-  .ft-apollo {
+  .ft-credit {
     font-size: 14px;
     padding: 15px 0 10px 0;
   }

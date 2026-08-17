@@ -337,3 +337,18 @@
     font-size: 12px;
   }
 }
+
+/* Animated open/close (progressive enhancement, 400ms) */
+.tb-item {
+  interpolate-size: allow-keywords;
+}
+
+.tb-item::details-content {
+  block-size: 0;
+  overflow: clip;
+  transition: block-size 0.4s ease, content-visibility 0.4s allow-discrete;
+}
+
+.tb-item[open]::details-content {
+  block-size: auto;
+}
