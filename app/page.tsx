@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 import Footer from "../components/Footer";
 import SignupForm from "../components/SignupForm";
+import ShortsCarousel from "../components/ShortsCarousel";
 import SitePopups from "../components/SitePopups";
 import SocialIcons from "../components/SocialIcons";
 import TopBanner from "../components/TopBanner";
@@ -179,6 +180,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Shorts carousel (Phase 2 addition) */}
+        <ShortsCarousel />
 
         {/* Chip in today (84c4781) */}
         <section className="chip">
