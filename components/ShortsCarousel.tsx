@@ -52,7 +52,7 @@ export default function ShortsCarousel() {
     <section className="sh" aria-label="Team Romero on YouTube Shorts">
       <div className="sh-head">
         <p className="sh-kicker">On the Trail</p>
-        <h2 className="sh-heading">Watch the Latest from Team Romero</h2>
+        <h2 className="sh-heading">Watch the Latest Direct From Dwayne</h2>
       </div>
       <div
         className="sh-wrap"
