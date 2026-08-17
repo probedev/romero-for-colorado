@@ -61,13 +61,13 @@ export default function Home() {
       <link
         rel="preload"
         as="image"
-        href="/images/bgbb2-scaled.jpg"
+        href="/images/new-hero.jpg"
         media="(min-width: 768px)"
       />
       <link
         rel="preload"
         as="image"
-        href="/images/mohd.png"
+        href="/images/new-hero-mobile.jpg"
         media="(max-width: 767px)"
       />
       <main id="content" className="site-main">
@@ -223,7 +223,7 @@ export default function Home() {
 
         {/* Join our campaign (7bdc004) */}
         <section className="join">
-          <div className="join-photo">
+          <div className="join-photo join-photo-new">
             <div className="join-photo-spacer" />
           </div>
           <div className="join-content">
