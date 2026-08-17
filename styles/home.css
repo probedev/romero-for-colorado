@@ -594,8 +594,8 @@
   width: 50%;
   padding: 10px; /* Elementor default container padding (df5a2f1) */
   background-color: var(--color-primary);
-  background-image: url("/images/fam1.jpg");
-  background-position: top center;
+  background-image: url("/images/new-family.jpg");
+  background-position: 18% center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -605,11 +605,6 @@
   width: 100%;
 }
 
-/* Home uses the newer family photo (issues keeps fam1.jpg for now) */
-.join-photo-new {
-  background-image: url("/images/new-family.jpg");
-  background-position: 18% center;
-}
 
 .join-content {
   display: flex;

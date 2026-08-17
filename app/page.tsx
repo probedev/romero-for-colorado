@@ -223,7 +223,7 @@ export default function Home() {
 
         {/* Join our campaign (7bdc004) */}
         <section className="join">
-          <div className="join-photo join-photo-new">
+          <div className="join-photo">
             <div className="join-photo-spacer" />
           </div>
           <div className="join-content">
