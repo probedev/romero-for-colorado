@@ -594,10 +594,25 @@
   width: 50%;
   padding: 10px; /* Elementor default container padding (df5a2f1) */
   background-color: var(--color-primary);
-  background-image: url("/images/new-family.jpg");
-  background-position: 18% center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+/* blurred fill behind the letterboxed photo */
+.join-photo::before {
+  content: "";
+  position: absolute;
+  inset: -48px;
+  background: url("/images/new-family.jpg") center / cover no-repeat;
+  filter: blur(26px) brightness(0.72);
+}
+
+/* the full family photo, uncropped */
+.join-photo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("/images/new-family.jpg") center / contain no-repeat;
 }
 
 .join-photo-spacer {
