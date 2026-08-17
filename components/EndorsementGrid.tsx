@@ -5,8 +5,7 @@ import { XmarkIcon } from "./icons";
 
 const CARDS = [
   { slug: "john-hickenlooper", name: "U.S. Senator John Hickenlooper" },
-  // jason-crow.png excluded: source asset carries Pam DiFatta's quote and
-  // the Service First logo — awaiting a corrected card from the design team
+  { slug: "jason-crow", name: "Congressman Jason Crow" },
   { slug: "john-salazar", name: "Former Congressman John Salazar" },
   { slug: "vote-vets", name: "VoteVets" },
   { slug: "nalc", name: "National Association of Letter Carriers" },

@@ -196,9 +196,9 @@
 
 .en-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
-  max-width: 1150px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1250px;
   margin: 0 auto;
 }
 
@@ -231,6 +231,7 @@
   }
 
   .en-grid {
+    grid-template-columns: repeat(2, 1fr);
     gap: 16px;
   }
 }
