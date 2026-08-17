@@ -11,6 +11,8 @@ import "../styles/issues.css";
 import "../styles/privacy.css";
 import "../styles/footer.css";
 import "../styles/popups.css";
+import "../styles/nav.css";
+import "../styles/pages.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://romeroforcolorado.com"),

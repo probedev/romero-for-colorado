@@ -4,6 +4,7 @@ import Footer from "../../components/Footer";
 import SignupForm from "../../components/SignupForm";
 import SitePopups from "../../components/SitePopups";
 import TopBanner from "../../components/TopBanner";
+import TopNav from "../../components/TopNav";
 import { CaretDownIcon, CaretRightIcon, StarFlagIcon } from "../../components/icons";
 import { ACTBLUE_BASE, actblue } from "../../lib/urls";
 
@@ -203,25 +204,9 @@ export default function Issues() {
       <main id="content" className="site-main">
         <TopBanner headingId="top-donate-issues" />
 
+        <TopNav current="/issues/" />
         {/* Photo hero (9eff487) */}
         <section className="iss-hero">
-          <div className="ih">
-            <div className="ih-logo">
-              <div className="ih-logo-img">
-                <a href="/">
-                  <img src="/images/logorr.svg" alt="Romero for Colorado" width={1324} height={592} />
-                </a>
-              </div>
-            </div>
-            <div className="ih-nav">
-              <a className="btn-underline" href="/">
-                Home
-              </a>
-              <a className="btn-donate" href={ACTBLUE_BASE}>
-                <span className="btn-label">Donate</span>
-              </a>
-            </div>
-          </div>
           <div className="iss-hero-band">
             <div className="iss-hero-stack is-loaded">
               <div className="iss-hero-star">

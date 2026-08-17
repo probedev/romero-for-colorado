@@ -5,6 +5,7 @@ import SignupForm from "../components/SignupForm";
 import SitePopups from "../components/SitePopups";
 import SocialIcons from "../components/SocialIcons";
 import TopBanner from "../components/TopBanner";
+import TopNav from "../components/TopNav";
 import { ArrowIcon, PlayCircleIcon, PlayIcon, StarFlagIcon } from "../components/icons";
 import { ACTBLUE_BASE, actblue } from "../lib/urls";
 
@@ -72,43 +73,7 @@ export default function Home() {
       <main id="content" className="site-main">
         <TopBanner headingId="top-donate-home" />
 
-        {/* Mobile header (75e89a5) */}
-        <div className="hh-mobile hide-desktop hide-tablet">
-          <div className="hh-mobile-logo">
-            <div className="hh-mobile-logo-img">
-              <a href="/">
-                <img src="/images/logorr.svg" alt="Romero for Colorado" width={1324} height={592} />
-              </a>
-            </div>
-          </div>
-          <div className="hh-mobile-donate">
-            <a className="btn-donate-sm" href={ACTBLUE_BASE}>
-              <span className="btn-label">Donate</span>
-            </a>
-          </div>
-        </div>
-
-        {/* Desktop header (966e0f2) */}
-        <div className="hh-desktop hide-mobile">
-          <div className="hh-social">
-            <SocialIcons />
-          </div>
-          <div className="hh-logo">
-            <div className="hh-logo-img">
-              <a href="/">
-                <img src="/images/logorr.svg" alt="Romero for Colorado" width={1324} height={592} />
-              </a>
-            </div>
-          </div>
-          <div className="hh-buttons">
-            <a className="btn-underline" href="/volunteer">
-              Volunteer
-            </a>
-            <a className="btn-donate" href={ACTBLUE_BASE}>
-              <span className="btn-label">Donate</span>
-            </a>
-          </div>
-        </div>
+        <TopNav />
 
         {/* Hero (567ea19, desktop/tablet) */}
         <section className="hero hide-mobile">
@@ -192,7 +157,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="meet-buttons">
-                <a className="btn-arrow" href="#" data-open-about>
+                <a className="btn-arrow" href="/meet-dwayne/">
                   <span className="btn-label">Read More</span>
                   <span className="btn-icon">
                     <ArrowIcon aria-hidden="true" />

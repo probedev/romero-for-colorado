@@ -36,8 +36,7 @@ export default function Footer() {
                 <a href="/">Home</a>
               </li>
               <li>
-                {/* live site links "#about" (works on home only) — kept as-is */}
-                <a href="#about">Meet Dwayne</a>
+                <a href="/meet-dwayne/">Meet Dwayne</a>
               </li>
               <li>
                 <a href="/signup">Sign Up</a>

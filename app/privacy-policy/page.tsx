@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 import Footer from "../../components/Footer";
 import SitePopups from "../../components/SitePopups";
+import TopNav from "../../components/TopNav";
 
 export const metadata: Metadata = {
   title: "Privacy Policy - Romero for Colorado",
@@ -33,12 +34,8 @@ export default function PrivacyPolicy() {
   return (
     <>
       <main id="content" className="site-main">
+        <TopNav overlay={false} />
         <div className="priv">
-          <div className="priv-logo">
-            <a href="/">
-              <img src="/images/logorr.svg" alt="Romero for Colorado" width={1324} height={592} />
-            </a>
-          </div>
           <div className="priv-inner">
             <h2 className="priv-title">Privacy Policy</h2>
             <div className="priv-text pritxt">

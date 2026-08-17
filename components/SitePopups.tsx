@@ -9,7 +9,7 @@ import { ChevronRightIcon, XmarkIcon } from "./icons";
 //   traffic source is search or external. Empty referrer counts as external.
 // - "scroll" popup (7857): opens after scrolling 80% down the page, same
 //   source gating. Not closable via background click; page stays interactive.
-// - "about" popup (6127): manual trigger only (Read More button).
+// (The former "about" popup moved to the /meet-dwayne/ page in Phase 2.)
 function sourcesAllowed(): boolean {
   // Elementor: sources = ["search", "external"]
   const ref = document.referrer.replace(/https?:\/\/(?:www\.)?/, "");
@@ -19,18 +19,17 @@ function sourcesAllowed(): boolean {
 }
 
 export default function SitePopups() {
-  const [aboutOpen, setAboutOpen] = useState(false);
   const [fundOpen, setFundOpen] = useState(false);
   const [scrollOpen, setScrollOpen] = useState(false);
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const scrollFired = useRef(false);
 
-  // Lock page scroll while a prevent_scroll popup is open (6127 + 8567)
+  // Lock page scroll while a blocking popup is open
   useEffect(() => {
-    const lock = aboutOpen || fundOpen || lightboxOpen;
+    const lock = fundOpen || lightboxOpen;
     document.body.classList.toggle("pp-scroll-lock", lock);
     return () => document.body.classList.remove("pp-scroll-lock");
-  }, [aboutOpen, fundOpen, lightboxOpen]);
+  }, [fundOpen, lightboxOpen]);
 
   // Page-load popup (source-gated)
   useEffect(() => {
@@ -57,16 +56,13 @@ export default function SitePopups() {
     return () => window.removeEventListener("scroll", check);
   }, [fundOpen]);
 
-  // Delegated triggers for Read More / video lightbox links
+  // Delegated trigger for video lightbox links
   useEffect(() => {
     const onClick = (e: MouseEvent) => {
-      const t = (e.target as HTMLElement).closest(
-        "[data-open-about],[data-open-lightbox]"
-      );
+      const t = (e.target as HTMLElement).closest("[data-open-lightbox]");
       if (!t) return;
       e.preventDefault();
-      if (t.hasAttribute("data-open-about")) setAboutOpen(true);
-      else setLightboxOpen(true);
+      setLightboxOpen(true);
     };
     document.addEventListener("click", onClick);
     return () => document.removeEventListener("click", onClick);
@@ -75,10 +71,9 @@ export default function SitePopups() {
   // Escape closes the topmost popup
   const closeTop = useCallback(() => {
     if (lightboxOpen) setLightboxOpen(false);
-    else if (aboutOpen) setAboutOpen(false);
     else if (fundOpen) setFundOpen(false);
     else if (scrollOpen) setScrollOpen(false);
-  }, [lightboxOpen, aboutOpen, fundOpen, scrollOpen]);
+  }, [lightboxOpen, fundOpen, scrollOpen]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -208,120 +203,6 @@ export default function SitePopups() {
                     </p>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* ===== About popup (6127) ===== */}
-      <div
-        className={`pp-modal pp-about${aboutOpen ? " pp-open" : ""}`}
-        role="dialog"
-        aria-modal="true"
-        aria-label="Meet Dwayne"
-        onClick={(e) => {
-          if (e.target === e.currentTarget) setAboutOpen(false);
-        }}
-      >
-        <div className="pp-content">
-          <button
-            type="button"
-            className="pp-close"
-            aria-label="Close"
-            onClick={() => setAboutOpen(false)}
-          >
-            <XmarkIcon />
-          </button>
-          <div className="pp-message">
-            <div className="pp-about-body">
-              <div className="pp-about-intro">
-                <h2 className="pp-about-kicker">MEET DWAYNE</h2>
-                <h2 className="pp-about-title">
-                  FIGHTER. VETERAN. HUSBAND. FATHER. Leader.
-                </h2>
-                <div className="pp-about-text">
-                  <p>
-                    United States Army Engineer Officer Dwayne Romero is a
-                    husband, father, combat veteran, small business owner, and
-                    Democratic candidate for{" "}
-                    <strong>Colorado&#8217;s Third Congressional District.</strong>
-                  </p>
-                  <p>
-                    Raised by a single mom, Dwayne understands the challenges
-                    working Coloradans are facing. At age 12, Dwayne started
-                    folding laundry at his family&#8217;s apartment complex to
-                    help the family make ends&#8217; meet, an experience that
-                    taught him hard work, responsibility, and the value of a
-                    dollar. At 18, Dwayne was recruited to play baseball at the
-                    United States Military Academy at West Point, where he made
-                    the Dean&#8217;s List all four years.
-                  </p>
-                </div>
-              </div>
-              <div className="pp-about-photos">
-                <div>
-                  <img src="/images/bb2.jpg" alt="" width={800} height={594} />
-                </div>
-                <div>
-                  <img src="/images/bb1.jpg" alt="" width={800} height={594} />
-                </div>
-                <div>
-                  <img src="/images/bb4.jpg" alt="" width={800} height={594} />
-                </div>
-              </div>
-              <div className="pp-about-more pp-about-text">
-                <p>
-                  Dwayne served in the U.S. Army Corps of Engineers for seven
-                  years and graduated from the Army Ranger School. As Combat
-                  Engineer Executive Officer during the Persian Gulf War,
-                  Dwayne earned a Bronze Star for leadership valor. During his
-                  time in the Army, Dwayne was stationed at Fort Carson,
-                  Colorado.
-                </p>
-                <p>
-                  After his military service, Dwayne returned to Colorado to
-                  raise a family with his wife Margaret. They just celebrated
-                  their 35th wedding anniversary. Dwayne and Margaret &#8211; a
-                  kindergarten teacher for 25 years and Gold Star family member
-                  &#8211; are proud to have lived and worked in Colorado for
-                  more than 35 years. They have three daughters, two of whom
-                  serve or have served as officers in the U.S. military.
-                </p>
-              </div>
-              <div className="pp-about-photos">
-                <div>
-                  <img src="/images/bb6.jpg" alt="" width={800} height={594} />
-                </div>
-                <div>
-                  <img src="/images/bb7.jpg" alt="" width={800} height={594} className="obj-top" />
-                </div>
-                <div>
-                  <img src="/images/bb5.jpg" alt="" width={800} height={594} />
-                </div>
-              </div>
-              <div className="pp-about-more pp-about-text">
-                <p>
-                  Committed to his community, Dwayne joined then-Governor John
-                  Hickenlooper&#8217;s Administration as Director of Economic
-                  Development &#8212; the top official in charge of creating
-                  good-paying jobs, growing our economy, and strengthening the
-                  middle class.
-                </p>
-                <p>
-                  Dwayne also served on his local City Council, as a board
-                  member of both his Fire Protection District and Roaring Fork
-                  Transit Authority, and on the local School District Board of
-                  Education, including as President from 2020 to 2021. He
-                  coached the local high school baseball team for nine years
-                  and he currently serves as an elected Board Director for the
-                  Snowmass Village Water and Sanitation Board.
-                </p>
-                <p>
-                  Today, Dwayne employs 120 Coloradans as the owner and
-                  operator of a property management company on the Western
-                  Slope.
-                </p>
               </div>
             </div>
           </div>

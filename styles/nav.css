@@ -1,0 +1,314 @@
+/* Phase 2 top navigation. Layout per reference: logo | links | socials |
+   Donate, with an optional overlay mode that floats the bar over the page
+   hero. Romero design language (Poppins/gold/black). */
+.tn {
+  position: relative;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  padding: 22px 40px;
+}
+
+.tn-overlay {
+  margin-bottom: -104px;
+}
+
+.tn-logo {
+  flex-shrink: 0;
+  line-height: 0;
+}
+
+.tn-logo img {
+  width: 180px;
+  height: auto;
+}
+
+.tn-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-left: 10px;
+  min-width: 0;
+}
+
+.tn-links a {
+  font-family: var(--font-poppins);
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 0 0 29px rgba(0, 0, 0, 0.76);
+  white-space: nowrap;
+  padding: 4px 0;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s, border-color 0.3s;
+}
+
+.tn-links a:hover {
+  color: var(--color-accent);
+}
+
+.tn-links a.tn-active {
+  border-bottom-color: var(--color-accent);
+}
+
+.tn-right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.tn-social {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tn-social a {
+  display: inline-flex;
+}
+
+.tn-social a svg {
+  height: 18px;
+  width: 18px;
+  fill: #ffffff;
+  transition: fill 0.3s;
+}
+
+.tn-social a:hover svg {
+  fill: var(--color-accent);
+}
+
+.tn-donate {
+  width: 150px;
+  height: 52px;
+}
+
+/* Hamburger (hidden on desktop) */
+.tn-burger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  width: 44px;
+  height: 44px;
+  padding: 8px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.tn-burger span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 2px;
+}
+
+/* Mobile menu overlay */
+.tn-menu {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background: var(--color-primary);
+}
+
+.tn-menu-open {
+  display: flex;
+  animation: rfc-fadeIn 0.25s both;
+}
+
+.tn-menu-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  line-height: 1;
+  padding: 8px;
+}
+
+.tn-menu-close svg {
+  height: 1em;
+  width: 1em;
+  fill: #ffffff;
+  display: block;
+}
+
+.tn-menu-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+}
+
+.tn-menu-links a {
+  font-family: var(--font-stratos);
+  font-size: 34px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+.tn-menu-links a:hover,
+.tn-menu-links a:focus {
+  color: var(--color-accent);
+}
+
+.tn-menu-social {
+  display: flex;
+  gap: 22px;
+}
+
+.tn-menu-social a svg {
+  height: 24px;
+  width: 24px;
+  fill: var(--color-gray-light);
+}
+
+/* Tighter widths: drop socials first, then collapse to burger */
+@media (max-width: 1240px) {
+  .tn-social {
+    display: none;
+  }
+}
+
+@media (max-width: 1080px) {
+  .tn-links {
+    display: none;
+  }
+
+  .tn-burger {
+    display: flex;
+  }
+
+  .tn {
+    gap: 16px;
+    padding: 16px 20px;
+  }
+
+  .tn-overlay {
+    margin-bottom: -86px;
+  }
+
+  .tn-logo img {
+    width: 150px;
+  }
+
+  .tn-donate {
+    width: 128px;
+    height: 46px;
+  }
+
+  .tn-donate .btn-label {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .tn {
+    padding: 12px 12px;
+    background: var(--color-primary);
+  }
+
+  .tn-overlay {
+    margin-bottom: 0; /* solid bar above content on mobile */
+  }
+
+  .tn-logo img {
+    width: 118px;
+  }
+
+  .tn-donate {
+    width: 110px;
+    height: 40px;
+  }
+}
+
+/* ===== Photo page hero ===== */
+.ph {
+  position: relative;
+  min-height: 460px;
+  background-color: var(--color-primary);
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+
+.ph::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(180deg, #0f0f0f80 0%, #0f0f0f22 35%, #0f0f0fd9 100%);
+  pointer-events: none;
+}
+
+.ph-inner {
+  position: relative;
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 150px 40px 44px 40px;
+}
+
+.ph-kicker {
+  font-family: var(--font-poppins);
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: var(--color-accent);
+  margin: 0 0 6px 0;
+}
+
+.ph-title {
+  font-family: var(--font-stratos);
+  font-size: 92px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 0.9em;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  .ph {
+    min-height: 380px;
+  }
+
+  .ph-title {
+    font-size: 64px;
+  }
+}
+
+@media (max-width: 767px) {
+  .ph {
+    min-height: 300px;
+  }
+
+  .ph-inner {
+    padding: 110px 20px 30px 20px;
+  }
+
+  .ph-kicker {
+    font-size: 13px;
+    letter-spacing: 4px;
+  }
+
+  .ph-title {
+    font-size: 42px;
+  }
+}
