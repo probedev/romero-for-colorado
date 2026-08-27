@@ -193,6 +193,12 @@ const dismissPopups = async (page) => {
     ok(r.over.length === 0, `${name} (${w}x${h}): all links on screen${r.over.length ? ' -- off: ' + r.over.join(', ') : ''}`);
     ok(r.donateBottom !== null && r.donateBottom <= r.vh, `${name}: Donate CTA reachable (bottom ${r.donateBottom} <= ${r.vh})`);
     ok(r.socialBottom !== null && r.socialBottom <= r.vh, `${name}: social row on screen (bottom ${r.socialBottom} <= ${r.vh})`);
+    // .tn-menu is position:fixed;inset:0 so it tracks the visible area rather
+    // than a stale 100vh -- but it does not scroll, so if content ever grows
+    // past the shortest viewport it would spill unreachably. Reported, not
+    // asserted: adding overflow-y:auto under justify-content:center would clip
+    // the top instead, so it needs `safe center` if it ever becomes necessary.
+    console.log(`        (menu overflow-y: ${r.overflowY}, content height ~${r.socialBottom !== null ? 2 * r.socialBottom - r.vh : '?'}px)`);
     await c.close();
   }
 
