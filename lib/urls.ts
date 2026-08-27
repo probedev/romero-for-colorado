@@ -14,6 +14,10 @@ export const NUMERO_SIGNUP =
 export const NUMERO_VOLUNTEER =
   "https://secure.numero.ai/signup/Volunteer-with-Romero-for-Colorado";
 
+export const SHOP_URL = "https://romero-for-colorado.bonfire.com";
+
+export const EVENTS_URL = "https://www.mobilize.us/romeroforcolorado/";
+
 export const EMAIL_INFO = "info@romeroforcolorado.com";
 export const EMAIL_PRESS = "press@romeroforcolorado.com";
 

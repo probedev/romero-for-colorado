@@ -177,14 +177,30 @@
   fill: var(--color-gray-light);
 }
 
-/* Tighter widths: drop socials first, then collapse to burger */
-@media (max-width: 1240px) {
+/* Short viewports (small phones): tighten the menu so all items stay on screen */
+@media (max-height: 720px) {
+  .tn-menu {
+    gap: 28px;
+  }
+
+  .tn-menu-links {
+    gap: 20px;
+  }
+
+  .tn-menu-links a {
+    font-size: 28px;
+  }
+}
+
+/* Tighter widths: drop socials first, then collapse to burger. Thresholds are
+   set by the widest point the 7-link row still clears the Donate button. */
+@media (max-width: 1400px) {
   .tn-social {
     display: none;
   }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1200px) {
   .tn-links {
     display: none;
   }

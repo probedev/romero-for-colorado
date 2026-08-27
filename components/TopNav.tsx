@@ -1,7 +1,7 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
 import { useEffect, useState } from "react";
-import { ACTBLUE_BASE, SOCIAL } from "../lib/urls";
+import { ACTBLUE_BASE, EVENTS_URL, SHOP_URL, SOCIAL } from "../lib/urls";
 import { socialIcon, XmarkIcon } from "./icons";
 
 const LINKS = [
@@ -10,7 +10,12 @@ const LINKS = [
   { label: "Endorsements", href: "/endorsements/" },
   { label: "News", href: "/news/" },
   { label: "Volunteer", href: "/volunteer" },
+  { label: "Events", href: EVENTS_URL },
+  { label: "Shop", href: SHOP_URL },
 ];
+
+// Off-site nav destinations (Mobilize events, the Bonfire shop) open in a new tab.
+const isExternal = (href: string) => href.startsWith("http");
 
 // Site-wide top navigation (Phase 2). Layout mirrors the reference:
 // [logo] [links] ... [social icons] [Donate]. `overlay` lets the bar sit on
@@ -50,6 +55,8 @@ export default function TopNav({
               href={l.href}
               className={current === l.href ? "tn-active" : undefined}
               aria-current={current === l.href ? "page" : undefined}
+              target={isExternal(l.href) ? "_blank" : undefined}
+              rel={isExternal(l.href) ? "noopener" : undefined}
             >
               {l.label}
             </a>
@@ -88,7 +95,13 @@ export default function TopNav({
         </button>
         <div className="tn-menu-links">
           {LINKS.map((l) => (
-            <a key={l.href} href={l.href} onClick={() => setOpen(false)}>
+            <a
+              key={l.href}
+              href={l.href}
+              target={isExternal(l.href) ? "_blank" : undefined}
+              rel={isExternal(l.href) ? "noopener" : undefined}
+              onClick={() => setOpen(false)}
+            >
               {l.label}
             </a>
           ))}
