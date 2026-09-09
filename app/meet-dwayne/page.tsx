@@ -76,8 +76,8 @@ export default function MeetDwayne() {
               Dwayne served in the U.S. Army Corps of Engineers for seven years
               and graduated from the Army Ranger School. As Combat Engineer
               Executive Officer during the Persian Gulf War, Dwayne earned a
-              Bronze Star for leadership valor. During his time in the Army,
-              Dwayne was stationed at Fort Carson, Colorado.
+              Bronze Star for exceptionally meritorious achievement. During his
+              time in the Army, Dwayne was stationed at Fort Carson, Colorado.
             </p>
             <p>
               After his military service, Dwayne returned to Colorado to raise
