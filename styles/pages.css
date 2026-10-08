@@ -393,6 +393,21 @@
   margin: 0 0 26px 0;
 }
 
+.nw-outlet {
+  color: var(--color-primary);
+}
+
+.nw-quote {
+  border-left: 4px solid var(--color-accent);
+  padding: 2px 0 2px 18px;
+  margin: -6px 0 30px 0;
+  font-family: var(--font-poppins);
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.55;
+  color: var(--color-secondary);
+}
+
 .nw-more {
   display: inline-flex;
   align-items: center;

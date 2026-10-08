@@ -9,8 +9,16 @@ function Card({ item }: { item: NewsItem }) {
         <span className="nw-day">{item.date.day}</span>
         <span className="nw-yr">{item.date.yr}</span>
       </div>
-      <p className="nw-type">{item.type}</p>
+      <p className="nw-type">
+        {item.type}
+        {item.outlet && <span className="nw-outlet"> · {item.outlet}</span>}
+      </p>
       <h2 className="nw-title">{item.title}</h2>
+      {item.quote && (
+        <blockquote className="nw-quote">
+          <p>“{item.quote}”</p>
+        </blockquote>
+      )}
       <a
         className="nw-more nw-link"
         href={item.href}
